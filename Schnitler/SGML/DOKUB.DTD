@@ -1,0 +1,709 @@
+<!-- DOKPRO DELPROSJEKT UB TROMSØ, AVD. TROMSØ MUSEUM -->
+
+<!-- DTD FOR INNSKRIVING AV BØKER MED QVIGSTADS NOTATER -->
+
+<!-- ALLE ENTITETER HAR UNICODE-VERDIEN FOR ET TEGN ELLER EN TEGNKOMBINASJON SOM KAN BENYTTES VED PRESENTASJON AV ENTITETEN I KOMMENTARFELTET. DE ENTITETENE SOM IKKE BLE FUNNET I UNICODE-STANDARDEN, HAR VERDIEN XXXX.-->
+
+<!-- ENKELTE ENTITETER ER DEFINERT FOR BÅDE STORE OG SMÅ BOKSTAVER, MEN KUN DE SMÅ BOKSTAVENE ER BRUKT. -->
+
+<!-- Ver. 13.3, Øyvind Eide 24.11.02: Lagt til fullform i snavn for bruk i videre arbeid med Schnitler - stedsnavn i registeret som er oppført i forkortet form. -->
+
+<!-- Ver. 13.2, Øyvind Eide 22.11.02: Lagt til id/idref i snavn for bruk i videre arbeid med Schnitler. -->
+
+<!-- VER. 13.1, ØYVIND EIDE 22.12.97. HISTORISKE NOTATER: (MED UTGANGSPUNKT I RENBEITEKOMISSIONEN) (KONVERTERT TIL RB) (SAMKJØRT MED TAGGING I A/E) (MED TABELL) (UTVIDET MED NYTT HØYESTE NIVÅ: DOKUMENT) (RØD/BLÅ SKRIFT) (RØD/BLÅ/GRÅ VERTIKAL STREK) (FJERNET BLEKKSTREK) (LAGT INN FOTNOTE) (LAGT INN HEVET SKRIFT) (LAGT INN BLEKKSTREK IGJEN) (FLERE ENDRINGER ETTER MØTER MED C-E OG KJELL) (LAGT INN KILDE I UKAPTIT) (LAGT INN MERKE UNDER VSKILLE) (LEGGES INN I FAUSKE) (TABELL FORBEREDES FOR Å UTELATES I FØRSTE OMGANG) (SPERRET) (ENDRET KILDE TIL "BIBLIOGRAFI") (LAGT INN ENTITETER) (NAMELEN SATT TIL 10 I O:\...\SGML.DEC) (SGML.DEC ENDRET TIL DOKUB.DEC) (TO NYE ENTITETER: ANFLAV OG ANFHOY) (LAGT INN HJUST) (FJERNET INNRYKK) (HJUST ENDRET TIL HSTILT) (LAGT INN SPALTER) (NYE ENTITER: ANFV OG ANFH) (TABELLPROBLEMET LØST) (RETTET LITT PÅ DEN FORENKLEDE TABELL SOM ER TILPASSET IKKETAGGING) (UTVIDET TIL Å DEKKE QVIGSTADS BREV) (FLERE ENTITETER FOR Å DEKKE OPP QVIGSTADS BREV) (TABELL ENDRET FOR Å FORENKLE OVERFØRING TIL HTML) (LAGT TIL ET ATTRIBUTT FOR KOMMENTARER TIL USIKKER) (INNHFORT ENDRET TIL NOE LIGNENDE AV ET KAPITTEL) (MKAP GJENINNFØRES PGA. OPPSETT SOM PÅ SIDE 52: TRE NIVÅER AV FETE OVERSKRIFTER.) (LEGGER INN ATTRIBUTTET PAR I KTITTEL, AVSN OG OVERSKR) (LAGT INN ATTRIBUTTET BORDER I TABLE) (SETTER MIDLERTIDIG ATTRIBUTTENE I BREV TIL IMPLIED) (KILDE LAGT TIL MKAPTIT) (ATTRIBUTT PAR I KILDE) (SAMISK OG USIKKER ENDRE TIL #PCDATA | AVSN* FOR Å KUNNE LEGGE TAGGENE RUNDT FLERE AVSNITT) (OVESTR HAR FÅTT ELEMENTET ERSTATT. ATTRIBUTTET RETTET FJERNES SENERE) (NOEN FLERE ENTITETER) (INNFØRT VERTIKAL) (NY ENTITET: AVAR) (KORRIGERT OVERSTR) (NYE ENTITETER: CBUE OG SBUE) (ETTERSKR FLYTTET) (NYE ENITIET SZLIG) (LAGT INN MULIGHET FOR AVSN INNI FOTNOTE, INNSKUDD OG VERTIKAL) (BLEKKSTR INNI OVERSKR) (KILDE INNI ETTERSKR) (NY ENTITET: CARON, SIGMA) (FLERE NYE DIAKRITISKE ENTITETER) (ATTRIBUTTET LOPENR I KILDE) (NY ENTITET: PHI) (FLERE NYE ENTITETER FOR SAMISK LYDSKRIFT) (DE SISTE ENTITETENE FOR SAMISK LYDSKRIFT) (ENTITETSENDRINGER: ETEMP ENDRES TIL ESTREKDOT, ETEMP2 ENDRES TIL EBUEDOT, OUMLTEMP ENDRES TIL OUMLACUTE)(LAGT INN UNDERSTREKINGSTAGGENE I ALLE SLAGS OVERSKRIFTER) (FJERNET ATTRIBUTTET RETTET FRA OVERSTR) (NY ENTITET APRIKK) (FIXET PÅ BRUKEN AV VERTIKAL) (FLERE ENTITETER) (LAGT INN FAKSIMILEATTRIBUTT I SIDE) (AVSN INN I SIGNATUR FOR Å GI MULIGHET TIL FLERSPALTER) (TO NYE ENTITETER FOR SCHNITLER) (TOPPTXT PÅ SNR) (LAGT INN SENKET) (FIXET LITT PÅ DEN FORELØPIGE TABLE) (LAGT INN TAGEN HENV) (ENDRET PRESENTASJON AV ENTITETER) (NY TAG: VEDLEGG) (FJERNET KARTHENV FRA SNAVN) (FOTNOTE LAGT INN I OVERSKR) (HENV INN I OVERSKR) (SPALTER OGSÅ PÅ KAPITTELNIVÅ) (HENV INN FLERE STEDER) (INNSKUDD INN FLERE STEDER) (SPALTER UTENFOR AVSN I EGEN TAG) (HEVET INN PÅ FLERE STEDER) (PAR INN PÅ UKAPTIT) (FJERNET ATTRIBUTTER FRA KILDE) (TABLE INN I SAMISK) (SAMISK DIREKTE INN I BREV) (NY ENTITET: LSTREK) (TABLE INN I VEDLEGG) (NY ENTITET: ENG) (NY ENTITET: BUE) (ATRIBITTET SORTER I PNAVN GJORT IMPLIED. PÅ VEI UT?) (NY ENTITET: ZACUTE) (FJERNET ENTITET: AVARLSTREK) (NY ENTITET: SACUTE) (NY ENTITET: LGRAVE) (GJORT VEDLEGG REPETERBART) (EN REKKE NYE GRAVE-ENTITETER) (VERTIKAL INN I TABLE) (ALIGN OG VALIGN SOM ATTRIBUTT I TABLE-TH OG TD) (FJERNET SORTER FRA PNAVN)(NY ENTITET OE) (RYDDET I ENTITETENE) -->
+
+
+<!-- ====================================	-->
+<!-- HOVEDPOST FOR DOKUMENTET			-->
+<!-- ====================================	-->
+
+<!ELEMENT	DOKUMENT	- -	(BOK | BREV*)
+					+(VSKILLE | SIDE | SNR | SPALTE | SPALTER | GBLYANT | RBLYANT | BBLYANT | BLEKK | OVERSTR | USIKKER | SAMISK) >
+
+<!ELEMENT	USIKKER	- -	((#PCDATA | AVSN)*) >
+
+<!ATTLIST		USIKKER
+				KOMM		CDATA	#IMPLIED >
+<!-- ETTERHVERT BØR VEL ALLE USIKKER SOM BLIR STÅENDE HA EN SLIK KOMMENTAR -->
+
+<!-- ====================================	-->
+<!-- HOVEDPOST FOR BØKER				-->
+<!-- ====================================	-->
+
+<!ELEMENT	BOK		- -	(TITSIDE?, (INNHFORT | KAP)+) >
+
+
+<!-- ====================================	-->
+<!-- SIDER OG SPALTER			 				-->
+<!-- ====================================	-->
+
+<!ELEMENT	SIDE		- O	EMPTY >
+<!ATTLIST		SIDE
+			FIL		CDATA	#IMPLIED >
+<!-- I FIL LEGGES NAVNET PÅ BILDEFILA SOM ER FAKSIMILEUTGAVEN AV SIDEN SOM STARTER MED SIDE-TAGGEN -->
+
+<!ELEMENT	SNR		- O	EMPTY >
+<!ATTLIST		SNR
+			NR		CDATA	#REQUIRED
+			TOPPTXT	CDATA	#IMPLIED >
+<!-- BRUKES I SCHNITLER FORDI TOPPTEKSTENE I VISSE TILFELLE INNEHOLDER INFORMASJON I EN FORM SOM IKKE FINNES I TEKSTEN -->
+
+<!ELEMENT	SPALTER	- O	EMPTY >
+<!ATTLIST		SPALTER
+			SP		CDATA	#REQUIRED >
+<!-- SETTES INN DER ANTALL SPALTER SKIFTER. SPALTESKILLE MARKERES MED SPALTE. TEKST UTEN DENNE TAGEN HAR ALLTID ÉN SPALTE -->
+
+<!ELEMENT	SPALTE	- O	EMPTY >
+
+
+<!-- ====================================	-->
+<!-- HÅNDSKR. NOTATER UNDER "DOKMUMENT"	-->
+<!-- ====================================	-->
+
+<!ELEMENT	GBLYANT	- -	(#PCDATA) 
+					+(TABLE | KILDE | HENV |  SNAVN | PNAVN | DATO | HEVET | GSTREK | RSTREK | BSTREK | BLEKKSTR) >
+
+<!ELEMENT	RBLYANT	- -	(#PCDATA) 
+					+(KILDE | HENV |  SNAVN | PNAVN | DATO | HEVET | GSTREK | RSTREK | BSTREK | BLEKKSTR) >
+
+<!ELEMENT	BBLYANT	- -	(#PCDATA) 
+					+(KILDE | HENV |  SNAVN | PNAVN | DATO | HEVET | GSTREK | RSTREK | BSTREK | BLEKKSTR) >
+
+<!ELEMENT	BLEKK		- -	(#PCDATA)
+					+(KILDE | HENV |  SNAVN | PNAVN | DATO | HEVET | GSTREK | RSTREK | BSTREK | BLEKKSTR) >
+
+<!ELEMENT	OVERSTR	- -	((#PCDATA | ERSTATT)+) >
+<!ATTLIST		OVERSTR
+				TYPE		CDATA		#IMPLIED >
+<!-- TYPE KAN VÆRE EN AV BLYANTTYPENE, ELLER VISKET DERSOM NOE ER VISKET UT -->
+
+<!ELEMENT	ERSTATT	- -	(#PCDATA) >
+
+
+<!-- ====================================	-->
+<!-- TITTELSIDE							-->
+<!-- ====================================	-->
+
+<!ELEMENT	TITSIDE	- -	(#PCDATA)
+					+(TITTEL | DEL | FORF | KONF | UTG | STED | TID) >
+
+<!ELEMENT	TITTEL		- -	(#PCDATA)
+					+(SNAVN | PNAVN | DATO) >
+
+<!ELEMENT	DEL		- -	(#PCDATA) >
+
+<!ELEMENT	FORF		- -	(#PCDATA) >
+<!ATTLIST		FORF
+			SORT		CDATA	#REQUIRED >
+
+<!ELEMENT	KONF		- -	(#PCDATA) >
+<!-- D.E. KONFERANSE, KOROPRASJON O.L. -->
+
+<!ELEMENT	UTG		- -	(#PCDATA) >
+<!-- D.E. UTGIVER (FORLAG) -->
+
+<!ELEMENT	STED		- -	(#PCDATA) >
+
+<!ELEMENT	TID		- -	(#PCDATA) >
+
+
+<!-- ====================================	-->
+<!-- INNHOLD							-->
+<!-- ====================================	-->
+
+<!ELEMENT	INNHFORT	- -	((AVSN | OVERSKR | BREV | TABLE)+) >
+
+
+<!-- ====================================	-->
+<!-- KAPITLER								-->
+<!-- ====================================	-->
+
+<!ELEMENT	KAP		- -	(KTITTEL?, INNHFORT?, (MKAP | UKAP | AVSN | OVERSKR | BREV | TABLE)+) >
+
+<!ELEMENT 	KTITTEL		- -	(#PCDATA)
+					+(SNAVN | PNAVN | DATO | HFEIT | HEVET | KUR | MSTILT | HSTILT | GSTREK | RSTREK | BSTREK | BLEKKSTR) >
+<!ATTLIST	KTITTEL
+			PAR		CDATA		#IMPLIED >
+<!-- BRUKES TIL Å LENKE PARALLELLTEKSTEDE SEKVENSER, SOM PÅ S. 52 FF. -->
+
+<!ELEMENT	MKAP	- -	(MKAPTIT?, INNHFORT?, (UKAP | AVSN | OVERSKR | BREV | TABLE)+) >
+
+<!ELEMENT 	MKAPTIT	- -	(#PCDATA)
+					+(SNAVN | PNAVN | DATO | KILDE | HENV | HFEIT | HEVET | KUR | MSTILT | HSTILT | GSTREK | RSTREK | BSTREK | BLEKKSTR) >
+
+<!ELEMENT	UKAP		- -	(UKAPTIT?, INNHFORT?, (AVSN | OVERSKR | BREV | TABLE)+) >
+
+<!ELEMENT 	UKAPTIT	- -	(#PCDATA)
+					+(SNAVN | PNAVN | DATO | KILDE | HENV | HFEIT | HEVET | KUR | MSTILT | HSTILT | GSTREK | RSTREK | BSTREK | BLEKKSTR) >
+<!ATTLIST	UKAPTIT
+			PAR		CDATA		#IMPLIED >
+<!-- BRUKES TIL Å LENKE PARALLELLTEKSTEDE SEKVENSER, SOM PÅ S. 132 FF. -->
+
+<!ATTLIST	(KAP | MKAP | UKAP)
+			OVERSKRIFT		CDATA	#IMPLIED >
+<!-- OVERSKRIFTENE HOS SCHNITLER SOM ER HENTET FRA INNHOLDSFORTEGNELSEN. -->
+
+
+<!-- ====================================	-->
+<!-- AVSNITT								-->
+<!-- ====================================	-->
+
+<!ELEMENT 	AVSN		- -	(#PCDATA) 
+					+(KILDE | HENV | SNAVN | PNAVN | DATO | KUR | HFEIT | MSTILT | HSTILT | SPERRING | HEVET | SENKET | GSTREK | RSTREK | BSTREK | BLEKKSTR | GVERT | RVERT | BVERT | BLEKKVRT | FOTNOTE | INNSKUDD | VERTIKAL) >
+<!ATTLIST		AVSN
+			PAR		CDATA		#IMPLIED >
+<!-- PAR BRUKES TIL Å LENKE PARALLELLTEKSTEDE SEKVENSER, SOM PÅ S. 52 FF. -->
+
+<!ELEMENT	VSKILLE	- O	EMPTY >
+<!ATTLIST		VSKILLE
+			MERKE		CDATA		#IMPLIED >
+
+<!ELEMENT	OVERSKR	- -	(#PCDATA)
+					+(SNAVN | PNAVN | DATO | KILDE | HENV | FOTNOTE | HFEIT | KUR | MSTILT | HSTILT | SPERRING | HEVET | SENKET | GSTREK | RSTREK | BSTREK | BLEKKSTR) >
+<!ATTLIST		OVERSKR
+			PAR		CDATA		#IMPLIED >
+<!-- BRUKES TIL Å LENKE PARALLELLTEKSTEDE SEKVENSER, SOM PÅ S. 52 FF. -->
+
+
+<!-- ====================================	-->
+<!-- KILDE OG HENVISNINGER					-->
+<!-- ====================================	-->
+
+<!ELEMENT	KILDE		- -	(#PCDATA) >
+<!ATTLIST		KILDE
+			LOPENR	NUMBER	#IMPLIED
+-- BRUKES TIL MIKROMARC-LØPENUMMER ETTERSOM POSTER MED OPPLYSNINGER TIL ERSTATNING FOR DE ØVRIGE ATTRIBUTTER LEGGES INN. SKAL EVT. BYTTES UT MED ID-LENKING SENERE. --
+--			KFORF		CDATA	#IMPLIED
+			KILDETIT	CDATA	#IMPLIED
+			KSTED		CDATA	#IMPLIED
+			KTID		CDATA	#IMPLIED
+			KHENTET	CDATA	#IMPLIED
+			PAR		CDATA	#IMPLIED 
+FJERNET - BRUKER LOPEN-HENVISNING TIL MIKROMARC I STEDET -->
+
+<!ELEMENT	HENV		- - 	(#PCDATA) >
+<!-- BRUKES TIL INTERNE HENVISNINGER, FORELØPIG KUN I REGISTRENE. -->
+
+
+<!-- ====================================	-->
+<!-- STEDSNAVN						-->
+<!-- ====================================	-->
+
+<!ELEMENT 	SNAVN	- -	(#PCDATA | BESKR) >
+<!ATTLIST		SNAVN
+			ID		ID	#IMPLIED
+			IDREF		IDREF	#IMPLIED
+			FULLFORM	CDATA	#IMPLIED >
+
+<!ELEMENT	BESKR		- -	(#PCDATA)
+					+(SNAVN | KUR | HFEIT | MSTILT | HSTILT | SPERRING | HEVET | SENKET | GSTREK | GVERT | RVERT | BVERT | BLEKKVRT | RSTREK | BSTREK | BLEKKSTR) >
+<!-- BESKR OG KARTHENV BRUKES TIL TAGGING AV REGISTERET "IDENTIFICERING AV STEDSNAVNE" -->
+
+
+<!-- ====================================	-->
+<!-- SAMISK							-->
+<!-- ====================================	-->
+
+<!ELEMENT 	SAMISK	- -	((#PCDATA | AVSN | TABLE)+) >
+
+
+<!-- ====================================	-->
+<!-- PERSONNAVN						-->
+<!-- ====================================	-->
+
+<!ELEMENT 	PNAVN	- -	(#PCDATA) >
+<!-- ATTRIBUTTET SORTER FJERNET. -->
+
+
+<!-- ====================================	-->
+<!-- DATO								-->
+<!-- ====================================	-->
+
+<!ELEMENT 	DATO		- -	(#PCDATA) >
+<!ATTLIST		DATO
+			STANDARD		CDATA		#REQUIRED  >
+
+
+<!-- ====================================	-->
+<!-- DIVERSE GRAFISKE	OG HÅNDSKRVNE	-->
+<!-- ====================================	-->
+
+<!ELEMENT 	KUR		- -	(#PCDATA) >
+
+<!ELEMENT 	HFEIT		- -	(#PCDATA) >
+
+<!ELEMENT 	MSTILT		- -	(#PCDATA) >
+
+<!ELEMENT 	HSTILT		- -	(#PCDATA) >
+
+<!ELEMENT 	SPERRING	- -	(#PCDATA) >
+
+<!ELEMENT 	HEVET		- -	(#PCDATA) >
+
+<!ELEMENT 	SENKET	- -	(#PCDATA) >
+
+<!ELEMENT 	GSTREK	- -	(#PCDATA) >
+
+<!ELEMENT 	RSTREK	- -	(#PCDATA) >
+
+<!ELEMENT 	BSTREK	- -	(#PCDATA) >
+
+<!ELEMENT 	BLEKKSTR	- -	(#PCDATA) >
+
+<!ELEMENT 	GVERT		- -	(#PCDATA) >
+
+<!ELEMENT 	RVERT		- -	(#PCDATA) >
+
+<!ELEMENT 	BVERT		- -	(#PCDATA) >
+
+<!ELEMENT 	BLEKKVRT	- -	(#PCDATA) >
+
+
+<!-- ====================================	-->
+<!-- BREV								-->
+<!-- ====================================	-->
+
+<!-- HER KUNNE VI KANSKJE STRUKTURERT REKKEFØLGEN NOE MER? -->
+
+<!ELEMENT 	BREV		- -	(((AVSN | OVERSKR | TABLE | SAMISK)+), ETTERSKR?, VEDLEGG*)
+					+(STED.TID | INNLEDN | SIGNATUR | VERTIKAL) >
+<!ATTLIST		BREV
+			AVS		CDATA		#IMPLIED
+			MOTT		CDATA		#IMPLIED >
+<!-- DISSE TO SETTES MIDLERTIDIG TIL IMPLIED FORDI INNHOLDET FOR QVIGSTAD-BREVENE LEGGES INN AUTOMATISK I ETTERTID. -->
+
+<!ELEMENT	INNLEDN	- -	(#PCDATA)
+					+(SNAVN | PNAVN | DATO | KUR | HFEIT | MSTILT | HSTILT | SPERRING | HEVET | SENKET | GSTREK | RSTREK | BSTREK | BLEKKSTR) >
+
+<!ELEMENT	STED.TID	- -	(#PCDATA)
+					+(SNAVN | DATO | KUR | HFEIT | MSTILT | HSTILT | SPERRING | HEVET | SENKET | GSTREK | RSTREK | BSTREK | BLEKKSTR) >
+
+<!ELEMENT	SIGNATUR	- -	((#PCDATA | AVSN)+)
+					+(SNAVN | PNAVN | DATO | KUR | HFEIT | MSTILT | HSTILT | SPERRING | HEVET | SENKET | GSTREK | RSTREK | BSTREK | BLEKKSTR) >
+<!-- AVSN ER PUTTET INN FOR Å GI MULIGHET TIL FLERSPALTER -->
+
+<!ELEMENT	ETTERSKR	- -	(#PCDATA)
+					+(SNAVN | PNAVN | DATO | KILDE | HENV | KUR | HFEIT | MSTILT | HSTILT | SPERRING | HEVET | SENKET | INNSKUDD | GSTREK | RSTREK | BSTREK | BLEKKSTR) >
+<!-- SKULLE ETTERSKR KANSKJE INNEHOLDE KUN (AVSN)? -->
+
+<!ELEMENT	VEDLEGG	- -	((AVSN | OVERSKR | TABLE)+) >
+
+
+<!-- ====================================	-->
+<!-- TABELL							-->
+<!-- ====================================	-->
+
+<!-- LAGT INN MULIGHET TIL Å GÅ RETT PÅ PCDATA/AVSN FOR Å GJØRE DET MULIG Å REGISTRERE FORELØPIG UTEN Å TAGGE TABELLENE. -->
+
+<!ELEMENT	TABLE	- -	((#PCDATA | AVSN) | TR)+ >
+<!ATTLIST		TABLE
+			BORDER	CDATA	#IMPLIED >
+<!-- SKRIV INN "+" SOM VERDI FOR BORDER DERSOM DEN SKAL SETTES. DET TAKLER NETSCAPE -->
+
+<!ELEMENT	TR		- -	(TH | TD)+ >
+<!-- AT KILDE LIGGER PÅ CELLENIVÅ FØRER TIL LITT "KLOSSETE" TAGGING FORDI DET BLIR KUN TITTEL ELLER FORFATTER SOM HAVNER INNI TAGGEN. DET GODTAS FORDI KILDE ER EN TYPIST ATTRIBUTT-TAG -->
+
+<!ELEMENT 	(TH | TD)		- -	(#PCDATA)
+					+(KILDE | HENV | SNAVN | PNAVN | DATO | KUR | HFEIT | MSTILT | HSTILT | SPERRING | HEVET | SENKET | GSTREK | RSTREK | BSTREK | BLEKKSTR | INNSKUDD | FOTNOTE| VERTIKAL) >
+
+<!ATTLIST		(TH | TD)
+			ALIGN	(LEFT|CENTER|RIGHT)		LEFT
+			VALIGN	(TOP|MIDDLE|BOTTOM)	MIDDLE
+-- BRUKES SOM I HTML 3.2. --
+			COLSPAN	CDATA	#IMPLIED
+			ROWSPAN	CDATA	#IMPLIED >
+<!-- DISSE TO ATTRIBUTTENE VISER OM INNHOLDET DEKKER FLERE CELLER. HVIS DE IKKE BRUKES, ER VERDIEN 1 -->
+
+
+<!-- ====================================	-->
+<!-- FOTNOTE OG INNSKUDD					-->
+<!-- ====================================	-->
+
+<!ELEMENT	FOTNOTE	- -	((#PCDATA | AVSN)+) 
+					+(KILDE | HENV |  SNAVN | PNAVN | DATO | HEVET | SENKET | GSTREK | RSTREK | BSTREK | BLEKKSTR) >
+
+<!ELEMENT	INNSKUDD	- -	((#PCDATA | AVSN)+) 
+					+(KILDE | HENV |  SNAVN | PNAVN | DATO | HEVET) >
+<!-- BRUKES I QVIGSTADS BREV TIL Å MERKE TEKST PUTTET INN MED HAKE -->
+
+<!ELEMENT	VERTIKAL	- -	((#PCDATA | AVSN | ETTERSKR)+) 
+					+(KILDE | HENV |  SNAVN | PNAVN | DATO | HEVET) >
+<!-- BRUKES I QVIGSTADS BREV TIL Å MERKE TEKST SOM ER SKREVET VERTIKALT I MARGEN OG DER DET IKKE FINNES NOEN HAKE SOM INDIKERER HVOR DEN SKAL PUTTES INN. PLASSERINGEN ER DERVED IKKE DEFINERT PRESIST. -->
+
+
+<!-- ====================================	-->
+<!-- ENTITETER							-->
+<!-- ====================================	-->
+
+<!ENTITY	mdash		SDATA	"[---]"		--=tankestrek (UNICODE 2012-2015?) -->
+
+<!ENTITY	bull			SDATA	"[·]"			--=prikk midt på linja (UNICODE 00B7) -->
+
+<!ENTITY	bmdvs		SDATA	"[):]"			--=det vil si (UNICODE xxxx) -->
+
+<!ENTITY	bmminus		SDATA	"[÷]"			--=minustegn med prikker (UNICODE 00F7) -->
+
+<!ENTITY	bmpund		SDATA	"[pund]"		--=pund (vektenhet) (UNICODE xxxx) -->
+
+<!ENTITY	bmmark		SDATA	"[mark]"		--=mark (pengeenhet) (UNICODE xxxx) -->
+
+<!ENTITY	bmskilling		SDATA	"[skilling]"		--=skilling (pengeenhet) (UNICODE xxxx) -->
+
+<!ENTITY	bmdagger		SDATA	"[dagger]"		--=Dagger (UNICODE 2020) -->
+
+<!ENTITY	anflav		SDATA	"[anflav]"		--=Lavt anførselstegn (UNICODE 201E) -->
+
+<!ENTITY	anfhoy		SDATA	"[anfhoy]"		--=Høyt anførselstegn (UNICODE 201D) -->
+
+<!ENTITY	anfh			SDATA	"[«]"			--=Anførselstegn: << (UNICODE 00AB) -->
+
+<!ENTITY	anfv			SDATA	"[»]"			--=Anførselstegn: >> (UNICODE 00BB) -->
+
+<!ENTITY	grad			SDATA	"[°]"			--=Grader(UNICODE 00B0) -->
+
+<!ENTITY	gt			SDATA	"[>]"			--=Større enn (UNICODE 003E) -->
+
+<!ENTITY	lt			SDATA	"[<]"			--=Mindre enn (UNICODE 003C) -->
+
+<!ENTITY	amp			SDATA	"[&]"			--= (UNICODE 0026) -->
+
+<!ENTITY	larr			SDATA	"[<---]"		--=Pil som peker mot venstre (UNICODE 2190) -->
+
+<!ENTITY	rarr			SDATA	"[--->]"		--=Pil som peker mot høyre (UNICODE 2192) -->
+
+<!ENTITY	ominus		SDATA	"[ominus]"	--=Ring med en vannrett strek gjennom midten (UNICODE 2296) -->
+
+<!ENTITY	oplus		SDATA	"[oplus]"		--=Ring med et kryss i midten (UNICODE 2295) -->
+
+<!ENTITY	agr			SDATA	"[agr]"		--=liten gresk alfa (UNICODE 03B1) -->
+
+<!ENTITY	bgr			SDATA	"[bgr]"		--=liten gresk beta (UNICODE 03B2) -->
+
+<!ENTITY	ggr			SDATA	"[ggr]"		--=liten gresk gamma/ (UNICODE 03B3) -->
+
+<!ENTITY	dgr			SDATA	"[dgr]"		--=liten gresk delta (UNICODE 03B4) -->
+
+<!ENTITY	egr			SDATA	"[egr]"		--=liten gresk epsilon (UNICODE 03B5) -->
+
+<!ENTITY	phgr			SDATA	"[phgr]"		--=liten gresk phi (UNICODE 03D5) -->
+
+
+<!--Entiteter for bruk til Qvigstads brev, først og fremst samisk lydskrift -->
+
+<!ENTITY	bue			SDATA	"[bue]"		--=bue (breve) uten bokstav under (UNICODE 02D8)-->
+
+<!ENTITY	caron		SDATA	"[caron]"		--=caron uten bokstav under (UNICODE 02C7) -->
+
+<!ENTITY	Abue			SDATA	"[Abue]"		--= Buelignende form over bokstaven (UNICODE 0102) -->
+
+<!ENTITY	abue			SDATA	"[abue]"		--= Buelignende form over bokstaven (UNICODE 0103) -->
+
+<!ENTITY	Abuestrek		SDATA	"[Abuestrek]"	--= bue øverst, deretter strek over bokstaven (UNICODE 0100+0306) -->
+
+<!ENTITY	abuestrek		SDATA	"[abuestrek]"	--= bue øverst, deretter strek over bokstaven (UNICODE 0101+0306) -->
+
+<!-- acaron endres til abue -->
+
+<!-- acaronvar endres til abuestrek -->
+
+<!ENTITY	Acirk			SDATA	"[Â]"			--= (UNICODE 00C2) -->
+
+<!ENTITY	acirk			SDATA	"[â]"			--= (UNICODE 00E2) -->
+
+<!ENTITY	Acirkbue		SDATA	"[Acirkbue]"	--= cirkumflex øverst, deretter bue (UNICODE 0102+0302) -->
+
+<!ENTITY	acirkbue		SDATA	"[acirkbue]"	--= cirkumflex øverst, deretter bue (UNICODE 0103+0302) -->
+
+<!ENTITY	Acirkvar		SDATA	"[Acirkvar]"	--= cirkumflex øverst, deretter strek over bokstaven(UNICODE 0100+0302) -->
+
+<!ENTITY	acirkvar		SDATA	"[acirkvar]"	--= cirkumflex øverst, deretter strek over bokstaven(UNICODE 0101+0302) -->
+
+<!ENTITY	Adot			SDATA	"[Adot]"		--= Prikk under (UNICODE 1EA0) -->
+
+<!ENTITY	adot			SDATA	"[adot]"		--= Prikk under (UNICODE 1EA1) -->
+
+<!ENTITY	Alavgrav		SDATA	"[Alavgrav]"	--= Speilvendt komma under (UNICODE 0104) -->
+
+<!ENTITY	alavgrav		SDATA	"[alavgrav]"	--= Speilvendt komma under (UNICODE 0105) -->
+
+<!ENTITY	Aprikk		SDATA	"[Aprikk]"		--= Prikk over(UNICODE 0041+0307) -->
+
+<!ENTITY	aprikk		SDATA	"[aprikk]"		--= Prikk over(UNICODE 0061+0307) -->
+
+<!ENTITY	Astrek		SDATA	"[Astrek]"		--= Vannrett strek over (UNICODE 0100) -->
+
+<!ENTITY	astrek		SDATA	"[astrek]"		--= Vannrett strek over (UNICODE 0101) -->
+
+<!ENTITY	Astreklg		SDATA	"[Astreklg]"	--= Vannrett strek over, speilvendt komma under (UNICODE 0100+0328) -->
+
+<!ENTITY	astreklg		SDATA	"[astreklg]"	--= Vannrett strek over, speilvendt komma under (UNICODE 0101+0328) -->
+
+<!ENTITY	Astrekring		SDATA	"[Astrekring]"	--= Å med vannrett strek over (UNICODE 00C5+0304) -->
+
+<!ENTITY	astrekring		SDATA	"[astrekring]"	--= å med vannrett strek over (UNICODE 00E5+0304) -->
+
+<!ENTITY	Atilde		SDATA	"[Ã]"			--= (UNICODE 00C3) -->
+
+<!ENTITY	atilde		SDATA	"[ã]"			--= (UNICODE 00E3) -->
+
+<!ENTITY	avar			SDATA	"[avar]"		--= Brukes der Qvigstad har skrevet en trykkskriftlignende `a´ i stedet for sin vanlige håndskrift-a (UNICODE 0061) -->
+
+<!ENTITY	Avarcirk		SDATA	"[Avarcirk]"	--= strek øverst, deretter cirkumflex over bokstaven (UNICODE 00C2+) -->
+
+<!ENTITY	avarcirk		SDATA	"[avarcirk]"	--= strek øverst, deretter cirkumflex over bokstaven (UNICODE 00E2+) -->
+
+<!-- avarstrek endres til astreklg -->
+
+<!ENTITY	bgrave		SDATA	"[bgrave]"		--= (UNICODE 0062+0300) -->
+
+<!ENTITY	Bstrek		SDATA	"[Bstrek]"		--= Vannrett strek over(UNICODE 0042+0304) -->
+
+<!ENTITY	bstrek		SDATA	"[bstrek]"		--= Vannrett strek over(UNICODE 0062+0304) -->
+
+<!ENTITY	Bstung		SDATA	"[Bstung]"	--= Loddrett strek gjennom hele bokstaven(UNICODE 0042+0338) -->
+
+<!ENTITY	bstung		SDATA	"[bstung]"		--= Loddrett strek gjennom hele bokstaven(UNICODE 0062+0338) -->
+
+<!-- cbue endres til ccaron -->
+
+<!ENTITY	Ccaron		SDATA	"[Ccaron]"		--= (UNICODE 010C) -->
+
+<!ENTITY	ccaron		SDATA	"[ccaron]"		--= (UNICODE 010D) -->
+
+<!ENTITY	cgrave		SDATA	"[cgrave]"		--= (UNICODE 0063+0300) -->
+
+<!ENTITY	comv		SDATA	"[comv]"		--= lydskrifttegnet som ser ut som en speilvendt `c´(UNICODE 0254) -->
+
+<!ENTITY	Cstrek		SDATA	"[Cstrek]"		--= Vannrett strek over (UNICODE 0043+0304) -->
+
+<!ENTITY	cstrek		SDATA	"[cstrek]"		--= Vannrett strek over (UNICODE 0063+0304) -->
+
+<!ENTITY	dgrave		SDATA	"[dgrave]"		--= (UNICODE 0064+0300) -->
+
+<!ENTITY	Dstung		SDATA	"[Dstung]"		--= Loddrett strek gjennom hele bokstaven(UNICODE 0044+0338) -->
+
+<!ENTITY	dstung		SDATA	"[dstung]"		--= Loddrett strek gjennom hele bokstaven(UNICODE 0064+0338) -->
+
+<!ENTITY	dstungacute	SDATA	"[dstungacute]"	--= Loddrett strek gjennom hele bokstaven, acute over(UNICODE 0064+0338+0301) -->
+
+<!ENTITY	ETH			SDATA	"[Ð]"			--= ETH/tradisjonell stungen D(UNICODE 00D0) -->
+
+<!ENTITY	eth			SDATA	"[ð]"			--= eth/tradisjonell stungen d(UNICODE 00F0) -->
+
+<!ENTITY	Ebue			SDATA	"[Ebue]"		--= Bue over(UNICODE 0114) -->
+
+<!ENTITY	ebue			SDATA	"[ebue]"		--= Bue over(UNICODE 0115) -->
+
+<!ENTITY	Ebuedot		SDATA	"[Ebuedot]"	--= Bue over, prikk under(UNICODE 0114+0323) -->
+
+<!ENTITY	ebuedot		SDATA	"[ebuedot]"	--= Bue over, prikk under(UNICODE 0115+0323) -->
+
+<!-- ecaron endres til ebue -->
+
+<!-- ecarondot endres til ebuedot -->
+
+<!ENTITY	Ecirk			SDATA	"[Ê]"			--= (UNICODE 00CA) -->
+
+<!ENTITY	ecirk			SDATA	"[ê]"			--= (UNICODE 00EA) -->
+
+<!ENTITY	Edot			SDATA	"[Edot]"		--= Prikk under(UNICODE 1EB8) -->
+
+<!ENTITY	edot			SDATA	"[edot]"		--= Prikk under(UNICODE 1EB9) -->
+
+<!ENTITY	Elavgrav		SDATA	"[Elavgrav]"	--= Speilvendt komma under(UNICODE 0118) -->
+
+<!ENTITY	elavgrav		SDATA	"[elavgrav]"	--= Speilvendt komma under(UNICODE 0119) -->
+
+<!ENTITY	Eprikk		SDATA	"[Eprikk]"		--= Prikk over(UNICODE 0116) -->
+
+<!ENTITY	eprikk		SDATA	"[eprikk]"		--= Prikk over(UNICODE 0117) -->
+
+<!ENTITY	Estrek		SDATA	"[Estrek]"		--= Vannrett strek over(UNICODE 0112) -->
+
+<!ENTITY	estrek		SDATA	"[estrek]"		--= Vannrett strek over(UNICODE 0113) -->
+
+<!ENTITY	Estrekdot		SDATA	"[Estrekdot]"	--= Vannrett strek over, prikk under(UNICODE 0112+0323) -->
+
+<!ENTITY	estrekdot		SDATA	"[estrekdot]"	--= Vannrett strek over, prikk under(UNICODE 0113+0323) -->
+
+<!ENTITY	Eumlstrek		SDATA	"[Eumlstrek]"	--= Strek øverst, deretter prikker over bokstaven(UNICODE 00CB+0304) -->
+
+<!ENTITY	eumlstrek		SDATA	"[eumlstrek]"	--= Strek øverst, deretter prikker over bokstaven(UNICODE 00EB+0304) -->
+
+<!ENTITY	Gstung		SDATA	"[Gstung]"		--= Loddrett strek gjennom hele bokstaven(UNICODE 0047+0338) -->
+
+<!ENTITY	gstung		SDATA	"[gstung]"		--= Loddrett strek gjennom hele bokstaven(UNICODE 0067+0338) -->
+
+<!ENTITY	Gspir		SDATA	"[Gspir]"		--= Vannrett strek nederst på bokstaven(UNICODE 01E4) -->
+
+<!ENTITY	gspir			SDATA	"[gspir]"		--= Vannrett strek nederst på bokstaven(UNICODE 01E5) -->
+
+<!ENTITY	Ibue			SDATA	"[Ibue]"		--= Buelignende form over bokstaven(UNICODE 012C) -->
+
+<!ENTITY	ibue			SDATA	"[ibue]"		--= Buelignende form over bokstaven(UNICODE 012D) -->
+
+<!ENTITY	Ibuedot		SDATA	"[Ibuedot]"		--= Buelignende form over bokstaven, prikk under(UNICODE 012C+0323) -->
+
+<!ENTITY	ibuedot		SDATA	"[ibuedot]"		--= Buelignende form over bokstaven, prikk under (UNICODE 012D+0323) -->
+
+<!-- icaron endres til ibue -->
+
+<!ENTITY	Ilavbue		SDATA	"[Ilavbue]"		--= Circumflexvendt bue under(UNICODE 0049+032F) -->
+
+<!ENTITY	ilavbue		SDATA	"[ilavbue]"		--= Circumflexvendt bue under(UNICODE 0069+032F) -->
+
+<!ENTITY	Istrek		SDATA	"[Istrek]"		--= Vannrett strek over(UNICODE 012A) -->
+
+<!ENTITY	istrek		SDATA	"[istrek]"		--= Vannrett strek over(UNICODE 012B) -->
+
+<!ENTITY	kacute		SDATA	"[kacute]"		--= (UNICODE 1E31) -->
+
+<!ENTITY	kgrave		SDATA	"[kgrave]"		--= (UNICODE 006B+0300) -->
+
+<!ENTITY	lgrave		SDATA	"[lgrave]"		--= (UNICODE 006C+0300) -->
+
+<!ENTITY	Lstrek		SDATA	"[Lstrek]"		--= Vannrett strek over(UNICODE 004C+0304) -->
+
+<!ENTITY	lstrek		SDATA	"[lstrek]"		--= Vannrett strek over(UNICODE 006C+0304) -->
+
+<!ENTITY	Eng			SDATA	"[Eng]"		--= Som i moderne nordsamisk (UNICODE 014A) -->
+
+<!ENTITY	eng			SDATA	"[eng]"		--= Som i moderne nordsamisk (UNICODE 014B) -->
+
+<!ENTITY	nacute		SDATA	"[nacute]"		--= (UNICODE 0144) -->
+
+<!ENTITY	Ncaron		SDATA	"[Ncaron]"		--= (UNICODE 0147) -->
+
+<!ENTITY	ncaron		SDATA	"[ncaron]"		--= (UNICODE 0148) -->
+
+<!ENTITY	Nstrek		SDATA	"[Nstrek]"		--= Vannrett strek over(UNICODE 004E+0304) -->
+
+<!ENTITY	nstrek		SDATA	"[nstrek]"		--= Vannrett strek over(UNICODE 006E+0304) -->
+
+<!ENTITY	Obue		SDATA	"[Obue]"		--= Buelignende form over(UNICODE 014E) -->
+
+<!ENTITY	obue			SDATA	"[obue]"		--= Buelignende form over(UNICODE 014F) -->
+
+<!ENTITY	Obuelg		SDATA	"[Obuelg]"		--= Speilvendt komma under, buelignende form over(UNICODE 014E+0328) -->
+
+<!ENTITY	obuelg		SDATA	"[obuelg]"		--= Speilvendt komma under, buelignende form over(UNICODE 014F+0328) -->
+
+<!-- ocaron endres til obue -->
+
+<!ENTITY	Odot			SDATA	"[Odot]"		--= Prikk under(UNICODE 1ECC) -->
+
+<!ENTITY	odot			SDATA	"[odot]"		--= Prikk under(UNICODE 1ECD) -->
+
+<!ENTITY	oe			SDATA	"[oe]"		--= oe (UNICODE 0153) -->
+
+<!ENTITY	Okvist		SDATA	"[Okvist]"		--= Strek opp til høyre fra bokstaven(UNICODE 01A0) -->
+
+<!ENTITY	okvist		SDATA	"[okvist]"		--= Strek opp til høyre fra bokstaven(UNICODE 01A1) -->
+
+<!ENTITY	Olavbue		SDATA	"[Olavbue]"	--= Circumflexvendt bue under(UNICODE 004F+032F) -->
+
+<!ENTITY	olavbue		SDATA	"[olavbue]"		--= Circumflexvendt bue under(UNICODE 006F+032F) -->
+
+<!ENTITY	Olavgrav		SDATA	"[Olavgrav]"	--= Speilvendt komma under(UNICODE 01EA) -->
+
+<!ENTITY	olavgrav		SDATA	"[olavgrav]"	--= Speilvendt komma under(UNICODE 01EB) -->
+
+<!ENTITY	Oprikk		SDATA	"[Oprikk]"		--= Prikk over(UNICODE 004F+0307) -->
+
+<!ENTITY	oprikk		SDATA	"[oprikk]"		--= Prikk over(UNICODE 006F+0307) -->
+
+<!ENTITY	Ostrek		SDATA	"[Ostrek]"		--= Vannrett strek over(UNICODE 014C) -->
+
+<!ENTITY	ostrek		SDATA	"[ostrek]"		--= Vannrett strek over(UNICODE 014D) -->
+
+<!ENTITY	Ostreklg		SDATA	"[Ostreklg]"	--= Speilvendt komma under, strek over(UNICODE 01EC) -->
+
+<!ENTITY	ostreklg		SDATA	"[ostreklg]"	--= Speilvendt komma under, strek over(UNICODE 01ED) -->
+
+<!ENTITY	Otilde		SDATA	"[Õ]"			--= (UNICODE 00D5) -->
+
+<!ENTITY	otilde		SDATA	"[õ]"			--= (UNICODE 00F5) -->
+
+<!ENTITY	Oumlstrek		SDATA	"[Oumlstrek]"	--= Strek øverst, deretter prikker over bokstaven(UNICODE 00D6+0304) -->
+
+<!ENTITY	oumlstrek		SDATA	"[oumlstrek]"	--= Strek øverst, deretter prikker over bokstaven(UNICODE 00F6+0304) -->
+
+<!ENTITY	Oumlacute	SDATA	"[Oumlacute]"	--= ´ øverst, deretter prikker over bokstaven(UNICODE 00D6+0301) -->
+
+<!ENTITY	oumlacute		SDATA	"[oumlacute]"	--= ´ øverst, deretter prikker over bokstaven(UNICODE 00F6+0301) -->
+
+<!ENTITY	pgrave		SDATA	"[pgrave]"		--= (UNICODE 0070+0300) -->
+
+<!ENTITY	rgrave		SDATA	"[rgrave]"		--= (UNICODE 0072+0300) -->
+
+<!ENTITY	Sacute		SDATA	"[Sacute]"		--= (UNICODE 015A) -->
+
+<!ENTITY	sacute		SDATA	"[sacute]"		--= (UNICODE 015B) -->
+
+<!-- sbue endres til scaron -->
+
+<!ENTITY	Scaron		SDATA	"[Scaron]"		--= (UNICODE 0160) -->
+
+<!ENTITY	scaron		SDATA	"[scaron]"		--= (UNICODE 0161) -->
+
+<!ENTITY	sgrave		SDATA	"[sgrave]"		--= (UNICODE 0073+0300) -->
+
+<!ENTITY	Sigma		SDATA	"[Sigma]"		--= (UNICODE 03A3) -->
+
+<!ENTITY	sigma		SDATA	"[sigma]"		--= (UNICODE 03C3) -->
+
+<!ENTITY	Sstrek		SDATA	"[Sstrek]"		--= Vannrett strek over (UNICODE 0053+0304) -->
+
+<!ENTITY	sstrek		SDATA	"[sstrek]"		--= Vannrett strek over (UNICODE 0073+0304) -->
+
+<!ENTITY	szlig		SDATA	"[ß]"			--= (UNICODE 00DF) -->
+
+<!ENTITY	tgrave		SDATA	"[tgrave]"		--= (UNICODE 0074+0300) -->
+
+<!ENTITY	Tstung		SDATA	"[Tstung]"		--= Stungen t som i moderne nordsamisk(UNICODE 0166) -->
+
+<!ENTITY	tstung		SDATA	"[tstung]"		--= Stungen T som i moderne nordsamisk(UNICODE 0167) -->
+
+<!ENTITY	Ubue			SDATA	"[Ubue]"		--= Buelignende form over bokstaven (UNICODE 016C) -->
+
+<!ENTITY	ubue			SDATA	"[ubue]"		--= Buelignende form over bokstaven (UNICODE 016D) -->
+
+<!-- ucaron endres til ubue -->
+
+<!ENTITY	Ulavbue		SDATA	"[Ulavbue]"	--= Circumflexvendt bue under(UNICODE 0055+032F) -->
+
+<!ENTITY	ulavbue		SDATA	"[ulavbue]"		--= Circumflexvendt bue under(UNICODE 0075+032F) -->
+
+<!ENTITY	Uprikk		SDATA	"[Uprikk]"		--=Prikk over(UNICODE 0055+0307) -->
+
+<!ENTITY	uprikk		SDATA	"[uprikk]"		--= Prikk over(UNICODE 0075+0307) -->
+
+<!ENTITY	Ustrek		SDATA	"[Ustrek]"		--= Vannrett strek over(UNICODE 016A) -->
+
+<!ENTITY	ustrek		SDATA	"[ustrek]"		--= Vannrett strek over(UNICODE 016B) -->
+
+<!ENTITY	Vcaron		SDATA	"[Vcaron]"		--= (UNICODE 0056+030C) -->
+
+<!ENTITY	vcaron		SDATA	"[vcaron]"		--= (UNICODE 0076+030C) -->
+
+<!ENTITY	vgrave		SDATA	"[vgrave]"		--= (UNICODE 0076+0300) -->
+
+<!ENTITY	Zacute		SDATA	"[Zacute]"		--= (UNICODE 0179) -->
+
+<!ENTITY	zacute		SDATA	"[zacute]"		--= (UNICODE 017A) -->
+
+<!ENTITY	Zcaron		SDATA	"[Zcaron]"		--= (UNICODE 017D) -->
+
+<!ENTITY	zcaron		SDATA	"[zcaron]"		--= (UNICODE 017E) -->
+
+<!ENTITY	zgrave		SDATA	"[zgrave]"		--= (UNICODE 007A+0300) -->
+
+<!ENTITY	Aestrek		SDATA	"[Aestrek]"		--= Vannrett strek over(UNICODE 01E2) -->
+
+<!ENTITY	aestrek		SDATA	"[aestrek]"		--= Vannrett strek over(UNICODE 01E3) -->
+
+<!-- aecaron endres til aebue -->
+
+<!ENTITY	Aebue		SDATA	"[Aebue]"	--= (UNICODE 00C6+0306) -->
+
+<!ENTITY	aebue		SDATA	"[aebue]"	--= (UNICODE 00E6+0306) -->
