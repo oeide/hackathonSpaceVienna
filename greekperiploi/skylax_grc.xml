@@ -1,0 +1,640 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:py="http://codespeak.net/lxml/objectify/pytype"
+     py:pytype="TREE">
+    <text>
+        <body>
+            <div type="edition"
+                 n="urn:cts:greekLit:fgrh.2046.bnjo-1-ed-grc"
+                 xml:lang="grc-Grek">
+                <div type="textpart"
+                     subtype="fragment"
+                     n="f1">
+                    <head>
+                        <hi rend="italic">Periplous</hi> by Pseudo-Skylax</head>
+                        <p>Title in D: Σκύλακος Καρυανδέως περίπλους τῆς οἰκουμένης. (This is followed by T 6, and then by:) Περίπλους τῆς θαλάσσης τῆς οἰκουμένης Εὐρώπης καὶ Ἀσίας καὶ Λιβύης, καὶ ὅσα καὶ ὁποῖα ἔθνη ἕκαστα, ἑξῆς καὶ χῶραι καὶ λιμένες καὶ ποταμοί, καὶ ὅσα μήκη τῶν πλῶν, καὶ αἱ νῆσοι αἱ ἑπτὰ αἱ οἰκούμεναι, καθότι ἑκάστη κεῖται τῆς ἠπείρου.</p>
+                        <l n="1">{Εὐρώπη.} ἄρξομαι δὲ ἀπὸ <placeName>Ἡρακλείων</placeName>
+                        <placeName>στηλῶν</placeName> τῶν ἐν τῇ <placeName>Εὐρώπῃ</placeName> μέχρι <placeName>Ἡρακλείων</placeName>
+                        <placeName>στηλῶν</placeName> τῶν ἐν τῇ <placeName>Λιβύῃ</placeName>, καὶ μέχρι <placeName>Αἰθιόπων</placeName> τῶν μεγάλων. εἰσὶ δὲ ἀλλήλων καταντικρὺ αἱ <placeName>Ἡράκλειαι</placeName>
+                        <placeName>στῆλαι</placeName> καὶ ἀπέχουσιν ἀλλήλων πλοῦν ἡμέρας. ἀπὸ <placeName>Ἡρακλείων</placeName>
+                        <placeName>στηλῶν</placeName> τῶν ἐν τῇ <placeName>Εὐρώπῃ</placeName> ἐμπόρια πολλὰ <placeName>Καρχηδονίων</placeName> καὶ πηλὸς καὶ πλημμυρίδες καὶ τενάγη.</l>
+                        <l n="2">{Ἴβηρες.} τῆς <placeName>Εὐρώπης</placeName> εἰσὶ πρῶτοι <placeName>Ἴβηρες</placeName>, <placeName>Ἰβηρίας</placeName> ἔθνος, καὶ ποταμὸς <placeName>Ἴβηρ</placeName>. καὶ νῆσοι ἐνταῦθα ἔπεισι δύο αἷς ὄνομα <placeName>Γάδειρα</placeName>. τούτων ἡ ἑτέρα πόλιν ἔχει ἀπέχουσαν ἡμέρας πλοῦν ἀπὸ <placeName>Ἡρακλείων</placeName>
+                        <placeName>στηλῶν</placeName>. εἶτα ἐμπόριον &lt;καὶ&gt; πόλις <placeName>Ἑλληνὶς</placeName> ᾗ ὄνομα <placeName>Ἐμπόριον</placeName>· εἰσὶ δὲ οὗτοι <placeName>Μασσαλιωτῶν</placeName> ἄποικοι. παράπλους τῆς <placeName>Ἰβηρίας</placeName> ἑπτὰ ἡμερῶν καὶ ἑπτὰ νυκτῶν.</l>
+                        <l n="3">{Λίγυες καὶ Ἴβηρες.} ἀπὸ δὲ <placeName>Ἰβήρων</placeName> ἔχονται <placeName>Λίγυες</placeName> καὶ <placeName>Ἴβηρες</placeName> μιγάδες μέχρι ποταμοῦ <placeName>Ῥοδανοῦ</placeName>. παράπλους <placeName>Λιγύων</placeName> ἀπὸ <placeName>Ἐμπορίου</placeName> μέχρι <placeName>Ῥοδανοῦ</placeName> ποταμοῦ δύο ἡμερῶν καὶ μιᾶς νυκτός.</l>
+                        <l n="4">{Λίγυες.} ἀπὸ <placeName>Ῥοδανοῦ</placeName> ποταμοῦ ἔχονται <placeName>Λίγυες</placeName> μέχρι <placeName>Ἀντίου</placeName>. ἐν ταύτῃ τῇ χώρᾳ πόλις ἐστὶν <placeName>Ἑλληνίς</placeName>, <placeName>Μασσαλία</placeName>, καὶ λιμήν, &lt;καὶ <placeName>Ὀλβία</placeName> καὶ <placeName>Ἄντιον</placeName> καὶ λιμήν&gt;. ἄποικοι αὗται <placeName>Μασσαλίας</placeName> εἰσίν. παράπλους δ’ ἐστὶ ταύτης ἀπὸ <placeName>Ῥοδανοῦ</placeName> ποταμοῦ μέχρι <placeName>Ἀντίου</placeName> ἡμερῶν δ&lt;ύο&gt; καὶ νυκτῶν <hi rend="italic">δύο</hi>. ἀπὸ δὲ <placeName>Ἡρακλείων</placeName>
+                        <placeName>στηλῶν</placeName> μέχρι <placeName>Ἀντίου</placeName> ἡ <placeName>χώρα</placeName> πᾶσα αὕτη εὐλίμενος.</l>
+                        <l n="5">{Τυρρηνοί.} ἀπὸ δὲ <placeName>Ἀντίου</placeName>
+                        <placeName>Τυρρηνοὶ</placeName> ἔθνος μέχρι <placeName>Ῥώμης</placeName> πόλεως. παράπλους ἡμερῶν τεσσάρων καὶ νυκτῶν τεσσάρων.</l>
+                        <l n="6">{Κύρνος.} κατὰ δὲ <placeName>Τυρρηνίαν</placeName> κεῖται <placeName>νῆσος</placeName>
+                        <placeName>Κύρνος</placeName>. ἔστι δὲ ἀπὸ <placeName>Τυρρηνίας</placeName> ὁ πλοῦς εἰς <placeName>Κύρνον</placeName> ἡμέρας καὶ ἡμίσεως. καὶ <placeName>νῆσος</placeName> ἐν μέσῳ τῷ πλῷ τούτῳ οἰκουμένη ᾗ ὄνομα <placeName>Αἰθαλία</placeName>, καὶ ἄλλαι πολλαὶ ἔρημοι νῆσοι.</l>
+                        <l n="7">{Σαρδώ.} ἀπὸ δὲ <placeName>Κύρνου</placeName> νήσου εἰς Σαρδὼ νῆσον πλοῦς ἡμέρας τρίτον μέρος, καὶ <placeName>νῆσος</placeName> ἐρήμη ἐν τῷ μεταξύ. ἀπὸ <placeName>Σαρδοῦς</placeName> δὲ εἰς <placeName>Λιβύην</placeName> πλοῦς ἡμέρας καὶ νυκτός. εἰς δὲ <placeName>Σικελίαν</placeName> ἀπὸ <placeName>Σαρδοῦς</placeName> πλοῦς ἡμερῶν δύο καὶ νυκτός. ἐπάνειμι δὲ πάλιν ἐπὶ τὴν ἤπειρον, ὅθεν εἰς τὴν <placeName>Κύρνον</placeName> ἐξετραπόμην.</l>
+                        <l n="8">{Λατῖνοι.} <placeName>Τυρρηνίας</placeName> ἔχονται <placeName>Λατῖνοι</placeName> μέχρι τοῦ Κιρκαίου. καὶ τὸ τοῦ <placeName>Ἐλπήνορος</placeName> μνῆμά ἐστι <placeName>Λατίνων</placeName>. <placeName>Λατίνων</placeName> παράπλους ἡμέρας καὶ νυκτός.</l>
+                        <l n="9">{Ὀλσοί.} <placeName>Λατίνων</placeName> δὲ ἔχονται <placeName>Ὀλσοί</placeName>. <placeName>Ὀλσῶν</placeName> δὲ παράπλους ἡμέρας μιᾶς.</l>
+                        <l n="10">{Καμπανοί.} <placeName>Ὀλσῶν</placeName> δὲ ἔχονται <placeName>Καμπανοί</placeName>. καὶ εἰσὶ πόλεις <placeName>Ἑλληνίδες</placeName> αὗται ἐν τῇ <placeName>Καμπανίᾳ</placeName>· <placeName>Κύμη</placeName>, <placeName>Νεάπολις</placeName>. κατὰ ταῦτά ἐστι <placeName>Πιθηκοῦσσα</placeName>
+                        <placeName>νῆσος</placeName> καὶ πόλις <placeName>Ἑλληνίς</placeName>. παράπλους δὲ τῆς <placeName>Καμπανίας</placeName> ἐστὶν ἡμέρας μιᾶς.</l>
+                        <l n="11">{Σαυνῖται.} <placeName>Καμπανῶν</placeName> δὲ ἔχονται <placeName>Σαυνῖται</placeName>. καὶ παράπλους ἐστὶ <placeName>Σαυνιτῶν</placeName> ἡμέρας ἥμισυ.</l>
+                        <l n="12">{Λευκανοί.} <placeName>Σαυνιτῶν</placeName> δὲ ἔχονται <placeName>Λευκανοὶ</placeName> μέχρι <placeName>Θουρίας</placeName>. ὁ πλοῦς δέ ἐστι παρὰ <placeName>Λευκανίαν</placeName> ἡμερῶν ϛʹ καὶ νυκτῶν ϛʹ. ἡ δὲ <placeName>Λευκανία</placeName> ἐστὶν ἀκτή. ἐν ταύτῃ πόλεις εἰσὶν <placeName>Ἑλληνίδες</placeName> αἵδε· <placeName>Ποσειδωνία</placeName> καὶ <placeName>Ἐλέα</placeName>, &lt;<placeName>Λᾶος</placeName>&gt; <placeName>Θουρίων</placeName> ἀποικία, <placeName>Πανδοσία</placeName>, <placeName>Κλαμπέτεια</placeName>, <placeName>Τερίνα</placeName>, <placeName>Ἱππώνιον</placeName>, <placeName>Μέσμα</placeName>, <placeName>Ῥήγιον</placeName>
+                        <placeName>ἀκρωτήριον</placeName> καὶ πόλις.</l>
+                        <l n="13">1. {Σικελία.} κατὰ δὲ <placeName>Ῥήγιόν</placeName> ἐστι <placeName>Σικελία</placeName>
+                        <placeName>νῆσος</placeName>, ἀπὸ τῆς <placeName>Εὐρώπης</placeName> ἀπέχουσα στάδια ιβʹ ἐ&lt;πὶ&gt; <placeName>Πελωριάδα</placeName> ἀπὸ <placeName>Ῥηγίου</placeName>.</l>
+                        <l n="2">ἐν δὲ <placeName>Σικελίᾳ</placeName> ἔθνη βάρβαρα τάδε ἐστίν· <placeName>Ἔλυμοι</placeName>, <placeName>Σικανοί</placeName>, <placeName>Σικελοί</placeName>, <placeName>Φοίνικες</placeName>, <placeName>Τρῶες</placeName>. οὗτοι μὲν βάρβαροι, οἰκοῦσι δὲ καὶ <placeName>Ἕλληνες</placeName>. <placeName>ἀκρωτήριον</placeName> δὲ <placeName>Σικελίας</placeName>
+                        <placeName>Πελωριάς</placeName>.</l>
+                        <l n="3">πόλεις δ’ εἰσὶν ἀπὸ <placeName>Πελωριάδος</placeName>
+                        <placeName>Ἑλληνίδες</placeName> αἵδε· <placeName>Μεσσήνη</placeName> καὶ λιμήν, <placeName>Ταυρομένιον</placeName>, <placeName>Νάξος</placeName>, <placeName>Κατάνη</placeName>, <placeName>Λεοντῖνοι</placeName>· εἰς τοὺς <placeName>Λεοντίνους</placeName> δὲ κατὰ <placeName>Τηρίαν</placeName> ποταμὸν ἀνάπλους κʹ σταδίων. <placeName>Σύμαιθος</placeName> ποταμὸς καὶ πόλις <placeName>Μεγαρὶς</placeName> καὶ λιμὴν <placeName>Ξιφώνειος</placeName>. ἐχομένη δὲ <placeName>Μεγαρίδος</placeName> πόλις ἐστὶ <placeName>Συράκουσαι</placeName>, καὶ λιμένες ἐν αὐτῇ δύο· τούτων ὁ ἕτερος ἐντὸς τείχους, ὁ δ’ ἄλλος ἔξω. μετὰ δὲ ταύτην πόλις <placeName>Ἕλωρον</placeName> καὶ <placeName>Πάχυνος</placeName>
+                        <placeName>ἀκρωτήριον</placeName>. ἀπὸ <placeName>Παχύνου</placeName> δὲ πόλεις <placeName>Ἑλληνίδες</placeName> αἵδε· <placeName>Καμάρινα</placeName>, <placeName>Γέλα</placeName>, <placeName>Ἀκράγας</placeName>, <placeName>Σελινοῦς</placeName>, <placeName>Λιλύβαιον</placeName>
+                        <placeName>ἀκρωτήριον</placeName>. ἀπὸ δὲ <placeName>Λιλυβαίου</placeName> πόλις ἐστὶν <placeName>Ἑλληνὶς</placeName>
+                        <placeName>Ἱμέρα</placeName>.</l>
+                        <l n="4">ἔστι δὲ ἡ <placeName>Σικελία</placeName> τρίγωνος· τὸ δὲ κῶλον ἕκαστον αὐτῆς ἐστι μάλιστα σταδίων <hi rend="italic">͵αφʹ</hi>. <hi rend="italic">μετὰ δὲ <placeName>Ἱμέραν</placeName>
+                    </hi> πόλιν <placeName>Λιπάρα</placeName> νῆσός ἐστι, καὶ πόλις <placeName>Ἑλληνὶς</placeName>
+                    <placeName>Μύλαι</placeName> καὶ λιμήν. ἔστι δὲ ἀπὸ Μυλῶν ἐπὶ Λιπάραν νῆσον πλοῦς ἡμέρας ἥμισυ.</l>
+                    <l n="5">ἐπάνειμι δὲ πάλιν ἐπὶ τὴν ἤπειρον, ὅθεν ἐξετραπόμην. ἀπὸ γὰρ <placeName>Ῥηγίου</placeName> πόλεις εἰσὶν αἵδε· <placeName>Λοκροί</placeName>, Καυλωνία, Κρότων, Λακίνιον <placeName>ἱερὸν</placeName> Ἥρας καὶ <placeName>νῆσος</placeName> Καλυψοῦς, ἐν ᾗ Ὀδυσσεὺς ᾤκει παρὰ Καλυψοῖ, καὶ ποταμὸς Κρᾶθις, καὶ Σύβαρις καὶ Θουρία πόλις. οὗτοι ἐν τῇ Λευκανίᾳ <placeName>Ἕλληνες</placeName>.</l>
+                    <l n="14">{Ἰαπυγία.} μετὰ δὲ τὴν <placeName>Λευκανίαν</placeName>
+                    <placeName>Ἰάπυγές</placeName> εἰσιν ἔθνος μέχρι <hi rend="italic">
+                        <placeName>Ὑρίωνος</placeName>
+                    </hi> ὄρους τοῦ ἐν τῷ <placeName>κόλπῳ</placeName> τῷ <placeName>Ἀδρίᾳ</placeName>. παράπλους παρὰ τὴν <placeName>Ἰαπυγίαν</placeName> ἓξ ἡμερῶν καὶ ἓξ νυκτῶν. ἐν δὲ τῇ <placeName>Ἰαπυγίᾳ</placeName> οἰκοῦσιν <placeName>Ἕλληνες</placeName>, καὶ πόλεις εἰσὶν αἵδε· <placeName>Ἡράκλειον</placeName>, <placeName>Μεταπόντιον</placeName>, <placeName>Τάρας</placeName> καὶ λιμήν, <placeName>Ὑδροῦς</placeName> ἐπὶ τῷ τοῦ <placeName>Ἀδρίου</placeName> ἢ τῷ τοῦ <placeName>Ἰονίου</placeName>
+                    <placeName>κόλπου</placeName> στόματι.</l>
+                    <l n="15">{Δαυνῖται.} μετὰ δὲ <placeName>Ἰάπυγας</placeName> ἀπὸ <hi rend="italic">
+                        <placeName>Ὑρίωνος</placeName>
+                    </hi>
+                    <hi rend="italic">
+                        <placeName>Δαυνῖται</placeName>
+                    </hi> ἔθνος ἐστίν. ἐν δὲ τούτῳ τῷ ἔθνει γλῶσσαι {ἤτοι στόματα} αἵδε· <hi rend="italic">
+                        <placeName>Ἀλφατέρνιοι</placeName>
+                    </hi>, <placeName>Ὀπικοί</placeName>, <hi rend="italic">
+                        <placeName>Καρακῶνες</placeName>
+                    </hi>, <placeName>Βορεοντῖνοι</placeName>, <placeName>Πευκετιεῖς</placeName> διήκοντες ἀπὸ <supplied reason="lost">δὲ</supplied> τοῦ <placeName>Τυρσηνικοῦ</placeName>
+                    <placeName>πελάγους</placeName> εἰς τὸν <placeName>Ἀδρίαν</placeName>. παράπλους τῆς <placeName>Δαυνίτιδος</placeName>
+                    <placeName>χώρας</placeName> ἡμερῶν δύο καὶ νυκτός.</l>
+                    <l n="16">{Ὀμβρικοί.} μετὰ δὲ <placeName>Δαυνίτας</placeName> ἔθνος ἐστὶν <placeName>Ὀμβρικοί</placeName>, καὶ πόλις ἐν αὐτοῖς <placeName>Ἀγκών</placeName> ἐστι. τοῦτο δὲ τὸ ἔθνος τιμᾷ <placeName>Διομήδην</placeName>, εὐεργετηθὲν ὑπ’ αὐτοῦ· καὶ <placeName>ἱερόν</placeName> ἐστιν αὐτοῦ. παράπλους δὲ τῆς <placeName>Ὀμβρικῆς</placeName> ἐστιν ἡμερῶν δύο καὶ νυκτός.</l>
+                    <l n="17">{Τυρρηνοί.} μετὰ δὲ τὸ <placeName>Ὀμβρικὸν</placeName>
+                    <placeName>Τυρρηνοί</placeName>. διήκουσι δὲ καὶ οὗτοι ἀπὸ τοῦ <placeName>Τυρρηνικοῦ</placeName>
+                    <placeName>πελάγους</placeName>
+                    <supplied reason="lost">ἔξωθεν</supplied> εἰς τὸν <placeName>Ἀδρίαν</placeName>
+                    <hi rend="italic">
+                        <placeName>κόλπον</placeName>
+                    </hi>. καὶ πόλις ἐν αὐτοῖς <placeName>Ἑλληνὶς</placeName> &lt;<placeName>Σπῖνα</placeName>&gt; καὶ ποταμός· καὶ ἀνάπλους εἰς τὴν πόλιν κατὰ ποταμὸν ὡς εἴκοσι σταδίων. <supplied reason="lost">καὶ <placeName>Τυρρηνία</placeName> ἐστὶν διήκουσα ἀπὸ τῆς ἔξωθεν <placeName>θαλάττης</placeName> ἕως εἰς τὸν <placeName>Ἀδρίαν</placeName>
+                    <placeName>κόλπον</placeName>.</supplied> &lt;<placeName>Τυρρηνῶν</placeName> δὲ παράπλους ἡμέρας μιᾶς&gt; ἀπὸ †πόλεων πόλεως· καὶ ἔστιν ὁδὸς ἡμερῶν τριῶν.</l>
+                    <l n="18">{Κελτοί.} μετὰ δὲ <placeName>Τυρρηνούς</placeName> εἰσι <placeName>Κελτοὶ</placeName> ἔθνος, ἀπολειφθέντες τῆς στρατείας, ἐπὶ στενῶν μέχρι <placeName>Ἀδρίου</placeName>, &lt;διήκοντες ἀπὸ τῆς ἔξωθεν <placeName>θαλάττης</placeName> ἕως εἰς τὸν <placeName>Ἀδρίαν</placeName>
+                    <placeName>κόλπον</placeName>&gt;. ἐνταῦθα δέ ἐστιν ὁ μυχὸς τοῦ <placeName>Ἀδρίου</placeName>
+                    <placeName>κόλπου</placeName>.</l>
+                    <l n="19">{Ἐνετοί.} μετὰ δὲ <placeName>Κελτοὺς</placeName>
+                    <placeName>Ἐνετοί</placeName> εἰσιν ἔθνος, καὶ ποταμὸς <placeName>Ἠριδανὸς</placeName> ἐν αὐτοῖς. <hi rend="italic">
+                        <placeName>Ἐνετῶν</placeName>
+                    </hi> δὲ παράπλους ἐστὶν ἐπ’ <hi rend="italic">εὐθείας</hi>
+                    <supplied reason="lost">ἀπὸ <placeName>Πίσης</placeName> πόλεως</supplied> ἡμέρας μιᾶς.</l>
+                    <l n="20">{Ἴστροι.} μετὰ δὲ <placeName>Ἐνέτους</placeName> εἰσὶν ἔθνος <placeName>Ἴστροι</placeName>, καὶ ποταμὸς <placeName>Ἴστρος</placeName>. οὗτος ὁ ποταμὸς καὶ εἰς τὸν <placeName>Πόντον</placeName> ἐκβάλλει ἐν <hi rend="italic">διεσκεδασμένῃ εὐνῇ</hi> ὡς &lt;ὁ <placeName>Νεῖλος</placeName>&gt; εἰς <placeName>Αἴγυπτον</placeName>. παράπλους δὲ τῆς <placeName>Ἴστρων</placeName>
+                    <placeName>χώρας</placeName> ἡμέρας καὶ νυκτός.</l>
+                    <l n="21">1. {Λιβυρνοί.} μετὰ δὲ <placeName>Ἴστρους</placeName>
+                    <placeName>Λιβυρνοί</placeName> εἰσιν ἔθνος. ἐν δὲ τούτῳ τῷ ἔθνει πόλεις εἰσὶ παρὰ <placeName>θάλατταν</placeName>
+                    <hi rend="italic">
+                        <placeName>Ἀρσίας</placeName>
+                    </hi>
+                    <hi rend="italic">
+                        <placeName>Δασσάτικα</placeName>, <placeName>Σενίτης</placeName>
+                    </hi>, <placeName>Ἀψύρτα</placeName>, Λουψοί <hi rend="italic">Ὀρτοπελῆται</hi>
+                    <hi rend="italic">
+                        <placeName>Ἡγῖνοι</placeName>
+                    </hi>. οὗτοι γυναικοκρατοῦνται, καὶ εἰσὶν αἱ γυναῖκες ἀνδρῶν ἐλευθέρων, μίσγονται δὲ τοῖς ἑαυτῶν δούλοις καὶ τοῖς πλησιοχώροις ἀνδράσι.</l>
+                    <l n="2">κατὰ ταύτην τὴν χώραν αἵδε νῆσοί εἰσιν, ὧν ἔχω εἰπεῖν τὰ ὀνόματα, εἰσὶ δὲ καὶ ἄλλαι ἀνώνυμοι πολλαί· <placeName>Ἴστρις</placeName>
+                    <placeName>νῆσος</placeName> σταδίων τιʹ, πλάτος δὲ ρκʹ· <hi rend="italic">
+                        <placeName>Ἠλεκτρίδες</placeName>
+                    </hi>, <placeName>Μεντορίδες</placeName>. αὗται δὲ αἱ νῆσοί εἰσι μεγάλαι. <placeName>Καταιβάτης</placeName> ποταμός. παράπλους τῆς <placeName>Λιβυρνίδος</placeName>
+                    <placeName>χώρας</placeName> ἡμερῶν δύο.</l>
+                    <l n="22">1. {Ἰλλυριοί.} μετὰ δὲ <placeName>Λιβυρνούς</placeName> εἰσιν <placeName>Ἰλλυριοὶ</placeName> ἔθνος, καὶ παροικοῦσιν οἱ <placeName>Ἰλλυριοὶ</placeName> παρὰ <placeName>θάλατταν</placeName> μέχρι <placeName>Χαονίας</placeName> τῆς κατὰ <placeName>Κέρκυραν</placeName> τὴν <placeName>Ἀλκινόου</placeName> νῆσον. καὶ πόλις ἐστὶν <placeName>Ἑλληνὶς</placeName> ἐνταῦθα ᾗ ὄνομα <placeName>Ἡράκλεια</placeName>, καὶ λιμήν.</l>
+                    <l n="2">εἰσὶ δὲ καὶ οἱ <placeName>Λωτοφάγοι</placeName> καλούμενοι βάρβαροι οἵδε· <hi rend="italic">
+                        <placeName>Ἰαδασινοί</placeName>
+                    </hi>, <placeName>Βουλινοί</placeName>, <hi rend="italic">
+                        <placeName>Ὕλλοι</placeName>
+                    </hi>· <placeName>Βουλινῶν</placeName> ὁμοτέρμονες <placeName>Ὕλλοι</placeName>. οὗτοι δέ φασιν Ὕλλον τὸν <placeName>Ἡρακλέους</placeName> αὐτοὺς <supplied reason="lost">τοῦ</supplied> κατοικίσαι· εἰσὶ δὲ βάρβαροι. κατοικοῦσι δὲ <placeName>χερρόνησον</placeName> ὀλίγῳ ἐλάσσω τῆς <placeName>Πελοποννήσου</placeName>.</l>
+                    <l n="3"> ἀπὸ δὲ <placeName>χερρονήσου</placeName> &lt;. . . νῆσός ἐστι&gt; <hi rend="italic">παρὰ στόμιον ὀρθόν</hi>· ταύτην παροικοῦσι <placeName>Βουλινοί</placeName>. <placeName>Βουλινοὶ</placeName> δ’ εἰσὶν ἔθνος <placeName>Ἰλλυρικόν</placeName>. παράπλους δ’ ἐστὶ τῆς <placeName>Βουλινῶν</placeName>
+                    <placeName>χώρας</placeName> ἡμέρας μακρᾶς ἐπὶ <placeName>Νέστον</placeName> ποταμόν.</l>
+                    <l n="23">1. {Νέστοι.} πλοῦς ἀπὸ δὲ <placeName>Νέστου</placeName> ἐστι κολπώδης. καλεῖται δὲ <placeName>Μανιὸς</placeName> ἅπας οὗτος ὁ <placeName>κόλπος</placeName>. παράπλους δέ ἐστιν ἡμέρας μιᾶς.</l>
+                    <l n="2">εἰσὶ δὲ ἐν τούτῳ τῷ <placeName>κόλπῳ</placeName> νῆσοι <hi rend="italic">
+                        <placeName>Τραγυράς</placeName>
+                    </hi>
+                    <hi rend="italic">
+                        <placeName>Βραττία</placeName>
+                    </hi>, <placeName>Ὀλύντα</placeName>. αὗται δὲ ἀπ’ ἀλλήλων ἀπέχουσι στάδια βʹ ἢ ὀλίγῳ πλέον, κατὰ <placeName>Φάρον</placeName> καὶ <placeName>Ἴσσαν</placeName>. ἐνταῦθα γάρ ἐστι <placeName>νῆσος</placeName>
+                    <placeName>Φάρος</placeName> &lt;καὶ&gt; πόλις <placeName>Ἑλληνὶς</placeName>, καὶ <placeName>Ἴσσα</placeName>
+                    <placeName>νῆσος</placeName>· καὶ πόλεις <placeName>Ἑλληνίδες</placeName> αὗται.</l>
+                    <l n="3">πρὶν ἐπὶ τὸν <placeName>Νάρωνα</placeName> ποταμὸν παραπλεῦσαι, πολλὴ <placeName>χώρα</placeName> ἀνήκει σφόδρα εἰς θάλασσαν. καὶ <placeName>νῆσος</placeName> τῆς παραλίας <placeName>χώρας</placeName> ἐγγὺς ᾗ ὄνομα <placeName>Μελίτη</placeName>· καὶ ἑτέρα <placeName>νῆσος</placeName> ἐγγὺς ταύτης ᾗ ὄνομα <placeName>Κέρκυρα</placeName> ἡ <placeName>Μέλαινα</placeName>· καὶ <hi rend="italic">ἐξέχει</hi>
+                    <hi rend="italic">τῷ ἑνὶ</hi> τῶν ἀκρωτηρίων <placeName>νῆσος</placeName> αὕτη τῆς παραλίας <placeName>χώρας</placeName> σφόδρα, τῷ δὲ ἑτέρῳ ἀκρωτηρίῳ καθήκει ἐπὶ τὸν <placeName>Νάρωνα</placeName> ποταμόν. ἀπὸ δὲ τῆς <placeName>Μελίτης</placeName> ἀπέχει στάδια κʹ, τῆς δὲ παραλίας <placeName>χώρας</placeName> ἀπέχει στάδια ηʹ.</l>
+                    <l n="24">1. {Μανιοί.} ἀπὸ δὲ <placeName>Νέστων</placeName> ἐστὶν ὁ <hi rend="italic">
+                        <placeName>Νάρων</placeName>
+                    </hi> ποταμός· ὁ δὲ εἴσπλους ὁ εἰς τὸν <hi rend="italic">
+                        <placeName>Νάρωνά</placeName>
+                    </hi> ἐστιν οὐ στενός· εἰσπλεῖ δὲ εἰς αὐτὸν καὶ τριήρης καὶ πλοῖα εἰς τὸ ἄνω ἐμπόριον, ἀπέχον ἀπὸ θαλάσσης στάδια πʹ. οὗτοι δέ εἰσιν <placeName>Ἰλλυρίων</placeName> ἔθνος <placeName>Μανιοί</placeName>. λίμνη δ’ ἐστὶ τὸ εἴσω τοῦ ἐμπορίου μεγάλη, καὶ ἀνήκει ἡ λίμνη εἰς <placeName>Αὐταριάτας</placeName>, ἔθνος <placeName>Ἰλλυρικόν</placeName>. καὶ <placeName>νῆσος</placeName> ἐν τῇ λίμνῃ ἔνεστι σταδίων ρκʹ· ἡ δὲ <placeName>νῆσος</placeName> αὕτη ἐστὶν εὐγέωργος σφόδρα. ἀπὸ δὲ ταύτης τῆς λίμνης ὁ <placeName>Νάρων</placeName> ποταμὸς ἀπορρεῖ.</l>
+                    <l n="2">καὶ ἀπὸ τοῦ <placeName>Νάρωνος</placeName> ἐπὶ τὸν <hi rend="italic">
+                        <placeName>Ἀρίωνα</placeName>
+                    </hi> ποταμὸν ἡμέρας ἐστὶ πλοῦς· ἀπὸ δὲ τοῦ <placeName>Ἀρίωνος</placeName> &lt;ἐπὶ τὸν <placeName>Ῥιζοῦντα</placeName>&gt; ποταμὸν πλοῦς ἡμέρας ἥμισυ. καὶ <placeName>Κάδμου</placeName> καὶ <placeName>Ἁρμονίας</placeName> οἱ λίθοι εἰσὶν ἐνταῦθα, καὶ <placeName>ἱερὸν</placeName> ἄπωθεν τοῦ <hi rend="italic">
+                        <placeName>Ῥιζοῦντος</placeName>
+                    </hi> ποταμοῦ. ἀπὸ δὲ τοῦ <hi rend="italic">
+                        <placeName>Ῥιζοῦντος</placeName>
+                    </hi> ποταμοῦ εἰς <placeName>Βουθόην</placeName> ὁ πλοὺς καὶ τὸ ἐμπόριον.</l>
+                    <l n="25">{Ἐγχελεῖς.} <placeName>Ἰλλυριῶν</placeName> ἔθνος εἰσὶν οἱ <placeName>Ἐγχελεῖς</placeName>, ἐχόμενοι τοῦ <placeName>Ῥιζοῦντος</placeName>. ἐκ <placeName>Βουθόης</placeName> δὲ εἰς <placeName>Ἐπίδαμνον</placeName>, πόλιν <placeName>Ἑλληνίδα</placeName>, πλοῦς ἡμέρας καὶ νυκτός, ὁδὸς δὲ τριῶν ἡμερῶν.</l>
+                    <l n="26">1. {Ἰλλύριοι.} <hi rend="italic">
+                        <placeName>Ταυλαντίων</placeName>
+                    </hi> δέ ἐστι τὸ <placeName>Ἰλλυρικὸν</placeName> ἔθνος ἐν ᾧ ἡ <placeName>Ἐπίδαμνός</placeName> ἐστι, καὶ ποταμὸς παρὰ τὴν πόλιν παραρρεῖ, ᾧ ὄνομα <placeName>Πάλαμνος</placeName>. ἐκ δὲ <placeName>Ἐπιδάμνου</placeName> εἰς <placeName>Ἀπολλωνίαν</placeName> πόλιν <placeName>Ἑλληνίδα</placeName> ὁδὸς ἡμερῶν δύο. ἡ δὲ <placeName>Ἀπολλωνία</placeName> ἀπὸ τῆς <placeName>θαλάττης</placeName> ἀπέχει στάδια νʹ, καὶ ποταμὸς <placeName>Αἴας</placeName> παραρρεῖ τὴν πόλιν. ἀπὸ δὲ <placeName>Ἀπολλωνίας</placeName> εἰς <placeName>Ἀμαντίαν</placeName> ἐστὶ στάδια τκʹ. καὶ ὁ <placeName>Αἴας</placeName> ποταμὸς ἀπὸ τοῦ <placeName>Πίνδου</placeName> ὄρους παρὰ τὴν <placeName>Ἀπολλωνίαν</placeName> παραρρεῖ.</l>
+                    <l n="2">
+                        <supplied reason="lost">—</supplied> πρὸς <placeName>Ὠρικὸν</placeName> εἴσω μᾶλλον εἰς τὸν <hi rend="italic">
+                            <placeName>κόλπον</placeName>
+                        </hi>. τῆς <placeName>Ὠρικίας</placeName> καθήκει εἰς <placeName>θάλατταν</placeName> στάδια πʹ, τῆς δὲ <placeName>Ἀμαντίας</placeName> στάδια ξʹ.</l>
+                        <l n="3">
+                            <hi rend="italic">
+                                <placeName>Ἄμασιν</placeName>
+                            </hi> ὅμοροι ἐν μεσογείᾳ <placeName>Ἀτιντᾶνες</placeName> ὑπὲρ τῆς <placeName>Ὠρικίας</placeName> καὶ <hi rend="italic">
+                                <placeName>Καρίας</placeName>
+                            </hi> μέχρι <hi rend="italic">
+                                <placeName>Ἰδωνίας</placeName>
+                            </hi>. ἐν τῇ <hi rend="italic">
+                                <placeName>Κάστιδι</placeName>
+                            </hi> χώρᾳ εἶναι λέγεται πεδίον &lt;ᾧ&gt; ὄνομα <placeName>Ἐρύθεια</placeName>. ἐνταῦθα ὁ <placeName>Γηρυόνης</placeName> λέγεται οἰκεῖν καὶ τοὺς βοῦς βουκολεῖν. κατὰ ταῦτά ἐστι τὰ <placeName>Κεραύνια</placeName> ὄρη ἐν τῇ ἠπείρῳ, καὶ <placeName>νῆσος</placeName> παρὰ ταῦτά ἐστι μικρὰ ᾗ ὄνομα <placeName>Σάσων</placeName>. ἐντεῦθεν εἰς <placeName>Ὠρικὸν</placeName> πόλιν ἐστὶ παράπλους ἡμέρας τρίτον μέρος.</l>
+                            <l n="27">1. {Ὠρικοί.} οἱ δὲ <placeName>Ὠρικοὶ</placeName> κατοικοῦσι τῆς <placeName>Ἀμαντίας</placeName>
+                            <placeName>χώρας</placeName>. οἵδε <supplied reason="lost">Ἀμαντιεῖς</supplied> εἰσὶ μέχρι ἐνταῦθα <placeName>Ἰλλυριοὶ</placeName> ἀπὸ <placeName>Βουλινῶν</placeName>.</l>
+                            <l n="2">τὸ δὲ στόμα τοῦ <placeName>Ἰονίου</placeName>
+                            <placeName>κόλπου</placeName> ἐστὶν ἀπὸ <placeName>Κεραυνίων</placeName> ὀρῶν μέχρι ἄκρας <placeName>Ἰαπυγίας</placeName>. ἐπὶ δὲ <placeName>Ὑδρόεντα</placeName> πόλιν ἐν τῇ <placeName>Ἰαπυγίᾳ</placeName> ἀπὸ τῶν <placeName>Κεραυνίων</placeName> στάδια τοῦ διάπλου ὡς φʹ, &lt;ὅ&gt; ἐστι τὸ στόμα τοῦ <placeName>κόλπου</placeName>· τὰ δὲ ἐντὸς ὁ <placeName>Ἰόνιος</placeName>. λιμένες εἰσὶ πολλοὶ ἐν τῷ <placeName>Ἀδρίᾳ</placeName>· τὸ δὲ αὐτὸ <placeName>Ἀδρίας</placeName> ἐστὶ καὶ <placeName>Ἰόνιος</placeName>.</l>
+                            <l n="28">{Χάονες.} μετὰ δὲ <placeName>Ἰλλυριοὺς</placeName>
+                            <placeName>Χάονες</placeName>. ἡ δὲ <placeName>Χαονία</placeName> ἐστὶν εὐλίμενος· οἰκοῦσι δὲ κατὰ κώμας οἱ <placeName>Χάονες</placeName>. παράπλους δ’ ἐστὶ <placeName>Χαονίας</placeName> ἥμισυ ἡμέρας.</l>
+                            <l n="29">{Κόρκυρα.} κατὰ δὲ <placeName>Χαονίαν</placeName> νῆσός ἐστι <placeName>Κόρκυρα</placeName> καὶ πόλις <placeName>Ἑλληνὶς</placeName> ἐν αὐτῇ, λιμένας ἔχουσα τρεῖς κατὰ τὴν πόλιν· τούτων ὁ εἷς κλειστός. ἐπιβάλλει δὲ <placeName>Κόρκυρα</placeName> καὶ ἐπὶ τὴν <placeName>Θεσπρωτίαν</placeName> πλεῖον ἢ ἐπὶ τὴν <placeName>Χαονίαν</placeName>. ἐπάνειμι δὲ πάλιν ἐπὶ τὴν ἤπειρον, ὅθεν ἐξετραπόμην.</l>
+                            <l n="30">{Θεσπρωτοί.} μετὰ δὲ <placeName>Χαονίαν</placeName>
+                            <placeName>Θεσπρωτοί</placeName> εἰσιν ἔθνος. οἰκοῦσι δὲ καὶ οὗτοι κατὰ κώμας· ἔστι δὲ καὶ αὕτη εὐλίμενος. ἐνταῦθά ἐστι λιμὴν ᾧ ὄνομα <placeName>Ἐλαία</placeName>· εἰς τοῦτον τὸν <placeName>λιμένα</placeName> ποταμὸς ἐξίησιν <placeName>Ἀχέρων</placeName>. καὶ λίμνη <placeName>Ἀχερουσία</placeName>, ἐξ ἧς ὁ <placeName>Ἀχέρων</placeName> ῥεῖ ποταμός. παράπλους δὲ τῆς <placeName>Θεσπρωτίας</placeName> ἥμισυ ἡμέρας.</l>
+                            <l n="31">{Κασσωποί.} μετὰ δὲ <placeName>Θεσπρωτίαν</placeName>
+                            <placeName>Κασσωπία</placeName> ἐστὶν ἔθνος. οἰκοῦσι δὲ καὶ οὗτοι κατὰ κώμας. παροικοῦσι δὲ οὗτοι ἕως εἰς τὸν <placeName>Ἀνακτορικὸν</placeName>
+                            <placeName>κόλπον</placeName>. παράπλους δ’ ἐστὶ τῆς <placeName>Κασσωπῶν</placeName>
+                            <placeName>χώρας</placeName> ἥμισυ ἡμέρας. μικρῷ δὲ ἐλάττων ὁ <placeName>Ἀνακτορικὸς</placeName>
+                            <placeName>κόλπος</placeName> ἐστὶν ἀπὸ τοῦ στόματος ἕως εἰς τὸν μυχὸν σταδίων ρκʹ. τὸ δὲ στόμα εὖρος σταδίων δʹ.</l>
+                            <l n="32">{Μολοττία.} μετὰ δὲ <placeName>Κασσωπίαν</placeName>
+                            <placeName>Μολοττοί</placeName> εἰσιν ἔθνος. οἰκοῦσι δὲ οὗτοι κατὰ κώμας· καθήκουσι δὲ κατὰ μικρὸν ἐνταῦθα ἐπὶ τὴν <placeName>θάλατταν</placeName>, εἰς μεσογείαν δὲ πολλῇ. παράπλους δ’ ἐστὶ τῆς <placeName>Μολοττίας</placeName>
+                            <placeName>χώρας</placeName> σταδίων μʹ.</l>
+                            <l n="33">1. {Ἀμβρακία.} μετὰ δὲ <placeName>Μολοττίαν</placeName>
+                            <placeName>Ἀμβρακία</placeName> πόλις <placeName>Ἑλληνίς</placeName>· ἀπέχει δὲ αὕτη ἀπὸ <placeName>θαλάττης</placeName> στάδια πʹ. ἔστι δὲ καὶ ἐπὶ <placeName>θαλάττης</placeName>
+                            <placeName>τεῖχος</placeName> καὶ λιμὴν κλειστός.</l>
+                            <l n="2">ἐντεῦθεν ἄρχεται ἡ <placeName>Ἑλλὰς</placeName> συνεχὴς εἶναι μέχρι <placeName>Πηνειοῦ</placeName> ποταμοῦ καὶ <placeName>Ὁμολίου</placeName>
+                            <placeName>Μαγνητικῆς</placeName> πόλεως, ἥ ἐστι παρὰ τὸν ποταμόν.</l>
+                            <p>παράπλους δὲ τῆς <placeName>Ἀμβρακίας</placeName> στάδια ρκʹ.</p>
+                            <l n="34">1. {Ἀκαρνανία.} μετὰ δὲ <placeName>Ἀμβρακίαν</placeName>
+                            <placeName>Ἀκαρνανία</placeName> ἔθνος ἐστί, καὶ πρώτη πόλις αὐτόθι <placeName>Ἄργος</placeName> τὸ <placeName>Ἀμφιλοχικὸν</placeName> καὶ <placeName>Εὔριπος</placeName> καὶ <hi rend="italic">
+                                <placeName>Θύρρειον</placeName>
+                            </hi> ἐν τῷ <hi rend="italic">κοινῷ</hi>. καὶ ἔξω τοῦ <hi rend="italic">
+                                <placeName>Ἀμβρακικοῦ</placeName>
+                            </hi>
+                            <placeName>κόλπου</placeName> &lt;πόλεις&gt; αἵδε· <placeName>Ἀνακτόριον</placeName> καὶ λιμήν, <placeName>Ἀκτὴ</placeName> καὶ πόλις <placeName>Λευκὰς</placeName> καὶ λιμήν· αὕτη ἀνέχει ἐπὶ τὸν <placeName>Λευκάταν</placeName>, ὅ ἐστιν <placeName>ἀκρωτήριον</placeName> πόρρωθεν &lt;ἐν&gt; τῇ θαλάττῃ &lt;ὁρατόν&gt;. αὕτη ἡ πόλις τὸ πρὶν καὶ <placeName>Ἐπιλευκάδιοι</placeName> ὠνομάζετο. <placeName>Ἀκαρνᾶνες</placeName> δὲ στασιάσαντες ἔλαβον ἐκ <placeName>Κορίνθου</placeName> ἐποίκους χιλίους· οἱ δὲ ἔποικοι ἀποκτείναντες <hi rend="italic">τούτους</hi> τὴν χώραν αὐτοὶ ἔχουσιν. αὕτη δ’ ἐστὶ νῦν <placeName>νῆσος</placeName> τὸν ἰσθμὸν ἀποτεταφρευμένη. μετὰ δὲ ταῦτα πόλις <placeName>Φαρά</placeName>. καὶ κατὰ ταῦτα νῆσός ἐστιν <placeName>Ἰθάκη</placeName> καὶ πόλις καὶ λιμήν. μετὰ ταῦτα <placeName>νῆσος</placeName>
+                            <placeName>Κεφαληνία</placeName>.</l>
+                            <l n="2">ἐπάνειμι δὲ πάλιν ἐπὶ τὴν ἤπειρον, ὅθεν ἀπέλιπον. μετὰ ταῦτα πόλις <placeName>Ἀλυζία</placeName>, καὶ κατὰ ταύτην <placeName>νῆσος</placeName>
+                            <placeName>Κάρνος</placeName>, καὶ πόλις Ἀστακὸς καὶ λιμήν, καὶ ποταμὸς <placeName>Ἀχελῷος</placeName> καὶ <placeName>Οἰνιάδαι</placeName> πόλις· καὶ εἰς ταύτας <supplied reason="lost">τὰς πόλεις</supplied> ἀνάπλους ἐστὶ κατὰ τὸν <placeName>Ἀχελῷον</placeName>. εἰσὶ δὲ καὶ ἄλλαι πόλεις <placeName>Ἀκαρνάνων</placeName> ἐν μεσογείᾳ. παράπλους δὲ <placeName>Ἀκαρνανίας</placeName> ἐστὶν ἡμερῶν δύο.</l>
+                            <l n="3">ἡ δὲ <placeName>Ἀκαρνανία</placeName> ἐστὶ πᾶσα εὐλίμενος· καὶ κατὰ ταῦτα νῆσοι παράκεινται πολλαί, ἃς ὁ <placeName>Ἀχελῷος</placeName> προσχωννύων ἤπειρον ποιεῖ. καλοῦνται δὲ Ἐχινάδες αἱ νῆσοι· εἰσὶ δὲ ἔρημοι.</l>
+                            <l n="35">{Αἰτωλία.} μετὰ δὲ <placeName>Ἀκαρνανίαν</placeName>
+                            <placeName>Αἰτωλία</placeName> ἐστὶν ἔθνος, καὶ πόλεις ἐν αὐτῇ εἰσὶν αἵδε· <placeName>Καλυδών</placeName>, <placeName>Ἁλίκαρνα</placeName>, <placeName>Μολύκρεια</placeName>· καὶ ὁ <placeName>Δελφικὸς</placeName>
+                            <placeName>κόλπος</placeName>· στόμα δὲ τοῦ <placeName>κόλπου</placeName> τούτου ἐστὶ στάδια ιʹ, καὶ ἐπ’ αὐτοῦ <placeName>ἱερόν</placeName>· καὶ <placeName>Ναύπακτος</placeName> πόλις· καὶ ἐπ’ αὐτῇ πόλεις εἰσὶν ἄλλαι πολλαὶ <placeName>Αἰτωλοῖς</placeName> ἐν μεσογείᾳ. παράπλους δ’ ἐστὶ τῆς <placeName>Αἰτωλίας</placeName> ἡμέρας μιᾶς. ἡ δὲ <placeName>Αἰτωλία</placeName> παρήκει τὴν <placeName>Λοκρίδα</placeName> πᾶσαν ἀπὸ μεσογαίας μέχρι <placeName>Αἰνιάνων</placeName>.</l>
+                            <l n="36">{Λοκροί.} μετὰ δὲ <placeName>Αἰτωλοὺς</placeName>
+                            <placeName>Λοκροί</placeName> εἰσιν ἔθνος, ἐν οἷς εἰσὶν &lt; οἱ &gt; Ὀζόλαι καλούμενοι, καὶ πόλεις αἵδε· <placeName>Εὐάνθις</placeName>, <placeName>Ἄμφισσα</placeName>. εἰσὶ δὲ καὶ τούτοις πόλεις ἐν μεσογείᾳ. παράπλους δ’ ἐστὶ τῆς <placeName>Λοκρῶν</placeName>
+                            <placeName>χώρας</placeName> τὸ ἥμισυ ἡμέρας.</l>
+                            <l n="37">{Φωκεῖς.} μετὰ δὲ <placeName>Λοκρούς</placeName> εἰσιν ἔθνος <placeName>Φωκεῖς</placeName> κατὰ τὸ <placeName>Κιρραῖον</placeName> πεδίον, καὶ τὸ <placeName>ἱερὸν</placeName> τοῦ <placeName>Ἀπόλλωνος</placeName> καὶ <placeName>Δελφοὶ</placeName> πόλις καὶ <placeName>Ἀντίκυρα</placeName> πόλις, οὗ βέλτιστα ἑλλεβορίζονται. παράπλους δὲ τῆς <placeName>Φωκέων</placeName>
+                            <placeName>χώρας</placeName> ἥμισυ ἡμέρας.</l>
+                            <l n="38">{Βοιωτοί.} μετὰ δὲ <placeName>Φωκεῖς</placeName>
+                            <placeName>Βοιωτοί</placeName> εἰσιν ἔθνος, καὶ πόλεις αἵδε· <placeName>Κορσιαί</placeName>, <placeName>Σίφαι</placeName> καὶ λιμήν, <hi rend="italic">
+                                <placeName>Εὔτρησις</placeName>
+                            </hi> καὶ <placeName>τεῖχος</placeName>
+                            <placeName>Βοιωτῶν</placeName>. παράπλους δὲ τῆς <placeName>Βοιωτίας</placeName> ἥμισυ ἡμέρας &lt;ἢ&gt; ἔλαττον.</l>
+                            <l n="39">{Μεγαρεῖς.} μετὰ δὲ <placeName>Βοιωτοὺς</placeName>
+                            <placeName>Μεγαρεῖς</placeName> εἰσὶν ἔθνος, καὶ πόλεις αἵδε· <placeName>Αἰγόσθενα</placeName>, <placeName>Πηγαὶ</placeName>
+                            <placeName>τεῖχος</placeName>, <placeName>Γεράνεια</placeName>, <placeName>Αἴγειρος</placeName>. παράπλους δὲ τῆς <placeName>Μεγαρέων</placeName>
+                            <placeName>χώρας</placeName> στάδια ρʹ.</l>
+                            <l n="40">{Κόρινθος.} μετὰ δὲ <placeName>Μεγαρεῖς</placeName> ἡ <placeName>Κόρινθος</placeName> πόλις καὶ <placeName>ἱερόν</placeName>, <hi rend="italic">Λέχαιον</hi>, <placeName>Ἰσθμός</placeName>.</l>
+                            <p>                ἐντεῦθεν ἤδη ἄρχεται ἡ <placeName>Πελοπόννησος</placeName>.                ἔστι δ’ ἀπὸ θαλάσσης ἡ ὁδὸς πρὸς τὴν ἐπὶ ἡμῶν θάλασσαν διὰ τοῦ <placeName>Ἰσθμοῦ</placeName> στάδια μʹ. ταῦτα κολπώδη πάντα. παράπλους δὲ τῆς <placeName>Κορινθίων</placeName>
+                            <placeName>χώρας</placeName> ἥμισυ ἡμέρας.            </p>
+                            <l n="41">{Σικυών.} μετὰ δὲ <placeName>Κόρινθον</placeName>
+                            <placeName>Σικυὼν</placeName> πόλις. ταύτης παράπλους στάδια ρκʹ.</l>
+                            <l n="42">{Αχαιοί.} μετὰ δὲ <placeName>Σικυῶνα</placeName>
+                            <placeName>Ἀχαιοὶ</placeName> ἔθνος, καὶ πόλεις εἰσὶν ἐν αὐτοῖς αἵδε· <placeName>Πελλήνη</placeName>, <placeName>Αἴγειρα</placeName>, <placeName>Αἰγαί</placeName>, <placeName>Αἴγιον</placeName>, <placeName>Ῥύπες</placeName>, ἔξω δὲ <placeName>Ῥίου</placeName>
+                            <placeName>Πάτραι</placeName>, <placeName>Δύμη</placeName>. παράπλους δὲ τῆς Ἀχαΐας <placeName>χώρας</placeName> στάδια ψʹ.</l>
+                            <l n="43">{Ἦλίς.} μετὰ δὲ <placeName>Ἀχαιοὺς</placeName>
+                            <placeName>Ἦλίς</placeName> ἐστιν ἔθνος, καὶ πόλεις ἐν αὐτῇ αἵδε· <placeName>Κυλλήνη</placeName> καὶ λιμήν, καὶ ποταμὸς <placeName>Ἀλφειός</placeName>· ἔστι δὲ καὶ ἄλλη συνοικία πόλεων <placeName>Ἦλις</placeName> ἐν μεσογείᾳ. κατὰ ταύτην τὴν χώραν ἐστὶ <placeName>νῆσος</placeName>
+                            <placeName>Ζάκυνθος</placeName>, ἐν ᾗ καὶ πόλις καὶ λιμήν. παράπλους δὲ τῆς <placeName>Ἠλείων</placeName>
+                            <placeName>χώρας</placeName> ἄχρι ἐπὶ τοὺς <placeName>Λεπρεατῶν</placeName> &lt;ὅρους&gt; στάδια ψʹ.</l>
+                            <l n="44">{Ἀρκαδία.} μετὰ δὲ <placeName>Ἦλιν</placeName>
+                            <placeName>Ἀρκαδία</placeName> ἔθνος ἐστί. καθήκει δὲ ἡ <placeName>Ἀρκαδία</placeName> ἐπὶ <placeName>θάλατταν</placeName> κατὰ <placeName>Λέπρεον</placeName> ἐκ μεσογείας. εἰσὶ δὲ αὐτῶν πόλεις ἐν μεσογείᾳ <supplied reason="lost">αἱ μεγάλαι</supplied> αἵδε· &lt;ἡ <placeName>Μεγάλη</placeName>
+                            <placeName>Πόλις</placeName>&gt;, <placeName>Τεγέα</placeName>, <placeName>Μαντίνεια</placeName>, <placeName>Ἡραία</placeName>, <placeName>Ὀρχομενός</placeName>, <placeName>Στύμφαλος</placeName>. εἰσὶ δὲ καὶ ἄλλαι πόλεις. παράπλους δὲ τῆς <placeName>Λεπρεατῶν</placeName>
+                            <placeName>χώρας</placeName> στάδια ρʹ.</l>
+                            <l n="45">{Μεσσήνη.} μετὰ δ’ <placeName>Ἀρκαδίαν</placeName> ἐστὶν ἔθνος <placeName>Μεσσήνη</placeName>, καὶ πόλεις ἐν αὐτῇ αἵδε· <supplied reason="lost">πρώτη <placeName>Μεσσήνη</placeName> καὶ λιμὴν</supplied>
+                            <placeName>Κυπάρισσος</placeName> ἀπέχουσα ἀπὸ <placeName>θαλάττης</placeName> στάδια ζʹ, &lt;<placeName>Πρωτὴ</placeName>
+                            <placeName>νῆσος</placeName> καὶ λιμήν&gt;, <placeName>Ἰθώμη</placeName> ἐν μεσογείᾳ ἀπέχουσα ἀπὸ <placeName>θαλάττης</placeName> στάδια πʹ. παράπλους δὲ τῆς <placeName>Μεσσηνίας</placeName>
+                            <placeName>χώρας</placeName> στάδια τʹ.</l>
+                            <l n="46">1. {Λακεδαίμων.} &lt;μετὰ δὲ <placeName>Μεσσήνην</placeName>&gt; <placeName>Λακεδαίμων</placeName> ἔθνος, καὶ πόλεις ἐν αὐτῇ εἰσὶν αἵδε· <placeName>Ἀσίνη</placeName>, <placeName>Μοθώνη</placeName>, <placeName>Ἀχίλλειος</placeName> λιμὴν καὶ ἀντίπυγος τούτου <placeName>Ψαμαθοῦς</placeName> λιμήν. τούτων ἀμφοτέρων ἐν μέσῳ προέχον εἰς θάλασσαν <placeName>ἱερὸν</placeName>
+                            <placeName>Ποσειδῶνος</placeName>, Ταίναρος. καὶ <placeName>Λᾶς</placeName> πόλις καὶ λιμήν, <placeName>Γύθειον</placeName> ἐν ᾧ νεώριον καὶ <placeName>τεῖχος</placeName>, καὶ ποταμὸς <placeName>Εὐρώτας</placeName>, καὶ <placeName>Βοία</placeName> πόλις, καὶ <placeName>Μαλέα</placeName> ἄκρα. {Κύθηρα.} κατὰ ταύτην κεῖται <placeName>Κύθηρα</placeName>
+                            <placeName>νῆσος</placeName> καὶ πόλις καὶ λιμήν. κατὰ δὲ ταύτην ἐστὶ <placeName>Κρήτη</placeName>
+                            <placeName>νῆσος</placeName>.</l>
+                            <l n="2">μετὰ δὲ ταύτην τὴν προειρημένην ἄκραν <placeName>Μαλέαν</placeName>
+                            <placeName>Σίδη</placeName> πόλις καὶ λιμήν, <placeName>Ἐπίδαυρος</placeName> πόλις καὶ λιμήν, <placeName>Πρασία</placeName> πόλις καὶ λιμήν, <hi rend="italic">
+                                <placeName>Ἀνθάνα</placeName>
+                            </hi> πόλις καὶ λιμήν. εἰσὶ δὲ καὶ ἄλλαι πολλαὶ πόλεις <placeName>Λακεδαιμονίων</placeName>. ἐν μεσογείᾳ δ’ ἐστὶ <placeName>Σπάρτη</placeName> καὶ ἄλλαι πολλαί. παράπλους δὲ τῆς <placeName>Λακεδαιμονίων</placeName>
+                            <placeName>χώρας</placeName> ἡμερῶν τριῶν.</l>
+                            <l n="47">1. {Κρήτη.} κατὰ <placeName>Λακεδαίμονα</placeName>
+                            <placeName>νῆσος</placeName> κεῖται <placeName>Κρήτη</placeName>· ἐγγυτάτω γὰρ <placeName>Λακεδαίμων</placeName> κεῖται τῆς <placeName>Εὐρώπης</placeName>. διάπλους δὲ ἀπὸ <placeName>Λακεδαίμονος</placeName> ἕως ἐπὶ τὸ <placeName>ἀκρωτήριον</placeName> τῆς <placeName>Κρήτης</placeName> ἐφ’ ᾧ ἐστι πόλις <placeName>Φαλάσαρνα</placeName>, ἡμέρας δρόμος. ἀπὸ δὲ <placeName>Φαλασάρνων</placeName>
+                            <placeName>Κριοῦ</placeName>
+                            <placeName>Μέτωπόν</placeName> ἐστιν <placeName>ἀκρωτήριον</placeName>. πρὸς νότον δὲ ἄνεμον πλοῦς εἰς <placeName>Λιβύην</placeName>, ἐπὶ <placeName>Χερρονήσου</placeName> δὲ τὰς <hi rend="italic">
+                                <placeName>Ἀζιρίδας</placeName>
+                            </hi> τὰς <placeName>Κυρηναίων</placeName> πλοῦς ἡμέρας καὶ νυκτός.</l>
+                            <l n="2">ἔστι δὲ ἡ <placeName>Κρήτη</placeName> μακρὰ στάδια βφʹ, στενὴ δέ, καὶ τέταται ἀπὸ ἡλίου δυσμῶν πρὸς ἡλίου ἀνατολάς. οἰκοῦσι δὲ ἐν <placeName>Κρήτῃ</placeName>
+                            <placeName>Ἕλληνες</placeName>, οἱ μὲν ἄποικοι <placeName>Λακεδαιμονίων</placeName>, οἱ δὲ <placeName>Ἀργείων</placeName>, οἱ δὲ <placeName>Ἀθηναίων</placeName>, οἱ δὲ ἀπὸ τῆς <placeName>Ἑλλάδος</placeName> τῆς ἄλλης ὁπόθεν ἔτυχεν. εἰσὶ δέ τινες αὐτῶν καὶ αὐτόχθονες. πόλεις πολλαὶ ἐν <placeName>Κρήτῃ</placeName>.</l>
+                            <l n="3">{Κρήτης θέσις.} &lt;ἐπὶ Κωρύκ&gt;ῳ ἀκρωτηρίῳ ἐστὶ πρώτη πόλις πρὸς ἥλιον δυόμενον ἡ προειρημένη <placeName>Φαλασάρνα</placeName> καὶ λιμὴν κλειστός. <placeName>Πολυρρηνία</placeName>, καὶ διήκει ἀπὸ βορέου πρὸς νότον. Δικτυνναῖον <placeName>Ἀρτέμιδος</placeName>
+                            <placeName>ἱερὸν</placeName> πρὸς βορέαν ἄνεμον, τῆς <placeName>χώρας</placeName>
+                            <placeName>Περγαμίας</placeName>. πρὸς νότον δὲ <placeName>Ὑρτακίνα</placeName>. <placeName>Κυδωνία</placeName> καὶ λιμὴν κλειστὸς πρὸς βορέαν· ἐν μεσογείᾳ δὲ <placeName>Ἔλυρος</placeName> πόλις. πρὸς νότον δὲ <placeName>Λίσσα</placeName> πόλις καὶ λιμὴν παρὰ <placeName>Κριοῦ</placeName> μέτωπον. <supplied reason="lost">πρὸς βορέαν δὲ ἄνεμον ὄρος κάλλιστον καὶ λιμὴν ἐν αὐτῷ ὅλους καὶ πᾶν</supplied> πρὸς βορέαν δὲ ἄν&lt;εμον&gt; ἡ <placeName>Ἀπτεραία</placeName>
+                            <placeName>χώρα</placeName>. εἶτα ἡ <placeName>Λαμπαία</placeName>, καὶ διήκει αὕτη ἀμφοτέρωθεν, καὶ ποταμὸς <placeName>Μεσάπος</placeName> ἐν αὐτῇ ἐστι.</l>
+                            <l n="4">μετὰ δὲ ταύτην <hi rend="italic">ὄρος <placeName>Ἴδα</placeName>
+                        </hi> καὶ <placeName>Ἐλεύθερναι</placeName> πρὸς βορέαν. πρὸς νότον δὲ <placeName>Σύβριτα</placeName> καὶ λιμήν πρὸς νότον <placeName>Φαιστός</placeName>. πρὸς βορέαν <placeName>Ὀαξὸς</placeName> καὶ <placeName>Κνωσσός</placeName>. πρὸς δὲ νότον <placeName>Γόρτυνα</placeName>. <placeName>Ῥαῦκος</placeName> &lt;ἐν μεσογείᾳ&gt;. ἐν μεσογείᾳ δὲ <placeName>Λύκτος</placeName>, καὶ διήκει αὕτη ἀμφοτέρωθεν. &lt; πρὸς βορέαν δὲ ἄνεμον ὄρος <placeName>Κάδιστος</placeName> καὶ λιμὴν ἐν αὐτῷ <placeName>Ὀλοῦς</placeName> καὶ †πᾶν . . .&gt;. Πρασός· διήκει ἀμφοτέρωθεν. <hi rend="italic">Ἴτανος</hi>
+                        <placeName>ἀκρωτήριον</placeName>
+                        <placeName>Κρήτης</placeName> πρὸς ἥλιον ἀνίσχοντα. εἰσὶ δὲ καὶ ἄλλαι πόλεις ἐν <placeName>Κρήτῃ</placeName>· λέγεται δὲ εἶναι ἑκατόμπολις.</l>
+                        <l n="48">{Κυκλάδες νῆσοι.} <placeName>Κυκλάδες</placeName> δὲ αἵδε εἰσὶ κατὰ τὴν <placeName>Λακεδαιμονίαν</placeName> χώραν οἰκούμεναι· <placeName>Μῆλος</placeName> καὶ λιμήν, κατὰ δὲ ταύτην <placeName>Κίμωλος</placeName>, κατὰ δὲ ταύτην <hi rend="italic">
+                            <placeName>Φολέγανδρος</placeName>
+                        </hi>, κατὰ δὲ ταύτην <placeName>Σίκινος</placeName>
+                        <hi rend="italic">
+                            <placeName>νῆσος</placeName>
+                        </hi> καὶ πόλις. κατὰ δὲ ταύτην <placeName>Θήρα</placeName>, κατὰ δὲ ταύτην <placeName>Ἀνάφη</placeName>, κατὰ δὲ ταύτην <placeName>Ἀστυπάλαια</placeName>. ἐπάνειμι δὲ πάλιν ἐπὶ τὴν ἤπειρον, ὅθεν ἐξετραπόμην.</l>
+                        <l n="49">{Ἄργος.} μετὰ δὲ <placeName>Λακεδαίμονα</placeName> πόλις ἐστὶν <placeName>Ἄργος</placeName>, καὶ ἐν αὐτῇ <placeName>Ναυπλία</placeName> πόλις καὶ λιμήν· ἐν μεσογείᾳ δὲ <placeName>Κλεωναὶ</placeName> καὶ <placeName>Μυκῆναι</placeName> καὶ <placeName>Τίρυνς</placeName>. παράπλους τῆς <placeName>Ἀργείας</placeName>
+                        <placeName>χώρας</placeName> κύκλῳ, ἔστι γὰρ <placeName>κόλπος</placeName> ὁ <placeName>Ἀργολικὸς</placeName> καλούμενος, στάδια ρνʹ.</l>
+                        <l n="50">1. {Ἐπίδαυρος.} μετὰ δ’ <placeName>Ἄργος</placeName> ἡ Ἐπιδαυρία <placeName>χώρα</placeName>· καθήκει γὰρ εἰς τὸν <placeName>κόλπον</placeName> τοῦτον στάδια λʹ.</l>
+                        <l n="2">μετὰ δὲ τὴν <placeName>Ἐπιδαυρίαν</placeName> χώραν <placeName>Ἁλία</placeName> καὶ λιμήν. αὕτη ἐστὶ ἐπὶ τῷ στόματι τοῦ <placeName>Ἀργολικοῦ</placeName>
+                        <placeName>κόλπου</placeName>. περίπλους ταύτης ἐστὶ σταδίων ρʹ.</l>
+                        <l n="51">1. {Ἑρμίων.} μετὰ δὲ ταύτην <placeName>Ἑρμιὼν</placeName> πόλις ἐστὶ καὶ λιμήν. ταύτης δὲ περίπλους σταδίων πʹ.</l>
+                        <l n="2">μετὰ δὲ <placeName>Ἑρμιόνα</placeName>
+                        <placeName>Σκύλλαιόν</placeName> ἐστιν <placeName>ἀκρωτήριον</placeName> τοῦ <placeName>κόλπου</placeName> τοῦ πρὸς <placeName>Ἰσθμόν</placeName>· ἔστι δὲ τὸ <placeName>Σκύλλαιον</placeName> τῆς <placeName>Τροιζηνίας</placeName>. καταντικρὺ δὲ αὐτοῦ ἐστι <placeName>Σούνιον</placeName>
+                        <placeName>ἀκρωτήριον</placeName> τῆς <placeName>Ἀθηναίων</placeName>
+                        <placeName>χώρας</placeName>. κατὰ δὲ τοῦτό ἐστι <placeName>νῆσος</placeName>
+                        <placeName>Βέλβινα</placeName> καὶ πόλις.</l>
+                        <l n="3">τούτου τοῦ <placeName>κόλπου</placeName> ἀπὸ τούτου τοῦ στόματος εἴσω εἰς τὸν <placeName>Ἰσθμὸν</placeName> στάδιά ἐστι ψμʹ. ἔστι δὲ ὁ <placeName>κόλπος</placeName> οὗτος αὐτὸς κατὰ στόμα εὐθύτατος.</l>
+                        <l n="52">1. {Τροιζηνία.} μετὰ δὲ <placeName>Ἑρμιόνα</placeName>
+                        <placeName>Τροιζὴν</placeName> πόλις καὶ λιμήν. παράπλους δ’ ἐστὶν αὐτῆς στάδια λʹ.</l>
+                        <l n="2">μετὰ δὲ ταῦτα νῆσός ἐστι <placeName>Καλαυρία</placeName> καὶ πόλις καὶ λιμήν. παράπλους δ’ ἐστὶν αὐτῆς στάδια <hi rend="italic">τʹ</hi>.</l>
+                        <l n="53">{Αἴγινα.} κατὰ δὲ ταύτην νῆσός ἐστι καὶ πόλις <placeName>Αἴγινα</placeName> καὶ λιμένες δύο. ἐπάνειμι δὲ πάλιν ἐπὶ τὴν ἤπειρον, ὅθεν ἐξετραπόμην.</l>
+                        <l n="54">{Ἐπίδαυρος.} μετὰ δὲ <placeName>Τροιζηνίαν</placeName> πόλις <placeName>Ἐπίδαυρος</placeName> καὶ λιμήν. παράπλους δὲ τῆς <placeName>Ἐπιδαυρίας</placeName>
+                        <placeName>χώρας</placeName> στάδια &lt;ρ&gt;λʹ.</l>
+                        <l n="55">{<supplied reason="lost">Κεγχρέια</supplied>. &lt;Κορινθία&gt;.} μετὰ δὲ <placeName>Ἐπίδαυρον</placeName> ἡ <placeName>Κορινθίων</placeName>
+                        <placeName>χώρα</placeName> ἐστὶν &lt;ἡ&gt; πρὸς ἠῶ, καὶ <placeName>τεῖχος</placeName>
+                        <placeName>Κεγχρειαὶ</placeName> καὶ <placeName>Ἰσθμός</placeName>, οὗ <placeName>ἱερὸν</placeName>
+                        <placeName>Ποσειδῶνος</placeName>.</l>
+                        <p>        ἐνταῦθα ἡ <placeName>Πελοπόννησος</placeName> λήγει.        ἔστι δὲ καὶ ἔξω τοῦ <placeName>Ἰσθμοῦ</placeName>
+                        <placeName>χώρα</placeName>
+                        <placeName>Κορινθίοις</placeName>, καὶ <placeName>τεῖχος</placeName>
+                        <placeName>Σιδοῦς</placeName> καὶ ἕτερον <placeName>τεῖχος</placeName>
+                        <placeName>Κρεμμυών</placeName>. παράπλους δὲ τῆς <placeName>Κορινθίων</placeName>
+                        <placeName>χώρας</placeName> μέχρι τῶν ὁρίων τῶν <placeName>Μεγαρέων</placeName> στάδια τʹ.    </p>
+                        <l n="56">{Μέγαρα.} ἀπὸ δὲ τῆς <placeName>Κορινθίων</placeName>
+                        <placeName>χώρας</placeName>
+                        <placeName>Μέγαρα</placeName> πόλις ἐστὶ καὶ λιμὴν καὶ Νίσαια <placeName>τεῖχος</placeName>. παράπλους δὲ τῆς <placeName>Μεγαρέων</placeName>
+                        <placeName>χώρας</placeName> μέχρι <placeName>Ἰαπίδος</placeName>, ἔστι γὰρ οὗτος ὅρος τῆς <placeName>Ἀθηναίων</placeName>
+                        <placeName>χώρας</placeName>, στάδια ρμʹ.</l>
+                        <l n="57">1. {Ἀττική.} μετὰ δὲ <placeName>Μεγαρεῖς</placeName> εἰσὶν <placeName>Ἀθηναίων</placeName> πόλεις. καὶ πρῶτον τῆς <placeName>Ἀττικῆς</placeName>
+                        <placeName>Ἐλευσίς</placeName>, οὗ <placeName>ἱερὸν</placeName>
+                        <placeName>Δήμητρός</placeName> ἐστι καὶ <placeName>τεῖχος</placeName> {<supplied reason="lost">καὶ</supplied>
+                        <placeName>νῆσος</placeName>
+                        <placeName>Σαλαμίς</placeName>}. κατὰ τοῦτό ἐστι <placeName>Σαλαμὶς</placeName>
+                        <placeName>νῆσος</placeName> καὶ πόλις καὶ λιμήν. ἔπειτα ὁ <placeName>Πειραιεὺς</placeName> καὶ τὰ σκέλη καὶ <placeName>Ἀθῆναι</placeName>. ὁ δὲ <placeName>Πειραιεὺς</placeName> λιμένας ἔχει γʹ.</l>
+                        <l n="2">
+                            <placeName>Ἀνάφλυστος</placeName>
+                            <placeName>τεῖχος</placeName> καὶ λιμήν. <placeName>Σούνιον</placeName>
+                            <placeName>ἀκρωτήριον</placeName> καὶ <placeName>τεῖχος</placeName>, <placeName>ἱερὸν</placeName>
+                            <placeName>Ποσειδῶνος</placeName>. <placeName>Θορικὸς</placeName>
+                            <placeName>τεῖχος</placeName> καὶ λιμένες δύο. Ῥαμνοῦς <placeName>τεῖχος</placeName>. εἰσὶ δὲ καὶ ἄλλοι λιμένες ἐν τῇ <placeName>Ἀττικῇ</placeName> πολλοί. περίπλους τῆς <placeName>Ἀθηναίων</placeName>
+                            <placeName>χώρας</placeName> στάδια ͵αρμʹ. ἀπὸ <placeName>Ἰαπίδος</placeName>
+                            <placeName>χώρας</placeName> ἐπὶ <placeName>Σούνιον</placeName> στάδια υϙʹ. ἀπὸ <placeName>Σουνίου</placeName> μέχρι τῶν ὅρων τῶν <placeName>Βοιωτῶν</placeName> στάδια χνʹ.</l>
+                            <l n="58">1. κατὰ δὲ τὴν <placeName>Ἀττικήν</placeName> εἰσι νῆσοι αἱ <placeName>Κυκλάδες</placeName> καλούμεναι, καὶ πόλεις αἵδε ἐν ταῖς νήσοις· {Νῆσοι <placeName>Κυκλάδες</placeName>} <placeName>Κέως</placeName>· αὕτη τετράπολις, &lt;<placeName>Ποιήεσσα</placeName> πόλις&gt; καὶ λιμήν, <placeName>Κορησσία</placeName>, <placeName>Ἰουλίς</placeName>, <placeName>Καρθαία</placeName>. <placeName>Ἑλένη</placeName>. <placeName>Κύθνος</placeName>
+                            <placeName>νῆσος</placeName> καὶ πόλις. <placeName>Σέριφος</placeName>
+                            <placeName>νῆσος</placeName> καὶ πόλις καὶ λιμήν. <placeName>Σίφνος</placeName>. <placeName>Πάρος</placeName> λιμένας ἔχουσα β΄, ὧν τὸν ἕνα κλειστόν. <placeName>Νάξος</placeName>. <placeName>Δῆλος</placeName>. <placeName>Ῥήνη</placeName>. <placeName>Σῦρος</placeName>. <placeName>Μύκονος</placeName>· αὕτη δίπολις. <placeName>Τῆνος</placeName> καὶ λιμήν. <placeName>Ἄνδρος</placeName> καὶ λιμήν. αὗται μὲν αἱ <placeName>Κυκλάδες</placeName> νῆσοι.</l>
+                            <l n="2">ὑπὸ δὲ ταύταις ἕτεραι νῆσοι αἵδε πρὸς νότον· <placeName>Ἴος</placeName> καὶ λιμήν· ἐν ταύτῃ <placeName>Ὅμηρος</placeName> τέθαπται. <placeName>Ἀμοργὸς</placeName>, αὕτη τρίπολις, καὶ λιμήν. <placeName>Ἴκαρος</placeName>, δίπολις.</l>
+                            <l n="3">μετὰ δὲ <placeName>Ἄνδρον</placeName>
+                            <placeName>Εὔβοια</placeName>
+                            <placeName>νῆσος</placeName>· αὕτη τετράπολις. εἰσὶ δὲ ἐν αὐτῇ <placeName>Κάρυστος</placeName>, <placeName>Ἐρέτρια</placeName> καὶ λιμήν, <placeName>Χαλκὶς</placeName> καὶ λιμήν, <placeName>Ἑστίαια</placeName> καὶ λιμήν. ἡ δὲ <placeName>Εὔβοια</placeName> ἀπὸ <placeName>Κηναίου</placeName>
+                            <placeName>Διὸς</placeName> ἱεροῦ ἐπὶ <placeName>Γεραιστόν</placeName>, <placeName>Ποσειδῶνος</placeName>
+                            <placeName>ἱερόν</placeName>, ἔχει στάδια ͵ατνʹ· τὸ δὲ πλάτος στενή ἐστιν ἡ <placeName>Εὔβοια</placeName>.</l>
+                            <l n="4">ἐν δὲ τῷ <placeName>Αἰγαίῳ</placeName> πελάγει εἰσὶ νῆσοι αἵδε· κατ’ <placeName>Ἐρέτριαν</placeName>
+                            <placeName>Σκῦρος</placeName> καὶ πόλις· <placeName>Ἴκος</placeName>, αὕτη δίπολις· <placeName>Πεπάρηθος</placeName>, αὕτη τρίπολις, καὶ λιμήν· <placeName>Σκίαθος</placeName>, αὕτη δίπολις, καὶ λιμήν. μετὰ ταῦτα ἐπάνειμι πάλιν ἐπὶ τὴν ἤπειρον, ὅθεν ἐξετραπόμην.</l>
+                            <l n="59">{Βοιωτοί.} μετὰ δὲ <placeName>Ἀθήνας</placeName> εἰσὶ <placeName>Βοιωτοὶ</placeName> ἔθνος· καθήκουσι γὰρ <hi rend="italic">οὗτοι καὶ</hi> ἐπὶ ταύτην τὴν θάλασσαν. καὶ ἔστιν ἐν αὐτῇ πρῶτον <placeName>ἱερὸν</placeName> Δήλιον, Αὐλὶς <placeName>ἱερόν</placeName>, <placeName>Εὔριπος</placeName>, <placeName>τεῖχος</placeName>, <placeName>Ἀνθηδὼν</placeName>
+                            <placeName>τεῖχος</placeName>, <placeName>Θῆβαι</placeName>, <placeName>Θεσπιαί</placeName>, <placeName>Ὀρχομενὸς</placeName> ἐν μεσογείᾳ. εἰσὶ δὲ καὶ ἄλλαι πόλεις. παράπλους δὲ τῆς <placeName>Βοιωτίας</placeName>
+                            <placeName>χώρας</placeName> ἀπὸ <placeName>Δηλίου</placeName> μέχρι τῶν <placeName>Λοκρῶν</placeName> ὁρίων στάδια σνʹ.</l>
+                            <l n="60">{Λοκροί.} μετὰ δὲ <placeName>Βοιωτούς</placeName> εἰσι <placeName>Λοκροὶ</placeName> ἔθνος. καί εἰσι κατ’ <placeName>Εὔβοιαν</placeName> αὐτοῖς πόλεις αἵδε· <placeName>Λάρυμνα</placeName>, <placeName>Κῦνος</placeName>, <placeName>Ὀποῦς</placeName>, <placeName>Ἀλόπη</placeName>· εἰσὶ δὲ καὶ ἄλλαι πολλαὶ <placeName>Λοκροῖς</placeName>. παράπλους δὲ τῆς <placeName>χώρας</placeName> αὐτῶν στάδια σʹ.</l>
+                            <l n="61">{Φωκεῖς.} μετὰ δὲ <placeName>Λοκρούς</placeName> εἰσι <placeName>Φωκεῖς</placeName>· διήκουσι γὰρ καὶ οὗτοι εἰς τὴν θάλασσαν ταύτην. καὶ πόλεις αὐτοῖς εἰσὶν αἵδε· <hi rend="italic">
+                                <placeName>Θρόνιον</placeName>
+                            </hi>, <placeName>Κνημίς</placeName>, <placeName>Ἐλάτεια</placeName>, <placeName>Πανοπεύς</placeName>. εἰσὶ δὲ καὶ ἄλλαι πόλεις αὐτοῖς ἐν μεσογείᾳ. παράπλους δ’ ἐστὶ τῆς <placeName>Φωκέων</placeName>
+                            <placeName>χώρας</placeName> στάδια σʹ.</l>
+                            <l n="62">1. {Μηλιεῖς.} μετὰ δὲ <placeName>Φωκεῖς</placeName> εἰσὶ <hi rend="italic">
+                                <placeName>Μηλιεῖς</placeName>
+                            </hi> καὶ ὁ <placeName>κόλπος</placeName> ὁ <placeName>Μηλιεύς</placeName>. ἐν τούτῳ τῷ <placeName>κόλπῳ</placeName> εἰσὶν οἱ <placeName>Λιμοδωριεῖς</placeName> καλούμενοι οἵδε· <placeName>Ἐρινεός</placeName>, <placeName>Βοῖον</placeName>, <placeName>Κυτίνιον</placeName>. ἐνταῦθα <placeName>Θερμοπύλαι</placeName>, <placeName>Τραχίς</placeName>, <placeName>Οἴτη</placeName>, <placeName>Ἡράκλεια</placeName>, <placeName>Σπερχειὸς</placeName> ποταμός.</l>
+                            <l n="2">{Μαλιεῖς.} μετὰ δὲ <placeName>Μηλιεῖς</placeName> &lt;<placeName>Μαλιεῖς</placeName>&gt; ἔθνος. ἔστι δὲ <placeName>Μαλιεῦσιν</placeName> ἡ πρώτη πόλις <placeName>Λαμία</placeName>, ἐσχάτη δὲ <placeName>Ἐχῖνος</placeName>· εἰσὶ δὲ καὶ ἄλλαι πόλεις <placeName>Μαλιεῦσι</placeName>, μέχρι οὗ ὁ <placeName>κόλπος</placeName> ἐπιθίγῃ. καὶ τῇ <placeName>Μαλιέων</placeName> χώρᾳ ἐποικοῦσιν ἄνωθεν ἀπὸ μεσογείας <placeName>Αἰνιᾶνες</placeName>, καὶ δι’ αὐτῶν ῥεῖ ὁ <placeName>Σπερχειὸς</placeName> ποταμός.</l>
+                            <l n="63">ἔξω δὲ τοῦ <placeName>Μαλιαίου</placeName>
+                            <placeName>κόλπου</placeName> {Ἀχαιοὶ} εἰσὶ&lt;ν&gt; <supplied reason="lost">δὲ</supplied>
+                            <placeName>Ἀχαιοὶ</placeName>
+                            <placeName>Φθιῶται</placeName> ἔθνος· εἰσὶ δὲ καὶ ἐν τῷ <placeName>Παγασητικῷ</placeName>
+                            <placeName>κόλπῳ</placeName> ἐπ’ ἀριστερᾷ εἰσπλέοντι, ὡς ἐπὶ τὸ ἥμισυ τοῦ <placeName>κόλπου</placeName>. <placeName>Ἀχαιῶν</placeName> πόλεις αἵδε· <placeName>Ἀντρῶνες</placeName>, <placeName>Λάρισσα</placeName>, <placeName>Μελιταία</placeName>, <placeName>Δημήτριον</placeName>, <placeName>Θῆβαι</placeName>· εἰσὶ δὲ καὶ ἄλλαι πόλεις <placeName>Ἀχαιοῖς</placeName> ἐν μεσογείᾳ.</l>
+                            <l n="64">1. {Θετταλία.} μετὰ δὲ <placeName>Ἀχαιοὺς</placeName>
+                            <placeName>Θετταλία</placeName> καθήκει ἐπὶ <placeName>θάλατταν</placeName> ἐκ μεσογείας κατὰ στενὸν εἰς τὸν <placeName>Παγασητικὸν</placeName>
+                            <placeName>κόλπον</placeName> στάδιοι λʹ. καί εἰσι <placeName>Θετταλίας</placeName> πόλεις αἵδε ἐπὶ θαλάττῃ· <placeName>Ἀμφῆναι</placeName>, <placeName>Παγασαί</placeName>· ἐν δὲ μεσογείᾳ <placeName>Φεραί</placeName>, <placeName>Λάρισσα</placeName>, <placeName>Φάρσαλος</placeName>, <placeName>Κιέριον</placeName>, <placeName>Πελινναῖον</placeName>, <placeName>Σκοτοῦσα</placeName>, <placeName>Κραννών</placeName>. εἰσὶ δὲ καὶ ἄλλαι πόλεις <placeName>Θετταλῶν</placeName> ἐν μεσογείᾳ. ἡ δὲ <placeName>Θετταλία</placeName> παρήκει ἐν μεσογείᾳ ὑπὲρ <placeName>Αἰνιάνων</placeName> καὶ <placeName>Δολόπων</placeName> καὶ <placeName>Μαλιέων</placeName> καὶ <placeName>Ἀχαιῶν</placeName> καὶ <placeName>Μαγνήτων</placeName> μέχρι <placeName>Τεμπῶν</placeName>.</l>
+                            <l n="2">τοῦ δὲ <placeName>Παγασητικοῦ</placeName>
+                            <placeName>κόλπου</placeName> μῆκός ἐστιν ἀπὸ στόματος εἰς τὸν μυχὸν <placeName>Παγασῶν</placeName> πλοῦς προαριστίδιος. τὸ δὲ στόμα αὐτοῦ ἐστι στάδια εʹ. ἐν δὲ τῷ <placeName>Παγασητικῷ</placeName>
+                            <placeName>κόλπῳ</placeName> ἐστὶ <placeName>νῆσος</placeName>
+                            <placeName>Κικύνηθος</placeName> καὶ πόλις.</l>
+                            <l n="65">1. {Μάγνητες.} &lt;μετὰ δὲ <placeName>Θετταλίαν</placeName>&gt; ἔθνος ἐστὶ <placeName>Μάγνητες</placeName> παρὰ <placeName>θάλατταν</placeName>, καὶ πόλεις αἵδε· <placeName>Ἰωλκός</placeName>, <placeName>Μεθώνη</placeName>, <placeName>Κορακαί</placeName>, <placeName>Σπάλαυθρα</placeName>, <placeName>Ὀλιζών</placeName>, Τίσαι λιμήν. ἔξω δὲ τοῦ <placeName>κόλπου</placeName>
+                            <placeName>Παγασητικοῦ</placeName>
+                            <placeName>Μελίβοια</placeName>, <placeName>Ῥιζοῦς</placeName>, <placeName>Εὐρυμεναί</placeName>, <placeName>Ἄμυρος</placeName>. ἐν μεσογείᾳ δὲ ἐποικοῦσιν ἔθνος <placeName>Περραιβοί</placeName>, <placeName>Ἕλληνες</placeName>.</l>
+                            <l n="2">μέχρι ἐνταῦθά ἐστιν ἀπὸ <placeName>Ἀμβρακίας</placeName> συνεχὴς ἡ <placeName>Ἑλλάς</placeName>· ἐπιεικῶς δὲ καὶ &lt;τὰ&gt; ἐπιθαλάσσια &lt;ἐν&gt; <placeName>Ἑλλάδι</placeName> ὁμοίως ἐστίν.</l>
+                            <l n="66">1. {Μακεδονία.} ἀπὸ δὲ <placeName>Πηνειοῦ</placeName> ποταμοῦ <placeName>Μακεδόνες</placeName> εἰσὶν ἔθνος, καὶ <placeName>κόλπος</placeName>
+                            <placeName>Θερμαῖος</placeName>.</l>
+                            <l n="2">πρώτη πόλις <placeName>Μακεδονίας</placeName>
+                            <placeName>Ἡράκλειον</placeName>· <placeName>Δῖον</placeName>, <placeName>Πύδνα</placeName> πόλις <placeName>Ἑλληνίς</placeName>, <placeName>Μεθώνη</placeName> πόλις <placeName>Ἑλληνὶς</placeName> καὶ <placeName>Ἁλιάκμων</placeName> ποταμός, <placeName>Ἀλωρὸς</placeName> πόλις καὶ ποταμὸς <placeName>Λουδίας</placeName>, <placeName>Πέλλα</placeName> πόλις καὶ βασίλειον ἐν αὐτῇ καὶ ἀνάπλους εἰς αὐτὴν ἀνὰ τὸν <placeName>Λουδίαν</placeName>· <placeName>Ἀξιὸς</placeName> ποταμός, <placeName>Ἐχέδωρος</placeName> ποταμός, <placeName>Θέρμη</placeName> πόλις, <placeName>Αἴνεια</placeName>
+                            <placeName>Ἑλληνίς</placeName>.</l>
+                            <l n="3">
+                                <placeName>Παλλήνη</placeName> ἄκρα μακρὰ εἰς τὸ πέλαγος ἀνατείνουσα, καὶ πόλεις αἵδε ἐν τῇ <placeName>Παλλήνῃ</placeName>
+                                <placeName>Ἑλληνίδες</placeName>· <placeName>Ποτίδαια</placeName> ἐν τῷ μέσῳ τὸν ἰσθμὸν ἐμφράττουσα, <placeName>Μένδη</placeName>, <placeName>Ἄφυτις</placeName>, Θραμβηῒς, <placeName>Σκιώνη</placeName>, <placeName>Κανάστραιον</placeName> τῆς <placeName>Παλλήνης</placeName>
+                                <placeName>ἱερὸν</placeName>
+                                <placeName>ἀκρωτήριον</placeName>.</l>
+                                <l n="4">ἔξω δὲ τοῦ ἰσθμοῦ πόλεις αἵδε· <placeName>Ὄλυνθος</placeName>
+                                <placeName>Ἑλληνίς</placeName>, <placeName>Μηκύβερνα</placeName>
+                                <placeName>Ἑλληνίς</placeName>. <placeName>Σερμυλία</placeName>
+                                <placeName>Ἑλληνὶς</placeName> καὶ <placeName>κόλπος</placeName>
+                                <placeName>Σερμυλικός</placeName>, <placeName>Τορώνη</placeName> πόλις <placeName>Ἑλληνὶς</placeName> καὶ λιμήν. <placeName>Δῖον</placeName>
+                                <placeName>Ἑλληνίς</placeName>, <placeName>Θυσσὸς</placeName>
+                                <placeName>Ἑλληνίς</placeName>, <placeName>Κλεωναὶ</placeName>
+                                <placeName>Ἑλληνίς</placeName>, <placeName>Ἄθως</placeName> ὄρος, <placeName>Ἀκρόθωοι</placeName>
+                                <placeName>Ἑλληνίς</placeName>, <placeName>Χαραδροῦς</placeName>
+                                <placeName>Ἑλληνίς</placeName>, <placeName>Ὀλόφυξος</placeName>
+                                <placeName>Ἑλληνίς</placeName>, <placeName>Ἄκανθος</placeName>
+                                <placeName>Ἑλληνίς</placeName>, <placeName>Ἄλαπτα</placeName>
+                                <placeName>Ἑλληνίς</placeName>. <placeName>Ἀρέθουσα</placeName>
+                                <placeName>Ἑλληνίς</placeName>, <placeName>Βολβὴ</placeName> λίμνη, <placeName>Ἀπολλωνία</placeName>
+                                <placeName>Ἑλληνίς</placeName>.</l>
+                                <l n="5">εἰσὶ δὲ καὶ ἄλλαι <placeName>Μακεδονίας</placeName> ἐν μεσογείᾳ πολλαί. ἔστι δὲ κολπώδης. παράπλους δὲ περὶ τοὺς κόλπους δύο ἡμερῶν. μετὰ δὲ Μακεδονίαν Στρυμὼν ποταμός· οὗτος ὁρίζει Μακεδονίαν καὶ <placeName>Θρᾴκην</placeName>.</l>
+                                <l n="67">1. {Θρᾴκη.} διήκει δὲ ἡ <placeName>Θρᾴκη</placeName> ἀπὸ <placeName>Στρυμόνος</placeName> ποταμοῦ μέχρι <placeName>Ἴστρου</placeName> ποταμοῦ τοῦ ἐν τῷ <placeName>Εὐξείνῳ</placeName>
+                                <placeName>Πόντῳ</placeName>. εἰσὶ δὲ ἐν <placeName>Θρᾴκῃ</placeName> πόλεις <placeName>Ἑλληνίδες</placeName> αἵδε· <placeName>Ἀμφίπολις</placeName>, <placeName>Φάγρης</placeName>, <placeName>Γαληψός</placeName>, <placeName>Οἰσύμη</placeName> καὶ ἄλλα ἐμπόρια <placeName>Θασίων</placeName>. κατὰ ταῦτά ἐστι <placeName>Θάσος</placeName>
+                                <placeName>νῆσος</placeName> καὶ πόλις καὶ λιμένες δύο· τούτων ὁ εἷς κλειστός.</l>
+                                <l n="2">ἐπάνειμι δὲ πάλιν ὅθεν ἐξετραπόμην. <placeName>Νεάπολις</placeName> κατὰ ταύτην. <placeName>Δάτον</placeName> πόλις <placeName>Ἑλληνίς</placeName>, ἣν ᾤκισε <placeName>Καλλίστρατος</placeName>
+                                <placeName>Ἀθηναῖος</placeName>, καὶ ποταμὸς <placeName>Νέστος</placeName>, <placeName>Ἄβδηρα</placeName> πόλις, <placeName>Κούδητος</placeName> ποταμὸς καὶ πόλεις <placeName>Δίκαια</placeName> καὶ <placeName>Μαρώνεια</placeName>.</l>
+                                <l n="3">κατὰ ταῦτα <placeName>Σαμοθρᾴκη</placeName> &lt;<placeName>νῆσος</placeName>&gt; καὶ λιμήν. κατὰ ταύτην ἐν τῇ ἠπείρῳ ἐμπόρια <placeName>Δρῦς</placeName>, <placeName>Ζώνη</placeName>, <placeName>Δουρίσκος</placeName>. ποταμὸς <placeName>Ἕβρος</placeName> καὶ ἐπ’ αὐτῷ <placeName>τεῖχος</placeName>
+                                <placeName>Αἶνος</placeName>, πόλις καὶ λιμήν. τείχη <placeName>Αἰνίων</placeName> ἐν τῇ <placeName>Θρᾴκῃ</placeName>, <placeName>Μέλας</placeName>
+                                <placeName>κόλπος</placeName>, <placeName>Μέλας</placeName> ποταμός, <placeName>Δερὶς</placeName> ἐμπόριον, <placeName>Κῶβρυς</placeName> ἐμπόριον <placeName>Καρδιανῶν</placeName> καὶ ἄλλο <placeName>Κύπασις</placeName>.</l>
+                                <l n="4">{Ἴμβρος καὶ Λῆμνος.} κατὰ τὸν <placeName>Μέλανα</placeName>
+                                <placeName>κόλπον</placeName>
+                                <placeName>Ἴμβρος</placeName> ἐστὶ <placeName>νῆσος</placeName> καὶ πόλις, καὶ <placeName>Λῆμνος</placeName>
+                                <placeName>νῆσος</placeName> καὶ λιμήν.</l>
+                                <l n="5">ἐπάνειμι πάλιν ἐπὶ τὴν ἤπειρον, ὅθεν ἐξετραπόμην. {Χερρόνησος.} μετὰ δὲ τὸν <placeName>Μέλανα</placeName>
+                                <placeName>κόλπον</placeName> ἐστὶν ἡ <placeName>Θρᾳκία</placeName>
+                                <placeName>Χερρόνησος</placeName>. καὶ πόλεις ἐν αὐτῇ αἵδε· <placeName>Καρδία</placeName>, <placeName>Ἴδη</placeName>, <placeName>Παιών</placeName>, <placeName>Ἀλωπεκόννησος</placeName>, <placeName>Ἄραπλος</placeName>, <placeName>Ἐλαιοῦς</placeName>, <placeName>Μάδυτος</placeName>, <placeName>Σηστὸς</placeName> ἐπὶ τοῦ στόματος τῆς <placeName>Προποντίδος</placeName>, &lt;ὅ&gt; ἐστι σταδία ϛʹ. ἐντὸς δὲ <placeName>Αἰγὸς</placeName>
+                                <placeName>Ποταμοῦ</placeName>
+                                <placeName>Κρῆσσα</placeName>, <placeName>Κριθώτη</placeName>, <placeName>Πακτύη</placeName>.</l>
+                                <l n="6">μέχρις ἐνταῦθα ἡ <placeName>Θρᾳκία</placeName>
+                                <placeName>Χερρόνησος</placeName>. ἐκ <placeName>Πακτύης</placeName> δὲ εἰς <placeName>Καρδίαν</placeName> διὰ τοῦ αὐχένος πεζῇ στάδια μʹ, ἐκ <placeName>θαλάττης</placeName> εἰς <placeName>θάλατταν</placeName>· καὶ πόλις ἐν τῷ μέσῳ ᾗ ὄνομα <placeName>Ἀγορά</placeName>. <placeName>Χερρονήσου</placeName> μῆκος ἐκ <placeName>Καρδίας</placeName> εἰς <placeName>Ἐλαιοῦντα</placeName>, ταύτῃ γάρ ἐστι μακροτάτη, στάδια υʹ.</l>
+                                <l n="7">μετὰ δὲ τὴν <placeName>Χερρόνησόν</placeName> ἐστι <placeName>Θρᾴκια</placeName> τείχη τάδε· πρῶτον <placeName>Λευκὴ</placeName> ἀκτή, <placeName>Τειρίστασις</placeName>, <placeName>Ἡράκλεια</placeName>, <placeName>Γάνος</placeName>, <placeName>Γανίαι</placeName>, <placeName>Νέον</placeName>
+                                <placeName>Τεῖχος</placeName>, <placeName>Πέρινθος</placeName> πόλις καὶ λιμήν, <placeName>Δαμινὸν</placeName>
+                                <placeName>τεῖχος</placeName>, <placeName>Σηλυμβρία</placeName> πόλις καὶ λιμήν. ἀπὸ τούτου ἐπὶ τοῦ στόματος τοῦ <placeName>Πόντου</placeName> εἰσὶ στάδιοι φʹ.</l>
+                                <l n="8">{Ἀνάπλους.} καλεῖται δὲ <placeName>Ἀνάπλους</placeName> ὁ τόπος ἀνὰ <placeName>Βόσπορον</placeName> μέχρι ἂν ἔλθῃς ἐφ’ <placeName>Ἱερόν</placeName>. ἀφ’ <placeName>Ἱεροῦ</placeName> δὲ τὸ στόμα ἐστὶ τοῦ <placeName>Πόντου</placeName>, εὖρος στάδια ζʹ.</l>
+                                <l n="9">εἰσὶ δὲ ἐν τῷ <placeName>Πόντῳ</placeName> πόλεις <placeName>Ἑλληνίδες</placeName> αἵδε ἐν <placeName>Θρᾴκῃ</placeName>· <placeName>Ἀπολλωνία</placeName>, <placeName>Μεσημβρία</placeName>, <placeName>Ὀδησὸς</placeName> πόλις, <placeName>Κάλλατις</placeName>, &lt;<placeName>Ἴστρος</placeName>&gt; καὶ ποταμὸς <placeName>Ἴστρος</placeName>.</l>
+                                <l n="10">παράπλους δὲ τῆς <placeName>Θρᾴκης</placeName> ἀπὸ <placeName>Στρυμόνος</placeName> ποταμοῦ μέχρι <placeName>Σηστοῦ</placeName> δύο ἡμερῶν καὶ νυκτῶν δύο· ἀπὸ δὲ <placeName>Σηστοῦ</placeName> μέχρι στόματος τοῦ <placeName>Πόντου</placeName> δύο ἡμερῶν καὶ νυκτῶν δύο· ἀπὸ δὲ τοῦ στόματος μέχρι τοῦ <placeName>Ἴστρου</placeName> ποταμοῦ ἡμερῶν τριῶν καὶ νυκτῶν τριῶν. ὁ σύμπας περίπλους ἀπὸ <placeName>Θρᾴκης</placeName> καὶ ποταμοῦ <placeName>Στρυμόνος</placeName> μέχρι <placeName>Ἴστρου</placeName> ποταμοῦ ὀκτὼ ἡμερῶν καὶ ὀκτὼ νυκτῶν.</l>
+                                <l n="68">1. {Σκυθία, Ταῦροι.} μετὰ δὲ <placeName>Θρᾴκην</placeName> εἰσὶ <placeName>Σκύθαι</placeName> ἔθνος καὶ πόλεις ἐν αὐτοῖς <placeName>Ἑλληνίδες</placeName> αἵδε· <placeName>Τύρας</placeName> ποταμός, <placeName>Νικώνιον</placeName> πόλις, <placeName>Ὀφιοῦσα</placeName> πόλις.</l>
+                                <l n="2">ἐπὶ δὲ τῇ <placeName>Σκυθικῇ</placeName> ἐποικοῦσι <placeName>Ταῦροι</placeName> ἔθνος <placeName>ἀκρωτήριον</placeName> τῆς ἠπείρου· εἰς <placeName>θάλατταν</placeName> δὲ τὸ ἀκρωτήριόν ἐστιν. ἐν δὲ τῇ <placeName>Ταυρικῇ</placeName> οἰκοῦσιν <placeName>Ἕλληνες</placeName>, &lt;καὶ πόλεις ἐν αὐτοῖς&gt; αἵδε· <placeName>Χερρόνησος</placeName> ἐμπόριον. <placeName>Κριοῦ</placeName>
+                                <placeName>Μέτωπον</placeName>, <placeName>ἀκρωτήριον</placeName> τῆς <placeName>Ταυρικῆς</placeName>.</l>
+                                <l n="3">μετὰ δὲ ταῦτά εἰσι <placeName>Σκύθαι</placeName> πάλιν, πόλεις δὲ <placeName>Ἑλληνίδες</placeName> αἵδε ἐν αὐτῇ· <placeName>Θευδοσία</placeName>, <placeName>Κύταια</placeName> καὶ <placeName>Νύμφαιον</placeName>, <placeName>Παντικάπαιον</placeName>, <placeName>Μυρμήκιον</placeName>. παράπλους εὐθὺς ἀπὸ <placeName>Ἴστρου</placeName> ἐπὶ <placeName>Κριοῦ</placeName>
+                                <placeName>Μέτωπον</placeName> τριῶν ἡμερῶν καὶ τριῶν νυκτῶν, ὁ δὲ παρὰ γῆν διπλάσιος· ἔστι γὰρ <placeName>κόλπος</placeName>.</l>
+                                <l n="4">ἐν δὲ τῷ <placeName>κόλπῳ</placeName> τούτῳ νῆσός ἐστι, <placeName>νῆσος</placeName> δὲ ἐρήμη, ᾗ ὄνομα <placeName>Λευκή</placeName>, ἱερὰ τοῦ <placeName>Ἀχιλλέως</placeName>. ἀπὸ δὲ <placeName>Κριοῦ</placeName>
+                                <placeName>Μετώπου</placeName> πλοῦς εἰς <placeName>Παντικάπαιον</placeName> ἡμέρας καὶ νυκτός· ἀπὸ δὲ <placeName>Παντικαπαίου</placeName> ἐπὶ τὸ στόμα τῆς <placeName>Μαιώτιδος</placeName> λίμνης ἐστὶ στάδια κʹ.</l>
+                                <l n="5">ἡ δὲ <placeName>Μαιῶτις</placeName> λίμνη λέγεται εἰς ἥμισυ εἶναι τοῦ <placeName>Πόντου</placeName>. ἐν δὲ τῇ <placeName>Μαιώτιδι</placeName> λίμνῃ εὐθὺς εἰσπλέοντί εἰσιν ἐπ’ ἀριστερᾶς <placeName>Σκύθαι</placeName>· καθήκουσι γὰρ ἐκ τῆς ἔξω θαλάσσης ὑπὲρ τῆς <placeName>Ταυρικῆς</placeName> εἰς τὴν Μαιῶτιν λίμνην Συρμάται ἔθνος. καὶ ποταμὸς <placeName>Τάναϊς</placeName> ὁρίζει <placeName>Ἀσίαν</placeName> καὶ <placeName>Εὐρώπην</placeName>.</l>
+                                <l n="69">{παράπλους ἁπάσης τῆς Εὐρώπης.} ἀπὸ <placeName>Ἡρακλείων</placeName>
+                                <placeName>στηλῶν</placeName> τῶν ἐν τῇ <placeName>Εὐρώπῃ</placeName> περιπλέοντι τοὺς κόλπους παρὰ γῆν, λογιζομένῳ ὅσαι γεγραμμέναι εἰσὶ νύκτες ἀντὶ τούτων ἡμέρας, καὶ ὅπου στάδιά εἰσι γεγραμμένα ἀντὶ τῶν φʹ σταδίων <hi rend="italic">ἡμέραν τοῦ πλέοντος</hi>, γίνεται τῆς <placeName>Εὐρώπης</placeName> ὁ παράπλους <supplied reason="lost">τοῦ <placeName>Πόντου</placeName> ὄντος <hi rend="italic">ἴσου καὶ</hi> τοῦ ἡμίσεος μέρους τῆς <placeName>Μαιώτιδος</placeName> λίμνης</supplied> ἡμερῶν ρνʹ τριῶν. μέγιστοι δὲ ποταμοί εἰσιν ἐν τῇ <placeName>Εὐρώπῃ</placeName> ὁ <placeName>Τάναϊς</placeName>, ὁ <placeName>Ἴστρος</placeName>, ὁ <placeName>Ῥοδανός</placeName>.</l>
+                                <l n="70">{Ἀσία.} ἀπὸ <placeName>Τανάϊδος</placeName> δὲ ποταμοῦ ἄρχεται ἡ <placeName>Ἀσία</placeName>. {Σαυρομάται.} καὶ πρῶτον ἔθνος αὐτῆς ἐστιν ἐν τῷ <placeName>Πόντῳ</placeName>
+                                <placeName>Σαυρομάται</placeName>. <placeName>Σαυροματῶν</placeName> δέ ἐστιν ἔθνος Γυναικοκρατούμενοι.</l>
+                                <l n="71">{Μαιῶται.} τῶν Γυναικοκρατουμένων ἔχονται <placeName>Μαιῶται</placeName>.</l>
+                                <l n="72">{Σινδοί.} μετὰ δὲ <placeName>Μαιώτας</placeName>
+                                <placeName>Σινδοὶ</placeName> ἔθνος. διήκουσι γὰρ οὗτοι καὶ εἰς τὸ ἔξω τῆς λίμνης· καί εἰσι πόλεις ἐν αὐτοῖς <placeName>Ἑλληνίδες</placeName> αἵδε· <placeName>Φαναγόρου</placeName> πόλις, <placeName>Κῆποι</placeName>, <placeName>Σινδικὸς</placeName> λιμήν, <placeName>Πάτους</placeName>.</l>
+                                <l n="73">{Κερκέται.} μετὰ δὲ <placeName>Σινδικὸν</placeName>
+                                <placeName>λιμένα</placeName>
+                                <placeName>Κερκέται</placeName> &lt;ἤτοι <placeName>Τορέται</placeName>&gt; ἔθνος,</l>
+                                <l n="74">καὶ πόλις <placeName>Ἑλληνὶς</placeName>
+                                <placeName>Τορικὸς</placeName> καὶ λιμήν.</l>
+                                <l n="75">{Ἀχαιοί.} μετὰ δὲ Τορέτας <placeName>Ἀχαιοὶ</placeName> ἔθνος.</l>
+                                <l n="76">{Ἡνίοχοι.} μετὰ δὲ <placeName>Ἀχαιοὺς</placeName>
+                                <placeName>Ἡνίοχοι</placeName> ἔθνος.</l>
+                                <l n="77">{Κοραξοί.} &lt;μετὰ δὲ <placeName>Ἡνιόχους</placeName>, <placeName>Κοραξοὶ</placeName> ἔθνος.</l>
+                                <l n="78">{Κορική.} &gt; μετὰ δὲ <placeName>Κοραξοὺς</placeName>
+                                <placeName>Κορικὴ</placeName> ἔθνος.</l>
+                                <l n="79">{Μελάγχλαινοι.} μετὰ δὲ <placeName>Κορικὴν</placeName>
+                                <placeName>Μελάγχλαινοι</placeName> ἔθνος, καὶ ποταμὸς ἐν αὐτοῖς <placeName>Μητάσωρις</placeName> καὶ <placeName>Αἰγίπιος</placeName> ποταμός.</l>
+                                <l n="80">{Γέλωνες.} μετὰ δὲ Μελαγχλαίνους <placeName>Γέλων</placeName>.</l>
+                                <l n="81">{Κόλχοι.} μετὰ δὲ τούτους <placeName>Κόλχοι</placeName> ἔθνος καὶ <placeName>Διοσκουρίας</placeName> πόλις καὶ <placeName>Γυηνὸς</placeName> πόλις <placeName>Ἑλληνὶς</placeName> καὶ <placeName>Γυηνὸς</placeName> ποταμὸς καὶ <placeName>Χιρόβος</placeName> ποταμός, <placeName>Χόρσος</placeName> ποταμός, <placeName>Ἄριος</placeName> ποταμός, <placeName>Φᾶσις</placeName> ποταμὸς καὶ <placeName>Φᾶσις</placeName>
+                                <placeName>Ἑλληνὶς</placeName> πόλις· καὶ ἀνάπλους ἀνὰ τὸν ποταμὸν σταδίων ρπʹ εἰς πόλιν <placeName>Αἶαν</placeName> μεγάλην βάρβαρον ὅθεν ἡ <placeName>Μήδεια</placeName> ἦν. ἐνταῦθά ἐστι <placeName>Ῥὶς</placeName> ποταμός, <placeName>Ἴσις</placeName> ποταμός, <placeName>Λῃστῶν</placeName> Ποταμός, <placeName>Ἄψαρος</placeName> ποταμός.</l>
+                                <l n="82">{Βούσηρες.} μετὰ δὲ τοὺς <placeName>Κόλχους</placeName>
+                                <placeName>Βούσηρες</placeName> ἔθνος καὶ <placeName>Δαραανῶν</placeName> ποταμὸς καὶ <placeName>Ἀρίων</placeName> ποταμός.</l>
+                                <l n="83">{Ἐκεχειριεῖς.} μετὰ δὲ <placeName>Βούσηρας</placeName>
+                                <placeName>Ἐκεχειριεῖς</placeName> ἔθνος καὶ ποταμὸς <placeName>Πορδανὶς</placeName> καὶ <placeName>Ἀραβὶς</placeName> ποταμός, <placeName>Λίμνη</placeName> πόλις, <placeName>Ὡδεινιὸς</placeName> πόλις <placeName>Ἑλληνίς</placeName>.</l>
+                                <l n="84">{Βεχειρική.} μετὰ δ’ <placeName>Ἐκεχειριεῖς</placeName>
+                                <placeName>Βέχειρες</placeName> ἔθνος, <placeName>Βεχειρικὸς</placeName> λιμήν, <placeName>Βεχειρὰς</placeName> πόλις <placeName>Ἑλληνίς</placeName>.</l>
+                                <l n="85">{Μακροκέφαλοι.} μετὰ δὲ <placeName>Βέχειρας</placeName>
+                                <placeName>Μακροκέφαλοι</placeName> ἔθνος, καὶ <placeName>Ψωρῶν</placeName>
+                                <placeName>Λιμήν</placeName>, <placeName>Τραπεζοῦς</placeName> πόλις <placeName>Ἑλληνίς</placeName>.</l>
+                                <l n="86">{Μοσσύνοικοι.} μετὰ δὲ <placeName>Μακροκεφάλους</placeName>
+                                <placeName>Μοσσύνοικοι</placeName> ἔθνος καὶ <placeName>Ζεφύριος</placeName> λιμήν, <placeName>Χοιράδες</placeName> πόλις <placeName>Ἑλληνίς</placeName>, <placeName>Ἄρεως</placeName>
+                                <placeName>νῆσος</placeName>. οὗτοι ὄρη κατοικοῦσιν.</l>
+                                <l n="87">{Τιβαρηνοί.} μετὰ δὲ Μοσσυνοίκους ἔθνος ἐστὶ <placeName>Τιβαρηνοί</placeName>.</l>
+                                <l n="88">{Χαλύβες.} μετὰ δὲ <placeName>Τιβαρηνοὺς</placeName>
+                                <placeName>Χάλυβές</placeName> εἰσιν ἔθνος καὶ <placeName>Γενέσιντις</placeName> λιμὴν κλειστός, <placeName>Ἀμένεια</placeName> πόλις <placeName>Ἑλληνίς</placeName>, καὶ <placeName>Ἰασονία</placeName> ἄκρα καὶ πόλις <placeName>Ἑλληνίς</placeName>.</l>
+                                <l n="89">{Ἀσσυρία.} μετὰ δὲ <placeName>Χάλυβας</placeName> Ἀσσυρία ἐστὶν ἔθνος καὶ ποταμὸς <placeName>Θερμώδων</placeName> καὶ πόλις <placeName>Ἑλληνὶς</placeName>
+                                <placeName>Θεμίσκυρα</placeName>, <placeName>Λύκαστος</placeName> ποταμὸς καὶ πόλις <placeName>Ἑλληνίς</placeName>, <placeName>Ἅλυς</placeName> ποταμὸς καὶ <placeName>Κάρουσσα</placeName> πόλις <placeName>Ἑλληνίς</placeName>, <placeName>Σινώπη</placeName> πόλις <placeName>Ἑλληνίς</placeName>, <placeName>Κερασοῦς</placeName> πόλις <placeName>Ἑλληνὶς</placeName> καὶ <placeName>Ὀχέραινος</placeName> ποταμός, <placeName>Ἁρμένη</placeName> πόλις <placeName>Ἑλληνὶς</placeName> καὶ λιμήν, <placeName>Τετράκις</placeName> πόλις <placeName>Ἑλληνίς</placeName>.</l>
+                                <l n="90">{Παφλαγονία.} μετὰ δ’ Ἀσσυρίαν ἐστὶ Παφλαγονία ἔθνος· ἔστι δ’ ἐν αὐτῇ <placeName>Στεφάνη</placeName> λιμὴν &lt;καὶ πόλις Ἑλλην&gt;ίς, <placeName>Κολοῦσσα</placeName> πόλις <placeName>Ἑλληνίς</placeName>, <placeName>Κίνωλις</placeName> πόλις <placeName>Ἑλληνίς</placeName>, <placeName>Κάραμβις</placeName> πόλις <placeName>Ἑλληνίς</placeName>, <placeName>Κύτωρις</placeName> πόλις <placeName>Ἑλληνίς</placeName>, <placeName>Σησαμὸς</placeName> πόλις <placeName>Ἑλληνὶς</placeName> καὶ <placeName>Παρθένιος</placeName> ποταμός, <placeName>Τίειον</placeName> πόλις <placeName>Ἑλληνὶς</placeName> καὶ λιμὴν <placeName>Ψύλλα</placeName> καὶ ποταμὸς <placeName>Καλλίχωρος</placeName>.</l>
+                                <l n="91">{Μαριάνδυνοι.} μετὰ δὲ <placeName>Παφλαγονίαν</placeName>
+                                <placeName>Μαριάνδυνοί</placeName> εἰσιν ἔθνος. ἐνταῦθα πόλις ἐστὶν <placeName>Ἡράκλεια</placeName>
+                                <placeName>Ἑλληνίς</placeName>, καὶ ποταμὸς <placeName>Λύκος</placeName> καὶ ἄλλος ποταμὸς <placeName>Ὕπιος</placeName>.</l>
+                                <l n="92">{Βιθυνοί.} μετὰ δὲ <placeName>Μαριανδυνούς</placeName> εἰσὶ <placeName>Θρᾷκες</placeName>
+                                <placeName>Βιθυνοὶ</placeName> ἔθνος, καὶ ποταμὸς <placeName>Σαγάριος</placeName>, καὶ ἄλλος ποταμὸς <placeName>Ἀρτώνης</placeName>, καὶ <placeName>νῆσος</placeName>
+                                <placeName>Θυνίας</placeName>· οἰκοῦσι δ’ αὐτὴν <placeName>Ἡρακλεῶται</placeName>· καὶ ποταμὸς <placeName>Ῥῆβας</placeName>. εἶτ’ εὐθὺς <placeName>Πόρος</placeName> καὶ τὸ προειρημένον <placeName>Ἱερὸν</placeName> ἐν τῷ στόματι τοῦ <placeName>Πόντου</placeName>, καὶ μετὰ τοῦτο πόλις <placeName>Καλχηδὼν</placeName> ἔξω &lt;τῆς&gt; <placeName>Θρᾴκης</placeName>, μεθ’ ἣν ὁ <placeName>κόλπος</placeName> ὁ <placeName>Ὀλβιανός</placeName>. παράπλους ἀπὸ <placeName>Μαριανδυνῶν</placeName> μέχρι τοῦ μυχοῦ τοῦ <placeName>κόλπου</placeName> τοῦ <placeName>Ὀλβιανοῦ</placeName>, τοσαύτη γάρ ἐστιν ἡ <placeName>Βιθυνῶν</placeName>
+                                <placeName>Θρᾴκη</placeName>, ἡμερῶν τριῶν.</l>
+                                <l n="2">ἀπὸ δὲ τοῦ στόματος τοῦ <placeName>Πόντου</placeName> ἕως τὸ στόμα τῆς <placeName>Μαιώτιδος</placeName> λίμνης παραπλήσιός ἐστιν ὁ πλοῦς, ὅ τε παρὰ τὴν <placeName>Εὐρώπην</placeName> καὶ τὴν <placeName>Ἀσίαν</placeName>.</l>
+                                <l n="93">{Μυσία.} μετὰ δὲ <placeName>Θρᾴκην</placeName>
+                                <placeName>Μυσία</placeName> ἔθνος. ἔστι δὲ τὸ ἐπ’ ἀριστερᾷ τοῦ <placeName>Ὀλβιανοῦ</placeName>
+                                <placeName>κόλπου</placeName> ἐκπλέοντι εἰς τὸν <placeName>Κιανὸν</placeName>
+                                <placeName>κόλπον</placeName> μέχρι <placeName>Κίου</placeName>. ἡ δὲ <placeName>Μυσία</placeName> ἀκτή ἐστι. πόλεις δ’ ἐν αὐτῇ <placeName>Ἑλληνίδες</placeName> εἰσὶν αἵδε· <placeName>Ὀλβία</placeName> καὶ λιμήν, <placeName>Καλλίπολις</placeName> καὶ λιμήν, <placeName>ἀκρωτήριον</placeName> τοῦ <placeName>Κιανοῦ</placeName>
+                                <placeName>κόλπου</placeName>, καὶ ἐν ἀριστερᾷ <placeName>Κίος</placeName> πόλις καὶ <placeName>Κίος</placeName> ποταμός. παράπλους δὲ τῆς <placeName>Μυσίας</placeName> εἰς <placeName>Κίον</placeName> ἡμέρας μιᾶς.</l>
+                                <l n="94">{Φρυγία.} μετὰ δὲ Μυσίαν Φρυγία ἐστὶν ἔθνος, καὶ πόλεις <placeName>Ἑλληνίδες</placeName> αἵδε· <placeName>Μύρλεια</placeName> καὶ <placeName>Ῥύνδακος</placeName> ποταμὸς καὶ ἐπ’ αὐτῷ <placeName>Βέσβικος</placeName>
+                                <placeName>νῆσος</placeName>, καὶ πόλις <placeName>Πλακία</placeName> καὶ <placeName>Κύζικος</placeName> ἐν τῷ ἰσθμῷ ἐμφράττουσα τὸν ἰσθμόν, καὶ ἐντὸς τοῦ ἰσθμοῦ <placeName>Ἀρτάκη</placeName>. κατὰ ταύτην νῆσός ἐστι καὶ πόλις <placeName>Προκόννησος</placeName> καὶ ἑτέρα <placeName>νῆσος</placeName> εὐλίμενος <placeName>Ἐλαφόννησος</placeName>· γεωργοῦσι δ’ αὐτὴν <placeName>Προκοννήσιοι</placeName>. ἐν δὲ τῇ ἠπείρῳ πόλις ἐστὶ <placeName>Πρίαπος</placeName>, <placeName>Πάριον</placeName>, <placeName>Λάμψακος</placeName>, <placeName>Περκώτη</placeName>, <placeName>Ἄβυδος</placeName>, καὶ τὸ στόμα κατὰ <placeName>Σηστὸν</placeName> τῆς <placeName>Προποντίδος</placeName> τοῦτό ἐστι.</l>
+                                <l n="95">{Τρωάς.} ἐντεῦθεν δὲ <placeName>Τρωὰς</placeName> ἄρχεται, καὶ πόλεις <placeName>Ἑλληνίδες</placeName> εἰσὶν ἐν αὐτῇ αἵδε· <placeName>Δάρδανος</placeName>, <placeName>Ῥοίτειον</placeName>, <placeName>Ἴλιον</placeName>· ἀπέχει δὲ ἀπὸ τῆς <placeName>θαλάττης</placeName> στάδια κεʹ· καὶ ἐν αὐτῷ ποταμὸς <placeName>Σκάμανδρος</placeName>. καὶ <placeName>νῆσος</placeName> κατὰ ταῦτα κεῖται <placeName>Τένεδος</placeName> καὶ λιμήν, ὅθεν <placeName>Κλεόστρατος</placeName> ὁ ἀστρόλογός ἐστιν. καὶ ἐν τῇ ἠπείρῳ <placeName>Σίγη</placeName> καὶ <placeName>Ἀχίλλειον</placeName> καὶ <placeName>Κρατῆρες</placeName>
+                                <placeName>Ἀχαιῶν</placeName>, <placeName>Κολωναί</placeName>, <placeName>Λάρισσα</placeName>, <placeName>Ἁμαξιτὸς</placeName> καὶ <placeName>ἱερὸν</placeName>
+                                <placeName>Ἀπόλλωνος</placeName>, ἵνα <placeName>Χρύσης</placeName> ἱερᾶτο.</l>
+                                <l n="96">{Αἰολίς.} ἐντεῦθεν δὲ <placeName>Αἰολὶς</placeName>
+                                <placeName>χώρα</placeName> καλεῖται. <placeName>Αἰολίδες</placeName> δὲ πόλεις ἐν αὐτῇ εἰσὶν ἐπὶ θαλάττῃ αἵδε· &lt;<placeName>Ἄσσος</placeName>, <placeName>Γάργαρα</placeName>, <placeName>Ἄντανδρος</placeName>. ἐν μεσογείᾳ δὲ αἵδε·&gt; <placeName>Κεβρήν</placeName>, <placeName>Σκῆψις</placeName>, <placeName>Νεάνδρεια</placeName>, <placeName>Πιτύεια</placeName>. παράπλους <placeName>Φρυγίας</placeName> ἀπὸ <placeName>Μυσίας</placeName> μέχρι <placeName>Ἀντάνδρου</placeName>
+                                <supplied reason="lost">—</supplied>.</l>
+                                <l n="97">{Λέσβος.} κατὰ ταῦτά ἐστι <placeName>νῆσος</placeName>
+                                <placeName>Αἰολὶς</placeName>
+                                <placeName>Λέσβος</placeName>, εʹ πόλεις ἔχουσα ἐν αὑτῇ τάσδε· <placeName>Μήθυμναν</placeName>, <placeName>Ἄντισσαν</placeName>, <placeName>Ἐρεσόν</placeName>, <placeName>Πύρραν</placeName> καὶ <placeName>λιμένα</placeName>, <placeName>Μυτιλήνην</placeName> λιμένας ἔχουσαν δύο. κατὰ δὲ ταύτην νῆσός ἐστι καὶ πόλις· ὄνομα δὲ ταύτῃ <placeName>Πορδοσελήνη</placeName>. ἐπάνειμι δὲ πάλιν ἐπὶ τὴν ἤπειρον, ὅθεν ἐξετραπόμην ἐπὶ τὰς νήσους.</l>
+                                <l n="98">1. {Λυδία.} ἀπὸ <placeName>Ἀντάνδρου</placeName> καὶ τῆς <hi rend="italic">
+                                    <placeName>Αἰολίδος</placeName>
+                                </hi> τὸ κάτω ἦν πρότερον μὲν <hi rend="italic">καὶ αὕτη</hi> ἡ <placeName>χώρα</placeName>
+                                <placeName>Μυσία</placeName> μέχρι <placeName>Τευθρανίας</placeName>, νῦν δὲ <placeName>Λυδία</placeName>. <placeName>Μυσοὶ</placeName> δ’ ἐξανέστησαν εἰς τὴν ἤπειρον ἄνω.</l>
+                                <l n="2">εἰσὶ δὲ πόλεις ἐν αὐτῇ <placeName>Ἑλληνίδες</placeName> καὶ ἐν τῇ <placeName>Λυδίᾳ</placeName> αἵδε· <placeName>Ἄστυρα</placeName>, οὗ τὸ <placeName>ἱερὸν</placeName> &lt;<placeName>Ἀρτέμιδος</placeName>, καὶ&gt; <placeName>Ἀδραμύττιον</placeName>. &lt;μετὰ&gt; δὲ &lt;<placeName>Ἀδραμύττιον</placeName>&gt; ἡ <placeName>χώρα</placeName>
+                                <placeName>Λεσβία</placeName>· καὶ ὑπὲρ ταύτης ἡ <placeName>Χίων</placeName>
+                                <placeName>χώρα</placeName> καὶ πόλις <placeName>Ἀταρνεύς</placeName>· ὑπὸ δὲ ταῦτα ἐπὶ <placeName>θάλατταν</placeName> &lt;πόλις καὶ&gt; λιμὴν <placeName>Πιτάνη</placeName> καὶ ποταμὸς <placeName>Κάϊκος</placeName>. μετὰ <placeName>Πιτάνην</placeName>
+                                <placeName>Ἐλαία</placeName>, <placeName>Γρύνειον</placeName>, <placeName>Ἀχαιῶν</placeName>
+                                <placeName>Λιμήν</placeName>· ἐν τούτῳ λέγονται <placeName>Ἀχαιοὶ</placeName> βουλεύσασθαι ἐπὶ τὸν <placeName>Τήλεφον</placeName> πότερον στρατεύοιεν ἢ ἀπίοιεν· πόλις <placeName>Μύρινα</placeName> καὶ λιμήν, <placeName>Κύμη</placeName> καὶ λιμήν· ὑπὲρ δὲ <placeName>Κύμης</placeName> ἐν μεσογείᾳ πόλις <placeName>Ἑλληνίς</placeName> ἐστιν <placeName>Αἰγαί</placeName>· καὶ <placeName>Λεῦκαι</placeName> καὶ λιμένες καὶ <placeName>Σμύρνα</placeName>, ἐν ᾗ <placeName>Ὅμηρος</placeName> ἦν, Φώκαια καὶ λιμὴν καὶ <placeName>Ἕρμος</placeName> ποταμός, Κλαζομεναὶ καὶ λιμήν, <placeName>Ἐρυθραὶ</placeName> καὶ λιμήν. κατὰ δὲ ταύτας νῆσός ἐστι <placeName>Χίος</placeName> καὶ λιμήν.</l>
+                                <l n="3">ἐπάνειμι πάλιν ἐπὶ τὴν ἤπειρον. <hi rend="italic">
+                                    <placeName>Αἰραὶ</placeName>
+                                </hi> πόλις καὶ λιμήν, <placeName>Τέως</placeName> πόλις καὶ λιμήν, <placeName>Λέβεδος</placeName>, <placeName>Κολοφὼν</placeName> ἐν μεσογαίᾳ, <placeName>Νότιον</placeName> καὶ λιμήν, <placeName>Ἀπόλλωνος</placeName> Κλαρίου <placeName>ἱερόν</placeName>, Κάϋστρος ποταμός, Ἔφεσος καὶ λιμήν, Μαραθήσιον καὶ ἐν τῇ ἠπείρῳ Μαγνησία πόλις <placeName>Ἑλληνίς</placeName>, Ἄναια, Πανιώνιον, Ἐρασιστράτιος, <placeName>Χαραδροῦς</placeName>, Φώκαια, Ἀκαδαμίς, Μυκάλη· ἐν τῇ Σαμίων χώρᾳ ταῦτά ἐστιν. πρὸ δὲ τῆς Μυκάλης Σάμος ἐστὶ <placeName>νῆσος</placeName> πόλιν ἔχουσα καὶ <placeName>λιμένα</placeName> κλειστόν. αὕτη ἡ <placeName>νῆσος</placeName> οὐκ ἐλάσσων ἐστὶ Χίου.</l>
+                                <l n="4">ἐπάνειμι δὲ πάλιν ἐπὶ τὴν ἤπειρον, ὅθεν ἐξετραπόμην. ἐπὶ τῆς Μυκάλης ἐστὶ πόλις Πριήνη λιμένας ἔχουσα δύο, ὧν τὸν ἕνα κλειστόν· εἶτα ποταμὸς Μαίανδρος. παράπλους δὲ <placeName>Μυσίας</placeName> καὶ Λυδίας, ἀπὸ Ἀστύρων μέχρι <placeName>Μαιάνδρου</placeName> ποταμοῦ, δύο ἡμερῶν καὶ νυκτὸς μιᾶς.</l>
+                                <l n="99">1. {Καρία.} μετὰ δὲ <placeName>Λυδίαν</placeName>
+                                <placeName>Καρία</placeName> ἐστὶν ἔθνος, καὶ πόλεις ἐν αὐτῇ <placeName>Ἑλληνίδες</placeName> αἵδε· <placeName>Ἡράκλεια</placeName>, εἶτα <placeName>Μίλητος</placeName>, εἶτα <placeName>Μύνδος</placeName> καὶ λιμήν, <placeName>Ἁλικαρνασσὸς</placeName> καὶ λιμὴν κλειστὸς καὶ ἄλλος λιμὴν περὶ τὴν νῆσον καὶ ποταμός, <placeName>Κάλυμνα</placeName>
+                                <placeName>νῆσος</placeName>, <placeName>Καρύανδα</placeName>
+                                <placeName>νῆσος</placeName> καὶ πόλις καὶ λιμήν· οὗτοι <placeName>Κᾶρες</placeName>. <placeName>νῆσος</placeName>
+                                <placeName>Κῶς</placeName> καὶ πόλις καὶ λιμὴν κλειστός. κατὰ ταῦτα <placeName>Κεραμιακὸς</placeName>
+                                <placeName>κόλπος</placeName> τῆς <placeName>Καρίας</placeName>, καὶ <placeName>νῆσος</placeName>
+                                <placeName>Νίσυρος</placeName> καὶ λιμήν.</l>
+                                <l n="2">ἐπάνειμι πάλιν ἐπὶ τὴν ἤπειρον. <placeName>ἀκρωτήριον</placeName> &lt;τῆς <placeName>Κνίδου</placeName>&gt; <placeName>ἱερὸν</placeName>, Τριόπιον. <placeName>Κνίδος</placeName> πόλις <placeName>Ἑλληνὶς</placeName> καὶ <placeName>χώρα</placeName> ἡ <placeName>Ῥοδίων</placeName> ἡ ἐν τῇ ἠπείρῳ, <placeName>Καῦνος</placeName>
+                                <placeName>Καρικὴ</placeName> πόλις καὶ λιμὴν κλειστός, <placeName>Κράγος</placeName>
+                                <placeName>ἀκρωτήριον</placeName>.</l>
+                                <l n="3">{Ῥόδος.} κατὰ τοῦτο &lt;<placeName>Ῥόδος</placeName>&gt; <placeName>νῆσος</placeName> &lt;καὶ πόλις· καὶ&gt; τρίπολις ἀρχαία ἐν αὐτῇ, πόλεις αἵδε· <placeName>Ἰάλυσος</placeName>, <placeName>Λίνδος</placeName>, <placeName>Κάμειρος</placeName>. κατὰ δὲ τὴν <placeName>Ῥόδον</placeName> αἵδε νῆσοί εἰσιν οἰκούμεναι· <placeName>Χάλκεια</placeName>, <placeName>Τῆλος</placeName>, <placeName>Κάσος</placeName>, <placeName>Κάρπαθος</placeName>· αὕτη τρίπολις. καὶ ὁ παράπλους <placeName>Καρίας</placeName>, ἀπὸ <placeName>Μαιάνδρου</placeName> ποταμοῦ ἐπὶ τὸν <hi rend="italic">
+                                    <placeName>Κράγον</placeName>
+                                </hi>, ὅ ἐστι <placeName>Καρίας</placeName>
+                                <placeName>ἀκρωτήριον</placeName>, δύο ἡμερῶν. ἐπάνειμι πάλιν ἐπὶ τὴν ἤπειρον, ὅθεν ἐξετραπόμην.</l>
+                                <l n="100">1. {Λυκία.} ἀπὸ δὲ <placeName>Καρίας</placeName> Λυκία ἐστὶν ἔθνος· καὶ πόλεις <placeName>Λυκίοις</placeName> αἵδε· <placeName>Τελμισσὸς</placeName> καὶ λιμήν, καὶ ποταμὸς <placeName>Ξάνθος</placeName>, δι’ οὗ ἀνάπλους εἰς &lt;<placeName>Ξάνθον</placeName> πόλιν&gt;. <placeName>Πάταρα</placeName> πόλις· καὶ <placeName>λιμένα</placeName> ἔχει. <placeName>Φελλὸς</placeName> πόλις καὶ λιμήν. κατὰ ταῦτα νῆσός ἐστι <placeName>Ῥοδίων</placeName>, <placeName>Μεγίστη</placeName>. <placeName>Λίμυρα</placeName> πόλις, εἰς ἣν ὁ ἀνάπλους κατὰ τὸν ποταμόν. εἶτα <placeName>Γαγαία</placeName> πόλις. εἶτα <placeName>Χελιδονίαι</placeName>
+                                <placeName>ἀκρωτήριον</placeName> καὶ νῆσοι δύο, καὶ <placeName>Διονυσιὰς</placeName>
+                                <placeName>νῆσος</placeName>, <placeName>ἀκρωτήριον</placeName> καὶ λιμὴν <placeName>Σιδηροῦς</placeName>· ὑπὲρ τούτου ἐστὶν <placeName>ἱερὸν</placeName>
+                                <placeName>Ἡφαίστου</placeName> ἐν τῷ ὄρει καὶ πῦρ πολὺ αὐτόματον ἐκ τῆς γῆς καίεται καὶ οὐδέποτε σβέννυται.</l>
+                                <l n="2">καὶ ἐὰν προέλθῃς ἀπὸ <placeName>θαλάττης</placeName> ἀνώτερον, ἔστι <supplied reason="lost">—</supplied>Φάσηλις πόλις καὶ λιμήν· ἔστι δὲ τοῦτο <placeName>κόλπος</placeName>. καὶ <placeName>Ἴδυρος</placeName> πόλις, <placeName>νῆσος</placeName>
+                                <placeName>Λυρνάτεια</placeName>, <placeName>Ὀλβία</placeName>, <placeName>Μάγυδος</placeName> καὶ ποταμὸς <placeName>Καταρράκτης</placeName>, <placeName>Πέργη</placeName> πόλις καὶ <placeName>ἱερὸν</placeName>
+                                <placeName>Ἀρτέμιδος</placeName>. ἐπ’ εὐθείας δὲ παράπλους ἐστὶν Λυκίας ἀπὸ <supplied reason="lost">—</supplied> ἡμέρας καὶ νυκτός· ἔστι γὰρ κολπώδης. ὁ δὲ παρὰ γῆν διπλάσιος τούτου.</l>
+                                <l n="101">1. {Παμφυλία.} μετὰ δὲ <placeName>Λυκίαν</placeName> ἐστὶ <placeName>Παμφυλία</placeName> ἔθνος, καὶ πόλεις ἐν αὐτῇ αἵδε· <placeName>Ἄσπενδος</placeName> πόλις· εἰς ταύτην ὁ ἀνάπλους γίνεται κατὰ ποταμόν, ὁ δὲ ποταμός ἐστιν <placeName>Εὐρυμέδων</placeName>. εἶτα πόλις <placeName>Σύλλειον</placeName>, ἄλλη πόλις <placeName>Σίδη</placeName>, <placeName>Κυμαίων</placeName> ἀποικία, καὶ λιμήν. παράπλους <placeName>Παμφυλίας</placeName> ἀπὸ <placeName>Πέργης</placeName> ἥμισυ ἡμέρας.</l>
+                                <l n="2">εἰσὶ δὲ καὶ ἄλλαι πόλεις <placeName>Παμφυλίας</placeName>. <placeName>Κίβυρα</placeName>, εἶτα <placeName>Κορακήσιον</placeName>.</l>
+                                <l n="102">1. {Κιλικία.} μετὰ δὲ <placeName>Παμφυλίαν</placeName>
+                                <placeName>Κιλικία</placeName> ἐστὶν ἔθνος, καὶ πόλεις ἐν αὐτῇ αἵδε· <placeName>Σελινοῦς</placeName>, <placeName>Χαραδροῦς</placeName> πόλις καὶ λιμήν, <placeName>Ἀνεμούριον</placeName> ἄκρα καὶ πόλις, <placeName>Νάγιδος</placeName> πόλις· καὶ νῆσον ἔχει. πρὸς δὲ τὴν <hi rend="italic">
+                                    <placeName>Σητὸν</placeName> λιμένες</hi>
+                                    <placeName>Ποσείδειον</placeName>, <placeName>Σάλον</placeName>, <placeName>Μυοῦς</placeName>, <placeName>Κελένδερις</placeName> πόλις, καὶ λιμὴν <placeName>Ἀφροδίσιος</placeName> καὶ λιμὴν ἕτερος, <placeName>Ὅλμοι</placeName> πόλις <placeName>Ἑλληνὶς</placeName> &lt;<placeName>λιμένα</placeName>&gt; ἔχουσα, <placeName>Σαρπηδὼν</placeName> πόλις ἔρημος καὶ ποταμός, <placeName>Σόλοι</placeName> πόλις <placeName>Ἑλληνίς</placeName>, <placeName>Ζεφύριον</placeName> πόλις, ποταμὸς <placeName>Πύραμος</placeName> καὶ πόλις <placeName>Μαλλός</placeName>, εἰς ἣν ὁ ἀνάπλους κατὰ τὸν ποταμόν, ἐμπόριον <hi rend="italic">
+                                        <placeName>Ἀμάνη</placeName>
+                                    </hi> καὶ λιμήν, <placeName>Μυρίανδος</placeName>
+                                    <placeName>Φοινίκων</placeName>, <placeName>Θάψακος</placeName> ποταμός. παράπλους <placeName>Κιλικίας</placeName> ἀπὸ τῶν <placeName>Παμφυλίας</placeName> ὁρίων μέχρι <placeName>Θαψάκου</placeName> ποταμοῦ τριῶν ἡμερῶν καὶ νυκτῶν δύο.</l>
+                                    <l n="2">ἐκ δὲ <placeName>Σινώπης</placeName> τῆς ἐν τῷ <placeName>Πόντῳ</placeName> διὰ τῆς ἠπείρου καὶ τῆς <placeName>Κιλικίας</placeName> εἰς <placeName>Σόλους</placeName> ὁδός ἐστιν ἀπὸ θαλάσσης εἰς θάλασσαν ἡμερῶν εʹ.</l>
+                                    <l n="103">{Κύπρος.} κατὰ δὲ <placeName>Κιλικίαν</placeName> ἐστὶ <placeName>νῆσος</placeName>
+                                    <placeName>Κύπρος</placeName>, καὶ πόλεις ἐν αὐτῇ αἵδε· <placeName>Σαλαμὶς</placeName>
+                                    <placeName>Ἑλληνίς</placeName>, <placeName>λιμένα</placeName> ἔχουσα κλειστὸν χειμερινόν· <placeName>Καρπάσεια</placeName>· <placeName>Κερύνεια</placeName>· <placeName>Λήπηθις</placeName>
+                                    <placeName>Φοινίκων</placeName>· <placeName>Σόλοι</placeName>, καὶ αὕτη <placeName>λιμένα</placeName> ἔχει χειμερινόν· <placeName>Μάριον</placeName>
+                                    <placeName>Ἑλληνίς</placeName>· Ἀμαθοῦς, αὐτόχθονές εἰσιν. αὗται πᾶσαι λιμένας ἔχουσιν ἐρήμους. εἰσὶ δὲ καὶ ἄλλαι πόλεις ἐν μεσογείᾳ βάρβαροι. ἐπάνειμι δὲ πάλιν ἐπὶ τὴν ἤπειρον, ὅθεν ἐξετραπόμην.</l>
+                                    <l n="104">1. {Συρία καὶ Φοινίκη.} ἔστι μετὰ <placeName>Κιλικίαν</placeName> ἔθνος <placeName>Σύροι</placeName>. ἐν δὲ τῇ <placeName>Συρίᾳ</placeName> οἰκοῦσι τὰ παρὰ <placeName>θάλατταν</placeName>
+                                    <placeName>Φοίνικες</placeName> ἔθνος, ἐπὶ στενὸν ἔλαττον ἢ ἐπὶ τετταράκοντα σταδίους ἀπὸ <placeName>θαλάττης</placeName>, ἐνιαχῆ δὲ οὐδὲ ἐπὶ σταδίους ιʹ τὸ πλάτος.</l>
+                                    <l n="2">ἀπὸ δὲ <placeName>Θαψάκου</placeName> ποταμοῦ ἐστι <placeName>Τρίπολις</placeName>
+                                    <placeName>Φοινίκων</placeName>, <placeName>Ἄραδος</placeName>
+                                    <placeName>νῆσος</placeName> καὶ λιμήν, βασίλεια <placeName>Τύρου</placeName> καὶ λιμὴν ὅσον ηʹ στάδια ἀπὸ τῆς γῆς. καὶ ἐν τῇ χερρονήσῳ ἑτέρα πόλις <placeName>Τρίπολις</placeName>· αὕτη ἐστὶν <placeName>Ἀράδου</placeName> καὶ <placeName>Τύρου</placeName> καὶ <placeName>Σιδῶνος</placeName>· ἐν τῷ αὐτῷ τρεῖς πόλεις, καὶ περίβολον ἑκάστη τοῦ τείχους ἴδιον ἔχει. καὶ ὄρος <placeName>Θεοῦ</placeName>
+                                    <placeName>Πρόσωπον</placeName>. <placeName>Τριήρης</placeName> &lt;πόλις&gt; καὶ λιμήν. <placeName>Βηρυτὸς</placeName> πόλις καὶ λιμήν. <hi rend="italic">
+                                        <placeName>Βοστρηνὸς</placeName>
+                                    </hi> &lt;ποταμός&gt;. <placeName>Πορφυρεὼν</placeName> πόλις. &lt;<placeName>Λεόντων</placeName> πόλις.&gt; <placeName>Σιδὼν</placeName> πόλις καὶ λιμὴν κλειστός. <placeName>Ὀρνίθων</placeName> πόλις. <placeName>Σιδωνίων</placeName> ἀπὸ <placeName>Λεόντων</placeName> πόλεως μέχρι <placeName>Ὀρνίθων</placeName> πόλεως.</l>
+                                    <l n="3">
+                                        <placeName>Τυρίων</placeName> πόλις <placeName>Σάραπτα</placeName>. <supplied reason="lost">ἄλλη</supplied> πόλις <placeName>Τύρος</placeName>
+                                        <placeName>λιμένα</placeName> ἔχουσα ἐντὸς τείχους· αὕτη δὲ ἡ <placeName>νῆσος</placeName> βασίλεια <placeName>Τυρίων</placeName>, καὶ ἀπέχει στάδια ἀπὸ †<placeName>θαλάττης</placeName> γʹ. <placeName>Παλαίτυρος</placeName> πόλις, καὶ ποταμὸς διὰ μέσης ῥεῖ. καὶ πόλις T&lt;υρίων <placeName>Ἔκδιππα</placeName>&gt; καὶ ποταμός. καὶ <placeName>Ἄκη</placeName> πόλις, <placeName>Ἐξώπη</placeName> πόλις Τυ&lt;ρίων. <placeName>Κάρμηλος</placeName>&gt; ὄρος <placeName>ἱερὸν</placeName> Διός. <placeName>Ἄραδος</placeName> πόλις <placeName>Σιδωνίων</placeName>. &lt;Μάγδωλος πόλις&gt; καὶ ποταμὸς <placeName>Τυρίων</placeName>. Δῶρος πόλις <placeName>Σιδωνίων</placeName>, κ&lt;αὶ Ἰόππη πόλις· ἐκτε&gt;θῆναί φασιν ἐνταῦθα τὴν Ἀνδρομ&lt;έδαν τῷ κήτει. Ἀσκά&gt;λων πόλις <placeName>Τυρίων</placeName> καὶ βασίλεια. ἐνταῦ&lt;θα ὅρος ἐστὶ τῆς Κοίλης&gt; <placeName>Συρίας</placeName>. παράπλους Κοίλης <placeName>Συρίας</placeName> &lt;ἀπὸ <placeName>Θαψάκου</placeName> ποταμοῦ μέχρι&gt; Ἀσκάλωνος στάδια ͵βψʹ.</l>
+                                        <l n="105">1. {Ἀ&lt;ραβία.} μετὰ δὲ <placeName>Συρίαν</placeName> εἰσὶν <placeName>Ἄραβες</placeName>&gt; ἔθνος, νομάδες ἱππεύοντες &lt;καὶ νομὰς ἔχοντες παντοδαπῶν βοσ&gt;κημάτων, οἰῶν καὶ αἰ&lt;γῶν <hi rend="italic">c.27 letters</hi>&gt; καὶ καμήλων· ἔστι δὲ αὕ&lt;τη <hi rend="italic">c.30</hi>&gt; ἐστὶ τὰ πολλὰ ἄ&lt;νυδρος <hi rend="italic">c.28</hi> &gt; τε τὴν <placeName>Αἴγυπτον</placeName> &lt;<hi rend="italic">c.36</hi>&gt; ἐν αὐτῇ κολ&lt;π- <hi rend="italic">c.37</hi>&gt; ἐστὶν ἐκ τῆς Ἐρ̣&lt;υθρᾶς <placeName>θαλάττης</placeName>
+                                        <hi rend="italic">c.24</hi> ἔξω-&gt;θεν θαλ&lt;αττ- <hi rend="italic">c.35</hi> θάλα&gt;τταν &lt;<hi rend="italic">c.44</hi>&gt; καὶ &lt;<hi rend="italic">c.46</hi>&gt; κ̣&lt;<hi rend="italic">5 lines including, near the end,</hi> παράπλους</l>
+                                        <l n="2">
+                                            <supplied reason="lost">—</supplied> τῆς Ἀ&gt;ραβίας δὲ αὐτῆς ἀπὸ <placeName>Συρίας</placeName> ὁρίων μέχρι στόματος τοῦ &lt;<placeName>Νείλου</placeName> τοῦ ἐ&gt;ν <placeName>Πηλουσίῳ</placeName>, τοῦτο γάρ ἐστιν <placeName>Ἀραβίας</placeName> ὅρος, στάδ. ͵ατʹ. &lt;φασὶ δὲ εἶναι καὶ Ἀ&gt;ραβίαν <placeName>Αἰγύπτου</placeName> μέχρι τοῦ <placeName>Νείλου</placeName> ἐξῆς Ἀρα&lt;βικοῦ <placeName>κόλπου</placeName>. <hi rend="italic">c.3</hi> &gt; <placeName>Αἰγύπτιοι</placeName>· φόρον δὲ φέρουσιν Αἰγύ&lt;πτ- <hi rend="italic">c.16</hi> &gt; ἀεὶ τοῖς <placeName>Ἄραψιν</placeName>.</l>
+                                            <l n="106">1. {Αἴγυπτος.} &lt;μετὰ δὲ <placeName>Ἀραβίαν</placeName>
+                                            <placeName>Αἴγυπτός</placeName>&gt; ἐστιν ἔθνος· καὶ πόλεις ἐν αὐτῇ &lt;αἵδε· <placeName>Πηλούσιον</placeName> πόλις καὶ λιμὴν&gt; καὶ βασίλειον, οὗ τὸ στόμα &lt;τοῦ <placeName>Νείλου</placeName> ποταμοῦ <placeName>Πηλουσιακόν</placeName> ἐστι&gt; πρῶτον, τῆς <placeName>Ἀραβίας</placeName> &lt;ὅρος. δεύτερον <placeName>Τανιτικόν</placeName> καὶ πόλις βασιλι&gt;κή. τρίτον &lt;<placeName>Μενδήσιον</placeName> καὶ <placeName>Μένδης</placeName> πόλις. δʹ Φατνιτικ&gt;όν. πέμπτον Σεβεννυ&lt;τικὸν καὶ <placeName>Σεβέννυτος</placeName> πόλις· <placeName>Βοῦτος</placeName> λίμνη, ἔν&gt;θα πόλις καὶ βα&lt;σίλειον. ἕκτον <placeName>Βολβιτινὸν</placeName> καὶ πόλις βασιλι&gt;κή. ἕβδομον &lt;<placeName>Κανωπικόν</placeName>, καὶ <placeName>Θῶνις</placeName> πόλις. μετὰ ταῦτα λίμνη&gt; ᾗ ὄνομά &lt;ἐστι <placeName>Μάρεια</placeName>. αὕτη δὲ ἡ λίμνη ἤδη ἐστὶν ἐν τ&gt;ῇ <placeName>Λιβύῃ</placeName> &lt; <hi rend="italic">c.35 letters</hi> &gt;ει δὲ ἐ&lt; <hi rend="italic">c.40</hi> &gt; <placeName>βουλήν</placeName> &lt; <hi rend="italic">c.42</hi> &gt;ε&lt; <hi rend="italic">7 lines including, near the end,</hi>
+                                            <placeName>Κανωπικόν</placeName>
+                                            <hi rend="italic">and</hi>
+                                            <placeName>Σεβεννυτικόν</placeName> &gt;.</l>
+                                            <l n="2">. . . τὸ δὲ <placeName>Πηλουσιακόν</placeName>. καὶ πάλιν σχίζεται δίχα· τὸ δὲ <placeName>Σεβεννυτικόν</placeName>, τὸ μὲν εἰς τὸ <placeName>Μενδήσιον</placeName>, τὸ δὲ εἰς θάλασσαν· ἀπὸ δὲ τοῦ <placeName>Μενδησίου</placeName> εἰς τὸ <placeName>Φατνιτικὸν</placeName> στόμα· ἀπὸ δὲ τοῦ <placeName>Πηλουσίου</placeName> εἰς τὸ <placeName>Τανιτικὸν</placeName> στόμα· τὸ δὲ ἀπὸ <placeName>Κανώπου</placeName> μέχρι <placeName>Σεβεννυτικῆς</placeName> λίμνης, καὶ στόμα τὸ <placeName>Βολβιτινὸν</placeName> ῥεῖ ἐκ τῆς λίμνης. ἔστι δὲ τὰ πολλὰ τὰ παρὰ <placeName>θάλατταν</placeName>
+                                            <placeName>Αἰγύπτου</placeName> λίμναι καὶ ἕλη.</l>
+                                            <l n="3">ἔστι δ’ ἡ <placeName>Αἴγυπτος</placeName> τοιάδε τὴν ἰδέαν, ὁμοία πελέκει. ἔστι γὰρ κατὰ <placeName>θάλατταν</placeName> πλατεῖα, κατὰ δὲ μεσογείαν στενωτέρα, κατὰ δὲ Μέμφιν στενωτάτη αὑτῆς· ἔπειτα δὲ εἰς μεσογείαν ἀπὸ Μέμφεως ἰόντι πλατυτέρα, κατὰ δὲ τὸ ἀνώτερον αὑτῆς πλατυτάτη. τὸ μέρος τὸ ἄνωθεν <placeName>Αἰγύπτου</placeName> Μέμφιδός ἐστι τὸ πλεῖστον ἢ τὸ παρὰ θάλασσαν. τὸ δὲ Κανωπικὸν στόμα ὁρίζει <placeName>Ἀσίαν</placeName> καὶ <placeName>Λιβύην</placeName>. παράπλους δ’ ἐστὶν <placeName>Αἰγύπτου</placeName> ἀπὸ <placeName>Πηλουσίου</placeName> στόματος στάδια ͵ατʹ.</l>
+                                            <l n="4">τῆς δὲ Ἀσίας ὁ περίπλους, ἔστι γὰρ περιφερής, λογιζομένῳ κατὰ τὸν αὐτὸν τρόπον ὃν περὶ <placeName>Εὐρώπης</placeName> γέγραπται, ἡμερῶν ἐστι πζʹ.</l>
+                                            <l n="5">ἐπὶ δὲ τῷ στόματι τῷ Κανωπικῷ ἐστι <placeName>νῆσος</placeName> ἐρήμη ᾗ ὄνομα Κάνωπος· καὶ σημεῖά ἐστιν ἐν αὐτῇ τοῦ Μενέλεω τοῦ κυβερνήτου τοῦ ἀπὸ Τροίας, ᾧ ὄνομα Κάνωπος, τὸ μνῆμα. λέγουσι δὲ Αἰγύπτιοί τε καὶ οἱ πρόσχωροι οἱ τοῖς τόποις <placeName>Πηλούσιον</placeName> ἥκειν ἐπὶ τὸ Κάσιον, καὶ Κάνωπον ἥκειν ἐπὶ τὴν νῆσον οὗ τὸ μνῆμα τοῦ κυβερνήτου.</l>
+                                            <l n="107">1. {Λιβύη.} ἄρχεται ἡ <placeName>Λιβύη</placeName> ἀπὸ τοῦ <placeName>Κανωπικοῦ</placeName> στόματος τοῦ <placeName>Νείλου</placeName>. {Ἀδυρμαχίδαι.} ἔθνος <placeName>Λιβύων</placeName>
+                                            <placeName>Ἀδυρμαχίδαι</placeName>. ἐκ <placeName>Θώνιδος</placeName> δὲ πλοῦς εἰς <placeName>Φάρον</placeName> νῆσον ἔρημον, εὐλίμενος δὲ καὶ ἄνυδρος, στάδια ρνʹ. ἐν δὲ <placeName>Φάρῳ</placeName> λιμένες πολλοί. ὕδωρ δὲ ἐκ τῆς <placeName>Μαρείας</placeName> λίμνης ὑδρεύονται· ἔστι γὰρ πότιμος. ὁ δὲ ἀνάπλους εἰς τὴν λίμνην βραχὺς ἐκ <placeName>Φάρου</placeName>. ἔστι δὲ καὶ <placeName>Χερρόνησος</placeName> καὶ λιμήν. ἔστι δὲ τοῦ παράπλου στάδια σʹ.</l>
+                                            <l n="2">ἀπὸ <placeName>Χερρονήσου</placeName> δὲ <placeName>Πλίνθινός</placeName> ἐστι <placeName>κόλπος</placeName>. τὸ δὲ στόμα ἐστὶ τοῦ <placeName>Πλινθίνου</placeName>
+                                            <placeName>κόλπου</placeName> εἰς <placeName>Λευκὴν</placeName> ἀκτὴν πλοῦς ἡμέρας καὶ νυκτός· τὸ δὲ εἰς τὸν μυχὸν τοῦ <placeName>Πλινθίνου</placeName>
+                                            <placeName>κόλπου</placeName> δὶς τοσοῦτον· περιοικεῖται δὲ κύκλῳ. ἀπὸ δὲ <placeName>Λευκῆς</placeName> ἀκτῆς εἰς <placeName>Λαοδαμάντειον</placeName>
+                                            <placeName>λιμένα</placeName> πλοῦς ἥμισυ ἡμέρας· ἀπὸ δὲ <placeName>Λαοδαμαντείου</placeName>
+                                            <placeName>λιμένος</placeName> εἰς <placeName>Παραιτόνιον</placeName>
+                                            <placeName>λιμένα</placeName> πλοῦς ἥμισυ ἡμέρας.</l>
+                                            <l n="3">ἔχεται <placeName>Ἆπις</placeName> πόλις. μέχρις οὖν ἐνταῦθα <placeName>Αἰγύπτιοι</placeName> ἄρχουσιν.</l>
+                                            <l n="108">1. {Μαρμαρίδαι.} ἀπὸ δὲ <placeName>Ἄπιδος</placeName> ἔθνος <placeName>Λιβύων</placeName> ἐστὶν οἱ <placeName>Μαρμαρίδαι</placeName> μέχρι εἰς <placeName>Ἑσπερίδας</placeName>. ἀπὸ δὲ <placeName>Ἄπιδος</placeName> ἐπὶ <placeName>Τυνδαρείους</placeName> σκοπέλους πλοῦς ἡμέρας. καὶ ἀπὸ <placeName>Τυνδαρείων</placeName>
+                                            <placeName>σκοπέλων</placeName> εἰς <placeName>Πλύνους</placeName>
+                                            <placeName>λιμένα</placeName> πλοῦς ἡμέρας. ἐκ <placeName>Πλύνων</placeName> εἰς <placeName>Πέτραντα</placeName> τὸν μέγαν πλοῦς ἥμισυ ἡμέρας. ἐκ <placeName>Πέτραντος</placeName> εἰς <placeName>Μενέλαον</placeName> πλοῦς ἡμέρας. ἐκ <placeName>Μενελάου</placeName> εἰς <placeName>Κυρθάνειον</placeName> πλοῦς ἡμέρας. ἀπὸ <placeName>Κυρθανείου</placeName>
+                                            <placeName>Ἀντίπυγος</placeName> λιμήν· πλοῦς ἥμισυ ἡμέρας. ἀπὸ δὲ <placeName>Ἀντιπύγου</placeName>
+                                            <placeName>Πέτρας</placeName> ὁ μικρὸς λιμήν· πλοῦς ἥμισυ ἡμέρας. ἀπὸ <placeName>Πέτραντος</placeName> &lt;τοῦ&gt; μικροῦ <placeName>Χερρόνησος</placeName>
+                                            <hi rend="italic">
+                                                <placeName>Ἀζιρίδες</placeName>
+                                            </hi> λιμήν· ταῦτα τῆς <placeName>Κυρηναίων</placeName>
+                                            <placeName>χώρας</placeName> ἐστί· πλοῦς ἡμέρας.</l>
+                                            <l n="2">ἐν δὲ τῷ μέσῳ <placeName>Πέτραντος</placeName> καὶ <placeName>Χερρονήσου</placeName> εἰσὶ νῆσοι <placeName>Ἀηδωνία</placeName> καὶ <placeName>Πλατεῖαι</placeName>. ὕφορμοι δὲ ὑπ’ αὐταῖς εἰσίν. ἐντεῦθεν ἄρχεται τὸ σίλφιον φύεσθαι ἐν γύαις· παρήκει δὲ ἀπὸ <placeName>Χερρονήσου</placeName> διὰ τῆς μεσογείας μέχρι <placeName>Ἑσπερίδων</placeName>, παρὰ γῆν ἐγγὺς στάδια ͵αφʹ μάλιστα. <placeName>Ἀφροδισιὰς</placeName>
+                                            <placeName>νῆσος</placeName> ὕφορμος. <placeName>Ναύσταθμος</placeName> λιμήν. πλοῦς ἀπὸ <placeName>Χερρονήσου</placeName> ἡμέρας μιᾶς· ἀπὸ δὲ <placeName>Ναυστάθμου</placeName> εἰς <placeName>λιμένα</placeName> τὸν <placeName>Κυρήνης</placeName> στάδια ρʹ· ἐκ δὲ τοῦ <placeName>λιμένος</placeName> εἰς Κυρήνην στάδια πʹ.</l>
+                                            <l n="3">ἔστι δὲ Κυρήνη ἐν μεσογείᾳ. εἰσὶ δὲ οὗτοι οἱ λιμένες πάνορμοι. καὶ ἄλλαι δὲ καταφυγαὶ ὑπὸ νησιδίοις καὶ ὕφορμοι καὶ ἀκταὶ πολλαὶ ἐν τῇ μεταξὺ χώρᾳ. ἐκ δὲ <placeName>λιμένος</placeName> τῆς <placeName>Κυρήνης</placeName> μέχρι <placeName>λιμένος</placeName> τοῦ κατὰ Βάρκην στάδια φʹ. ἡ δὲ πόλις ἡ Βαρκαίων ἀπὸ θαλάσσης ἀπέχει στάδια ρʹ. ἐκ δὲ <placeName>λιμένος</placeName> τοῦ κατὰ Βάρκην ἐφ’ <placeName>Ἑσπερίδας</placeName> στάδια χκʹ.</l>
+                                            <l n="4">ἐκ δὲ <placeName>Κυρήνης</placeName> εἰσὶ λιμένες, καὶ χωρία ἐστὶν ἐσχισμένα μέχρι <placeName>Ἑσπερίδων</placeName> τάδε· Φυκοῦς <placeName>κόλπος</placeName>· ἄνω δὲ ἐνταῦθά ἐστιν ὁ κῆπος τῶν <placeName>Ἑσπερίδων</placeName>. ἔστι δὲ τόπος βαθὺς ὀργυιῶν ιηʹ, ἀπότομος κύκλῳ, οὐδαμοῦ ἔχων κατάβασιν· ἔστι δὲ δύο σταδίων πανταχῇ, οὐκ ἔλαττον, εὖρος καὶ μῆκος. οὗτός ἐστι σύσκιος δένδρεσιν ἐμπεπλεγμένοις ἐν ἀλλήλοις, ὡς ὅτι μάλιστα πυκνοτάτοις. τὰ δένδρα ἐστὶ λωτός, μηλέαι παντοδαπαί· ῥοαί, ἄπιοι, μεμαίκυλα, συκάμινα, ἄμπελοι, μυρσίναι, δάφναι, κισσός, ἐλαίαι, κότινοι, ἀμυγδαλαί, καρύαι.</l>
+                                            <l n="5">τῶν δὲ χωρίων ἃ οὐκ εἴρηταί ἐστι <supplied reason="lost">δὲ</supplied> κατὰ τὸν κῆπον Ἄμπελος, Ἄπιος, ἀλλάσσει στάδια λʹ, <placeName>Χερρόνησος</placeName>, κῆποι πλεῖστοι, Ζηνερτίς, Ταύχειρα, <hi rend="italic">Βακαλοῦ</hi> κώμη, Ἑσπερίδες πόλις καὶ λιμὴν καὶ ποταμὸς ἐπὶ τῇ πόλει <hi rend="italic">Ἐγχέλειος</hi>. κατὰ ταῦτα τὰ χωρία ἀπὸ <placeName>Χερρονήσου</placeName> τῶν <hi rend="italic">Ἀζιριδῶν</hi> τὰ μὲν <placeName>Κυρηναίων</placeName>, τὰ δὲ Βαρκαίων ἐστὶ μέχρι <placeName>Ἑσπερίδων</placeName>.</l>
+                                            <l n="109">1. {Νασαμῶνες καί Μάκαι.} ἀπὸ δὲ <placeName>Ἑσπερίδων</placeName>
+                                            <placeName>κόλπος</placeName> ἐστὶ μέγας ᾧ ὄνομα <placeName>Σύρτις</placeName>, ὡς δὲ εἰπεῖν ὅτι μάλιστα εἰκάζοντι σταδίων ͵ε. ἔστιν αὐτῇ τὸ πλάτος ἀπὸ <placeName>Ἑσπερίδων</placeName> εἰς Νέαν πόλιν τὴν πέραν πλοῦς ἡμερῶν τριῶν καὶ νυκτῶν τριῶν.</l>
+                                            <l n="2">περιοικοῦσι δὲ αὐτὴν <placeName>Λιβύων</placeName> ἔθνος <placeName>Νασαμῶνες</placeName> μέχρι τοῦ μυχοῦ τοῦ ἐπ’ ἀριστερᾷ. τούτων δὲ ἔχονται <placeName>Λιβύων</placeName> ἔθνος παρὰ τὴν <placeName>Σύρτιν</placeName> μέχρι τοῦ στόματος τῆς <placeName>Σύρτιδος</placeName>, <placeName>Μάκαι</placeName>.</l>
+                                            <l n="3">εἰς δὲ τὴν <placeName>Σύρτιν</placeName> ἀπὸ <placeName>Ἑσπερίδων</placeName> εἰσπλέοντι πρῶτοι <placeName>Ἡράκλειοι</placeName>
+                                            <placeName>Θῖνες</placeName>· ἔχονται δὲ τούτων <placeName>Δρέπανον</placeName>, νῆσοι <placeName>Ποντίαι</placeName> τρεῖς, εἶτα τούτων αἱ <placeName>Λευκαὶ</placeName> καλούμεναι. ἐν δὲ τῷ κοιλοτάτῳ τῆς <placeName>Σύρτιδος</placeName>, ἐν τῷ μυχῷ, <placeName>Φιλαίνου</placeName>
+                                            <placeName>Βωμοί</placeName>, ἐπίνειον, <hi rend="italic">
+                                                <placeName>Ἄμμωνος</placeName>
+                                            </hi>
+                                            <hi rend="italic">ἄλσος</hi>
+                                            <supplied reason="lost">—</supplied> τῆς <placeName>Σύρτιδος</placeName>. ἀπὸ τούτου τὴν <placeName>Σύρτιν</placeName> παροικοῦντες οἱ <placeName>Μάκαι</placeName> χειμάζουσιν ἐπὶ θαλάττῃ τὰ βοσκήματα κλείοντες, τοῦ δὲ θέρους ὑπεκλειπόντων τῶν ὑδάτων ἀπελαύνουσι τὰ βοσκήματα εἰς μεσογαίαν ἄνω μεθ’ ἑαυτῶν.</l>
+                                            <l n="4">μετὰ δὲ τὴν <placeName>Σύρτιν</placeName>
+                                            <supplied reason="lost">ἔξω τῆς <placeName>Σύρτιδος</placeName>
+                                        </supplied> ἐστὶ χωρίον καλὸν καὶ πόλις ᾗ ὄνομα <placeName>Κίνυψ</placeName>, ἔστι δὲ ἔρημος· ἀπὸ δὲ <placeName>Νέας</placeName> πόλεως ἀπέχει εἰς τὴν <placeName>Σύρτιν</placeName> στάδια πʹ †πάντῃ. ὑπ’ αὐτῷ δ’ ἐστὶ ποταμὸς <placeName>Κίνυψ</placeName>, καὶ <placeName>νῆσος</placeName> ὕπεστι πρὸς τὸν ποταμόν.</l>
+                                        <l n="5">τὸ δὲ βάθος τῆς <placeName>Σύρτιδος</placeName> ἔσω τῶν <placeName>Ἑσπερίδων</placeName> πρὸς τοὺς <placeName>Φιλαίνου</placeName> Βωμοὺς εἰς τὸν μυχὸν τοῦ <placeName>κόλπου</placeName> πλοῦς ἡμερῶν γʹ καὶ νυκτῶν &lt;β΄&gt;. πλάτος δὲ ἀπὸ Κίνυφος ποταμοῦ πρὸς τὰς <placeName>Λευκὰς</placeName> νήσους πλοῦς ἡμερῶν τεσσάρων καὶ νυκτῶν τεσσάρων.</l>
+                                        <l n="110">1. {Λωτοφάγοι.} τὰ δὲ ἔξω τῆς <placeName>Σύρτιδος</placeName> παροικοῦσι <placeName>Λίβυες</placeName>
+                                        <placeName>Λωτοφάγοι</placeName> ἔθνος μέχρι τοῦ στόματος τῆς ἑτέρας <placeName>Σύρτιδος</placeName>. οὗτοι λωτῷ χρῶνται σίτῳ καὶ ποτῷ.</l>
+                                        <p>ἀπὸ δὲ <placeName>Νέας</placeName> πόλεως τῆς <placeName>Καρχηδονίων</placeName>
+                                        <placeName>χώρας</placeName>
+                                        <hi rend="italic">
+                                            <placeName>Γάφαρα</placeName>
+                                        </hi> πόλις. ταύτης παράπλους ἡμέρας μιᾶς ἀπὸ <placeName>Νέας</placeName> πόλεως.</p>
+                                        <l n="2">ἀπὸ δὲ <hi rend="italic">
+                                            <placeName>Γαφάρων</placeName>
+                                        </hi>
+                                        <placeName>Ἀβρότονον</placeName> πόλις καὶ λιμήν. ταύτης ὁ παράπλους ἡμέρας μιᾶς.</l>
+                                        <l n="3">ἀπὸ δὲ <placeName>Ἀβροτόνου</placeName>
+                                        <placeName>Ταριχεῖαι</placeName>, πόλις καὶ λιμήν. παράπλους ἀπὸ <placeName>Ἀβροτόνου</placeName> ἡμέρας μιᾶς.</l>
+                                        <l n="4">κατὰ δὲ ταῦτά ἐστι <placeName>νῆσος</placeName> ᾗ ὄνομα <placeName>Βραχείων</placeName>, μετὰ <placeName>Λωτοφάγους</placeName> κατὰ <placeName>Ταριχείας</placeName>. ἔστι δὲ ἡ <placeName>νῆσος</placeName> αὕτη σταδίων τʹ, πλάτος δὲ μικρῷ ἐλάττων. ἀπέχει δὲ ἀπὸ τῆς ἠπείρου ὡσεὶ στάδια γʹ. ἐν δὲ τῇ νήσῳ γίνεται λωτὸς ὃν ἐσθίουσιν, καὶ ἕτερος ἐξ οὗ οἶνον ποιοῦσιν. ὁ δὲ τοῦ λωτοῦ καρπός ἐστι τῷ μεγέθει ὅσον μεμαίκυλον. ποιοῦσι δὲ καὶ ἔλαιον πολὺ ἐκ κοτίνων. φέρει δὲ καρπὸν ἡ <placeName>νῆσος</placeName> πολύν, πυροὺς καὶ κριθάς. ἔστι δὲ ἡ <placeName>νῆσος</placeName> εὔγειος. πλοῦς ἀπὸ <placeName>Ταριχειῶν</placeName> εἰς τὴν νῆσον ἡμέρας μιᾶς.</l>
+                                        <l n="5">μετὰ δὲ τὴν νῆσόν ἐστι <hi rend="italic">
+                                            <placeName>Γιχθὶς</placeName>
+                                        </hi> πόλις. ἀπὸ δὲ τῆς νήσου εἰς <hi rend="italic">Γιχθὶν</hi> πλοῦς ἡμέρας ἡμισείας.</l>
+                                        <l n="6">&lt;. . . Ἐσχίδες . . .&gt; ἀπὸ δὲ <hi rend="italic">Ἐσχίδων</hi> &lt;εἰς Νέαν πολιν&gt; πλοῦς ἡμέρας.</l>
+                                        <l n="7">καὶ <placeName>νῆσος</placeName> ἔπεστιν ἐπ’ αὐτῇ ἐρήμη. μετὰ δὲ ταύτην Κερκινῖτις <placeName>νῆσος</placeName> καὶ πόλις, καὶ κατὰ ταύτην Θάψος. παράπλους ἀπὸ ταύτης εἰς Θάψον ἡμέρας καὶ ἡμίσεως. ἀπὸ δὲ Θάψου &lt;εἰς Λέπτιν τὴν μικρὰν πλοῦς . . .· ἀπὸ Λέπτεως εἰς Ἀδρύμητα . . .</l>
+                                        <l n="8">ἀπὸ δὲ Λέπτεως&gt; τῆς μικρᾶς καὶ Ἀδρύμητός ἐστι <placeName>κόλπος</placeName> μέγας εἴσω, ἐν ᾧ ἡ <placeName>Σύρτις</placeName> ἐστὶν ἡ μικρά, Κερκινῖτις καλουμένη, πολὺ τῆς ἄλλης <placeName>Σύρτιδος</placeName> χαλεπωτέρα καὶ δυσπλωτοτέρα, ἧς τὸ περίμετρον στάδια ͵β. ἐν ταύτῃ τῇ Σύρτιδι ἐνέστηκεν ἡ <placeName>νῆσος</placeName> Τρίτωνος καλουμένη &lt;καὶ λίμνη&gt; καὶ ποταμὸς Τρίτων, καὶ αὐτόθεν ἐστὶν Ἀθηνᾶς Τριτωνίδος <placeName>ἱερόν</placeName>. στόμα δὲ ἔχει ἡ λίμνη μικρόν, καὶ ἐν τῷ στόματι <placeName>νῆσος</placeName> ἔπεστιν· καὶ ὅταν ἀνάπωτις ᾖ, ἐνίοτε ἡ λίμνη οὐκ ἔχει εἴσπλουν &lt;ναυ&gt;σὶν, ὡ&lt;ς&gt; φαίνεται. ἡ δὲ λίμνη αὕτη ἐστὶ μεγάλη, τὸ περίμετρον ἔχουσα ὡς σταδίων χιλίων.</l>
+                                        <l n="9">περιοικοῦσι δὲ αὐτὴν <placeName>Λίβυες</placeName>
+                                        <hi rend="italic">Γύζαντες</hi> ἔθνος καὶ πόλις τὸ ἐπέκεινα πρὸς ἡλίου δυσμάς· οὗτοι γὰρ <hi rend="italic">Γύζαντες</hi>
+                                        <placeName>Λίβυες</placeName> λέγονται ξανθοὶ ἅπαντες καὶ κάλλιστοι. καὶ ἡ <placeName>χώρα</placeName> αὕτη ἀρίστη καὶ παμφορωτάτη, καὶ βοσκήματα παρ’ αὐτοῖς ἐστι καὶ μέγιστα καὶ πλεῖστα· καὶ αὐτοὶ πλουσιώτατοι καὶ κάλλιστοι.</l>
+                                        <l n="10">μετὰ δὲ τὴν <placeName>Σύρτιν</placeName> ταύτην Νεάπολίς ἐστι. παράπλους δὲ ἀπὸ Ἀδρύμητος ἐπὶ Νέαν πόλιν ἡμέρας ἐστίν. μετὰ δὲ Νέαν πόλιν <placeName>Ἑρμαία</placeName> ἄκρα καὶ πόλις. παράπλους ἀπὸ <placeName>Νέας</placeName> πόλεως εἰς Ἑρμαίαν ἡμέρας καὶ ἡμίσεως. ἀπὸ δὲ <placeName>Νέας</placeName> &lt;πόλεώς&gt; ἐστιν εἰς ἰσθμὸν στάδια ρπʹ πεζῇ πρὸς τὴν ἑτέραν θάλασσαν τὴν πρὸς <placeName>Καρχηδόνα</placeName>. ἔστι δὲ ἀκτή, δι’ ἧς ἰσθμός ἐστιν. &lt;. . . ποταμὸς . . .&gt; παράπλους ἀπὸ τοῦ ποταμοῦ ἐντεῦθεν εἰς <placeName>Καρχηδόνα</placeName> ἥμισυ ἡμέρας. ἡ δὲ <placeName>Καρχηδονίων</placeName>
+                                        <placeName>χώρα</placeName> ἐστὶν ἐν <placeName>κόλπῳ</placeName>.</l>
+                                        <l n="111">1. {Καρχηδών.} μετὰ δὲ τὸν ἰσθμὸν <placeName>Καρχηδών</placeName> ἐστι πόλις <placeName>Φοινίκων</placeName> καὶ λιμήν. παράπλους ἀπὸ <placeName>Ἑρμαίας</placeName> ἥμισυ ἡμέρας εἰς <placeName>Καρχηδόνα</placeName>.</l>
+                                        <l n="2">ἔπεισι δὲ νησία ἐπὶ τῇ <placeName>Ἑρμαίᾳ</placeName> ἄκρᾳ, <placeName>Ποντία</placeName>
+                                        <placeName>νῆσος</placeName> καὶ <placeName>Κόσυρος</placeName>. πλοῦς δὲ ἀπὸ <placeName>Ἑρμαίας</placeName> ἐπὶ <placeName>Κόσυρον</placeName> ἡμέρας.</l>
+                                        <l n="3">ἀπὸ <placeName>Ἑρμαίας</placeName> ἄκρας πρὸς ἥλιον ἀνίσχοντα, <hi rend="italic">μακρὰν</hi> ἀπὸ <placeName>Ἑρμαίας</placeName>, εἰσὶ νῆσοι τρεῖς μικραὶ κατὰ τοῦτο, ὑπὸ <placeName>Καρχηδονίων</placeName> οἰκούμεναι· <placeName>Μελίτη</placeName> πόλις καὶ λιμήν, <placeName>Γαῦλος</placeName> πόλις, <placeName>Λαμπάς</placeName>· αὕτη πύργους ἔχει δύο ἢ τρεῖς. ἀπὸ δὲ <placeName>Κοσύρου</placeName> ἐπὶ <placeName>Λιλύβαιον</placeName>
+                                        <placeName>ἀκρωτήριον</placeName>
+                                        <placeName>Σικελίας</placeName> πλοῦς ἡμέρας μιᾶς.</l>
+                                        <l n="4">μετὰ <placeName>Καρχηδόνα</placeName>
+                                        <placeName>Ἰτύκη</placeName> πόλις καὶ λιμήν. παράπλους δὲ ἀπὸ <placeName>Καρχηδόνος</placeName> εἰς <placeName>Ἰτύκην</placeName> μιᾶς ἡμέρας.</l>
+                                        <l n="5">ἀπὸ <placeName>Ἰτύκης</placeName> εἰς <placeName>Ἵππου</placeName> ἄκραν &lt;παράπλους ἡμέρας μιᾶς&gt;. <placeName>Ἵππου</placeName> &lt;<placeName>Ἄκρα</placeName>&gt; πόλις, καὶ λίμνη ἐπ’ αὐτῇ ἐστι, καὶ νῆσοι ἐν τῇ λίμνῃ, καὶ περὶ τὴν λίμνην πόλεις ἐν ταῖς νήσοις αἵδε· <placeName>Ψέγας</placeName> πόλις, καὶ ἀπαντίον αὐτῆς νῆσοι <placeName>Ναξικαὶ</placeName> πολλαί. Πιθηκοῦσαι καὶ λιμήν. κατ’ ἐναντίον αὐτῶν <placeName>Καλάθη</placeName>
+                                        <placeName>νῆσος</placeName> καὶ πόλις ἐν τῇ νήσῳ <placeName>Εὔβοια</placeName>. Θάψα καὶ πόλις καὶ λιμήν. <hi rend="italic">Ἰγίλγιλις</hi> πόλις καὶ λιμήν. Σίδα πόλις. <hi rend="italic">Ἰόμνιον</hi> ἄκρα· πόλις καὶ λιμήν. Ἕβδομος πόλις καὶ λιμήν. Ἀκίον <placeName>νῆσος</placeName>· πόλις καὶ λιμὴν ἔπεστι. Ψαμαθὸς <placeName>νῆσος</placeName>· πόλις καὶ λιμήν. καὶ <placeName>κόλπος</placeName>· ἐν δὲ τῷ <placeName>κόλπῳ</placeName> Βαρτὰς <placeName>νῆσος</placeName> καὶ λιμήν. Χάλκα πόλις ἐν τῷ ποταμῷ. Ἀρύλων πόλις. Μὴς πόλις καὶ λιμήν. <placeName>Σίγη</placeName> πόλις ἐν τῷ ποταμῷ. καὶ πρὸ τοῦ ποταμοῦ <placeName>νῆσος</placeName>
+                                        <placeName>Ἄκρα</placeName>. πόλις μεγάλη &lt;καὶ&gt; λιμήν. Ἄκρος ἡ πόλις καὶ ὁ <placeName>κόλπος</placeName> ἐν αὐτῇ. ἔρημος <placeName>νῆσος</placeName> Δρίναυπα ὄνομα.</l>
+                                        <l n="6">Ἡράκλειος στήλη &lt;ἡ&gt; ἐν <placeName>Λιβύῃ</placeName>. ἄκρα Ἀβιλυκὴ &lt;καὶ&gt; πόλις ἐν ποταμῷ καὶ ἀντίον αὐτῆς τὰ <placeName>Γάδειρα</placeName> νῆσοι. ἀπὸ <placeName>Καρχηδόνος</placeName> ταύτῃ ἐστὶν ἐφ’ <placeName>Ἡρακλείους</placeName> στήλας τοῦ καλλίστου πλοῦ παράπλους ἡμερῶν ἑπτὰ καὶ νυκτῶν ἑπτά.</l>
+                                        <l n="7">{Γάδειρα.} εἰσὶ νῆσοι αὗται πρὸς τῇ <placeName>Εὐρώπῃ</placeName>· τούτων ἡ ἑτέρα πόλιν ἔχει· καὶ <placeName>Ἡράκλειοι</placeName>
+                                        <placeName>στῆλαι</placeName> κατὰ ταύτας, ἡ μὲν ἐν τῇ <placeName>Λιβύῃ</placeName> ταπεινή, ἡ δ’ ἐν τῇ <placeName>Εὐρώπῃ</placeName> ὑψηλή. αὗται δέ εἰσιν ἄκραι καταντικρὺ ἀλλήλων· διέχουσι δὲ αὗται ἀπ’ ἀλλήλων πλοῦν ἡμέρας.</l>
+                                        <l n="8">παράπλους <placeName>Λιβύης</placeName> ἀπ’ <placeName>Αἰγύπτου</placeName> τοῦ <placeName>Κανωπικοῦ</placeName> στόματος μέχρι <placeName>Ἡρακλείων</placeName>
+                                        <placeName>στηλῶν</placeName>, τιθεμένου τοῦ λογισμοῦ κατὰ ταὐτὰ ἅπερ ἐν <placeName>Ἀσίᾳ</placeName> καὶ <placeName>Εὐρώπῃ</placeName> γέγραπται, κατὰ τοὺς κόλπους κύκλῳ περιπλέοντι ἡμερῶν <hi rend="italic">νʹ</hi> καὶ δʹ.</l>
+                                        <l n="9">ὅσα γέγραπται πολίσματα ἢ ἐμπόρια ἐν τῇ <placeName>Λιβύῃ</placeName>, ἀπὸ τῆς <placeName>Σύρτιδος</placeName> τῆς παρ’ <placeName>Ἑσπερίδας</placeName> μέχρι <placeName>Ἡρακλείων</placeName>
+                                        <placeName>στηλῶν</placeName> &lt;τῶν&gt; ἐν <placeName>Λιβύῃ</placeName>, πάντα ἐστὶ <placeName>Καρχηδονίων</placeName>.</l>
+                                        <l n="112">1. μετὰ δὲ <placeName>Ἡρακλείους</placeName> στήλας εἰς τὸ ἔξω πλέοντι, ἔχοντι τὴν <placeName>Λιβύην</placeName> ἐν ἀριστερᾷ, <placeName>κόλπος</placeName> ἐστὶ μέγας μέχρι <placeName>Ἑρμαίας</placeName> ἄκρας. ἔστι γὰρ καὶ ἐνταῦθα <placeName>Ἑρμαία</placeName> ἄκρα. κατὰ δὲ μέσον τὸν <placeName>κόλπον</placeName> κεῖται <placeName>Ποντίων</placeName> τόπος καὶ πόλις. περὶ δὲ τὴν πόλιν λίμνη κεῖται μεγάλη, ἐν δὲ τῇ λίμνη ταύτῃ κεῖνται νῆσοι πολλαί. περὶ δὲ τὴν λίμνην πέφυκε κάλαμος καὶ κύπειρος καὶ φλέως καὶ θρυόν. αἱ δὲ ὄρνιθες αἱ Μελεαγρίδες ἐνταῦθά εἰσιν, ἄλλου δὲ οὐδαμοῦ, ἂν μὴ ἐντεῦθεν ἐξαχθῶσιν. τῇ δὲ λίμνῃ ταύτῃ ὄνομα Κηφησιάς, τῷ δὲ <placeName>κόλπῳ</placeName> Κώτης, ἔστι δὲ <placeName>Ἡρακλείων</placeName>
+                                        <placeName>στηλῶν</placeName> καὶ <placeName>Ἑρμαίας</placeName> ἄκρας ἐν τῷ μεταξύ.</l>
+                                        <l n="2">ἀπὸ δὲ τῆς <placeName>Ἑρμαίας</placeName> ἄκρας ἕρματα τέταται μεγάλα, ἀπὸ δὲ τῆς <placeName>Λιβύης</placeName> ἐπὶ τὴν <placeName>Εὐρώπην</placeName>, οὐχ ὑπερέχοντα τῆς <placeName>θαλάττης</placeName>· ἐπικλύζει δὲ ἐπ’ αὐτὰ ἐνιαχῆ. τέταται δὲ τὸ ἕρμα ἐπὶ ἑτέραν ἄκραν τῆς <placeName>Εὐρώπης</placeName> τὸ καταντικρύ· τῇ δὲ ἄκρᾳ ταύτῃ ὄνομα <placeName>Ἱερὸν</placeName> Ἀκρωτήριον.</l>
+                                        <l n="3">ἀπὸ δὲ τῆς <placeName>Ἑρμαίας</placeName> ἄκρας ποταμός ἐστιν Ἀνίδης· ἐξίησι δὲ οὗτος εἰς λίμνην μεγάλην. μετὰ δὲ Ἀνίδην <supplied reason="lost">εἶτα</supplied> ἐστὶν ἄλλος ποταμὸς μέγας, Λίξος, καὶ πόλις <placeName>Φοινίκων</placeName> Λίξος. καὶ ἑτέρα πόλις <placeName>Λιβύων</placeName> ἐστὶ πέραν τοῦ ποταμοῦ, καὶ λιμήν.</l>
+                                        <l n="4">μετὰ δὲ Λίξον Κράβις ποταμὸς καὶ λιμήν, καὶ πόλις <placeName>Φοινίκων</placeName> Θυμιατηρία ὄνομα. ἀπὸ Θυμιατηρίας &lt;πλοῦς&gt; εἰς Σολόεσαν ἄκραν, ἣ ἀνέχει μάλιστα εἰς τὸν πόντον. τῆς δὲ <placeName>Λιβύης</placeName> πάσης αὕτη ἡ <placeName>χώρα</placeName> ὀνομαστοτάτη καὶ ἱερωτάτη. ἐπὶ δὲ τῷ ἀκρωτηρίῳ τῆς ἄκρας ἔπεστι βωμὸς μεγαλοπρεπὴς <placeName>Ποσειδῶνος</placeName>. ἐν δὲ τῷ βωμῷ εἰσὶ γεγραμμένοι ἀνδριάντες, λέοντες, δελφῖνες· Δαίδαλον δέ φασι ποιῆσαι.</l>
+                                        <l n="5">ἀπὸ δὲ Σολόεντος ἄκρας ποταμός ἐστιν ᾧ ὄνομα Ξιῶν. περὶ τοῦτον τὸν ποταμὸν περιοικοῦσιν Αἰθίοπες ἱεροί. κατὰ δὲ ταῦτα νῆσός ἐστιν ᾗ ὄνομα Κέρνη.</l>
+                                        <p>παράπλους δὲ ἀπὸ <placeName>Ἡρακλείων</placeName>
+                                        <placeName>στηλῶν</placeName> ἐπὶ Ἑρμαίαν ἄκραν ἡμερῶν δύο. ἀπὸ δὲ <placeName>Ἑρμαίας</placeName> ἄκρας εἰς Σολόεντα ἄκραν παράπλους ἡμερῶν τριῶν. ἀπὸ δὲ Σολόεντος εἰς Κέρνην παράπλους ἡμερῶν ἑπτά. σύμπας δὲ ὁ παράπλους οὗτός ἐστιν ἀπὸ <placeName>Ἡρακλείων</placeName>
+                                        <placeName>στηλῶν</placeName> εἰς Κέρνην νῆσον ἡμερῶν δώδεκα.</p>
+                                        <l n="6">τῆς Κέρνης δὲ νήσου τὰ ἐπέκεινα οὐκέτι ἐστὶ πλωτὰ διὰ βραχύτητα <placeName>θαλάττης</placeName> καὶ πηλὸν καὶ φῦκος. ἔστι δὲ τὸ φῦκος τῆς δοχμῆς τὸ πλάτος καὶ ἄνωθεν ὀξὺ ὥστε κεντεῖν.</l>
+                                        <l n="7">οἱ δὲ ἔμποροί εἰσι μὲν <placeName>Φοίνικες</placeName>· ἐπὰν δὲ ἀφίκωνται εἰς τὴν νῆσον τὴν Κέρνην, τοὺς μὲν γαύλους καθορμίζουσι, ἐν τῇ Κέρνῃ σκηνὰς ποιησάμενοι αὑτοῖς· τὸν δὲ φόρτον ἐξελόμενοι αὐτοὶ διακομίζουσιν ἐν μικροῖς πλοίοις εἰς τὴν ἤπειρον.</l>
+                                        <l n="8">εἰσὶ δὲ <supplied reason="lost">οὗτοι</supplied> Αἰθίοπες πρὸς τὴν ἤπειρον· εἰσὶ δὲ οὗτοι οἱ Αἰθίοπες πρὸς οὓς διατίθενται. πωλοῦσι δὲ πρὸς δέρματα ἐλάφων καὶ λεόντων καὶ παρδάλεων καὶ δέρματα ἐλεφάντων καὶ ὀδόντας, καὶ τῶν ἡμέρων βοσκημάτων.</l>
+                                        <l n="9">οἱ Αἰθίοπες χρῶνται κόσμῳ <supplied reason="lost">—</supplied> στίκτοις, καὶ ἐκπώμασι τοῦ ἐλέφαντος φιάλαις· καὶ αἱ γυναῖκες αὐτῶν χρῶνται κόσμῳ ψελίοις τοῦ ἐλέφαντος· χρῶνται δὲ καὶ πρὸς τοὺς ἵππους ἐλεφαντίνῳ κόσμῳ. εἰσὶ δὲ οὗτοι οἱ Αἰθίοπες μέγιστοι ἀνθρώπων πάντων ὧν ἡμεῖς ἴσμεν, μείζους ἢ τετραπήχεις· εἰσὶ δέ τινες αὐτῶν καὶ πενταπήχεις. καὶ πωγωνοφόροι εἰσὶ καὶ κομῆται, καὶ κάλλιστοι πάντων ἀνθρώπων οὗτοί εἰσι. καὶ βασιλεύει αὐτῶν οὗτος ὃς ἂν ᾖ μέγιστος. εἰσὶ καὶ ἱππηλάται καὶ ἀκοντισταὶ καὶ τοξόται, καὶ χρῶνται τοῖς βέλεσι πεπυρακτωμένοις.</l>
+                                        <l n="10">οἱ δὲ <placeName>Φοίνικες</placeName> ἔμποροι εἰσάγουσιν αὐτοῖς μύρον, λίθον Αἰγυπτίαν, <hi rend="italic">ἄλλους ἐξορύκτους</hi>, κέραμον Ἀττικὸν καὶ χοῦς· τὰ γὰρ πλάσματά ἐστιν ὤνια ἐν τοῖς Χουσὶ τῇ ἑορτῇ.</l>
+                                        <l n="11">εἰσὶ δὲ οἱ Αἰθίοπες οὗτοι κρεοφάγοι γαλακτοπόται, οἶνον δὲ ποιοῦσι πολὺν ἀπὸ ἀμπέλων· τὸν δὲ καὶ αὐτοὶ οἱ <placeName>Φοίνικες</placeName> ἄγουσιν. ἔστι δὲ αὐτοῖς καὶ πόλις μεγάλη, πρὸς ἣν οἱ <placeName>Φοίνικες</placeName> εἰσπλέουσιν οἱ ἔμποροι.</l>
+                                        <l n="12">λέγουσι δέ τινες τούτους τοὺς Αἰθίοπας παρήκειν συνεχῶς οἰκοῦντας ἐντεῦθεν εἰς <placeName>Αἴγυπτον</placeName>, καὶ εἶναι ταύτην &lt;τὴν&gt; <placeName>θάλατταν</placeName> συνεχῆ, ἀκτὴν δὲ εἶναι τὴν <placeName>Λιβύην</placeName>.</l>
+                                        <l n="113">1. διάφραγμα διὰ τῆς <placeName>θαλάττης</placeName> &lt;ἀπὸ&gt; τῆς <placeName>Εὐρώπης</placeName> εἰς τὴν <placeName>Ἀσίαν</placeName> ἐπιεικῶς εὐθὺ κατ’ ὀρθόν. ἄρχεται δὲ τὸ διάφραγμα ἀπὸ Εὐρίπου τοῦ κατὰ Χαλκίδα, καὶ ἔστιν ἐπὶ Γεραιστὸν στάδια ψʹ καὶ νʹ. ἀπὸ Γεραιστοῦ ἐπὶ Παιώνιον τῆς Ἄνδρου στάδια πʹ. αὐτῆς τῆς Ἄνδρου ἐπὶ τὸν Αὐλῶνα στάδια σπʹ. τοῦ Αὐλῶνος διάπλους εἰς Τῆνον στάδια ιβʹ. αὐτῆς δὲ τῆς Τήνου ἐπὶ τὸ <placeName>ἀκρωτήριον</placeName> τὸ κατὰ Ῥηναίαν στάδια ρνʹ. τοῦ δὲ διάπλου εἰς Ῥηναίαν στάδια μʹ. αὐτῆς δὲ Ῥηναίας καὶ τοῦ διάπλου εἰς Μύκονον στάδια μʹ. ἀπὸ δὲ Μυκόνου διάπλους ἐπὶ τοὺς Μελαντίους σκοπέλους προαριστιδίου μικρῷ ἐλάττων, σταδίων μʹ. ἀπὸ δὲ Μελαντίων <placeName>σκοπέλων</placeName> πλοῦς εἰς Ἴκαρον προαριστίδιος. αὐτῆς δὲ τῆς Ἰκάρου στάδια τʹ ἐπὶ μῆκος. ἀπὸ δὲ Ἰκάρου πλοῦς εἰς Σάμον προαριστίδιος. αὐτῆς δὲ Σάμου στάδια σʹ. ἐκ Σάμου εἰς Μυκάλην τοῦ διάπλου στάδια ζʹ. τὸ πᾶν, ἐὰν ἐκ Σάμου πλέωσι πλῷ ἀρίστῳ, στάδια ͵βτοʹ, μὴ προσλογιζομένου τοῦ πλοῦ &lt;τοῦ ἐκ Μυκάλης εἰς Σάμον&gt;.</l>
+                                        <l n="2">ἕτερον διάφραγμα ὀρθὸν κατ’ εὐθύ. &lt;ἀπὸ Μαλέας&gt; ἕως Κυθήρων στάδια &lt;ρ&gt;λʹ. αὐτῶν δὲ Κυθήρων μῆκος στάδια ρʹ. εἰς Αἰγιλίαν πλοῦς προαριστίδιος. &lt;αὐτῆς Αἰγιλίας μῆκος στάδια νʹ. ἀπ’ Αἰγιλίας εἰς Κρήτην, πλοῦς προαριστίδιος.&gt; <placeName>Κρήτης</placeName> αὐτῆς μῆκος στάδια ͵βφʹ. ἀπὸ <placeName>Κρήτης</placeName> εἰς Κάρπαθον στάδια †ρʹ. αὐτῆς Καρπάθου μῆκος στάδια ρʹ. εἰς <placeName>Ῥόδον</placeName> ἀπὸ Καρπάθου πλοῦς στάδια ρʹ. αὐτῆς Ῥόδου μῆκος στάδια χʹ. ἀπὸ Ῥόδου εἰς τὴν <placeName>Ἀσίαν</placeName> στάδια ρʹ. ἔστι τοῦ διάπλου τὸ διάφραγμα στάδια ͵δσοʹ.</l>
+                                        <l n="114">Μεγέθη νήσων. μεγίστη Σαρδώ, δευτέρα <placeName>Σικελία</placeName>, τρίτη <placeName>Κρήτη</placeName>, τετάρτη <placeName>Κύπρος</placeName>, πέμπτη <placeName>Εὔβοια</placeName>, ἕκτη <placeName>Κύρνος</placeName>, ἑβδόμη <placeName>Λέσβος</placeName>, ὀγδόη <placeName>Ῥόδος</placeName>, ἐνάτη <placeName>Χίος</placeName>, δεκάτη Σάμος, ἑνδεκάτη <placeName>Κόρκυρα</placeName>, δωδεκάτη †<placeName>Κάσος</placeName>, τρισκαιδεκάτη Κεφαλληνία, τεσσαρεσκαιδεκάτη <placeName>Νάξος</placeName>, πεντεκαιδεκάτη <placeName>Κῶς</placeName>, ἑξκαιδεκάτη <placeName>Ζάκυνθος</placeName>, ἑπτακαιδεκάτη <placeName>Λῆμνος</placeName>, ὀκτωκαιδεκάτη <placeName>Αἴγινα</placeName>, ἐννεακαιδεκάτη <placeName>Ἴμβρος</placeName>, εἰκοστὴ <placeName>Θάσος</placeName>.</l>
+                                    </div>
+                                </div>
+                            </body>
+                        </text>
+                    </TEI>
