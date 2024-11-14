@@ -11,3 +11,5 @@ Danish 18th centry texts in the folder Schnitler.
 See also: https://github.com/oeide/space-exploration 
 
 Ancient Greek NER: https://huggingface.co/UGARIT/grc-ner-bert
+
+Shared Google Doc: https://docs.google.com/document/d/1yeCMoG_2kYsTcUVBcidudYO5SgvZ3NFIdEzL_QfWJjM/edit?usp=sharing 
