@@ -1,0 +1,677 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:xs="http://relaxng.org/ns/structure/1.0" xmlns:type="application/tei+xml">
+  <teiHeader xml:lang="eng-Latn">
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Jacoby Online</title>
+        <title level="a">Commentary on T 1</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Brill</publisher>
+        <pubPlace>Leiden</pubPlace>
+        <date>2013</date>
+        <idno type="DOI">http://dx.doi.org/10.1163/1873-5363_jcv_a2046</idno>
+        <idno type="publisher-id">bnjo</idno>
+        <idno type="ISSN">1873-5363</idno>
+        <availability status="restricted">
+          <licence target="https://brill.com/page/Terms%20%26%20Conditions/terms-and-conditions">Copyright 2021 by Koninklijke Brill NV, Leiden, The Netherlands</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title level="s">Jacoby Online</title>
+          <editor>
+            <name type="person">
+              <forename>Ian</forename>
+              <surname>Worthington</surname>
+              <idno type="ORCID"/>
+              <idno type="ISNI"/>
+            </name>
+          </editor>
+          <editor>
+            <name type="person">
+              <forename>Stefan</forename>
+              <surname>Schorn</surname>
+              <idno type="ORCID"/>
+              <idno type="ISNI"/>
+            </name>
+          </editor>
+          <editor>
+            <name type="person">
+              <forename>Felix K.</forename>
+              <surname>Maier</surname>
+              <idno type="ORCID"/>
+              <idno type="ISNI"/>
+            </name>
+          </editor>
+          <editor>
+            <name type="person">
+              <forename>Hans-Joachim</forename>
+              <surname>Gehrke</surname>
+              <idno type="ORCID"/>
+              <idno type="ISNI"/>
+            </name>
+          </editor>
+          <publisher>Brill</publisher>
+          <pubPlace>Leiden</pubPlace>
+          <date>2013</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en"/>
+        <language ident="la"/>
+        <language ident="grc"/>
+        <language ident="de"/>
+        <language ident="fr"/>
+      </langUsage>
+      <textClass>
+        <term ana="sh85061212">History</term>
+        <term ana="sh85061211">Historiography</term>
+        <term ana="sh85061232">History, Ancient</term>
+        <term ana="sh2008121736">History, Ancient--Sources</term>
+        <term ana="sh2008105652">History, Ancient--Historiography</term>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <variantEncoding method="location-referenced" location="external"/>
+      <styleDefDecl scheme="css" schemeVersion="3.0"/>
+      <refsDecl n="CTS">
+        <cRefPattern n="Fragment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pointer pattern extracts Fragment</p>
+        </cRefPattern>
+      </refsDecl>
+      <tagsDecl>
+        <rendition xml:id="italic">font:italic;</rendition>
+        <rendition xml:id="bold">font:bold;</rendition>
+        <rendition xml:id="underline">font:underline;</rendition>
+        <rendition xml:id="subscript">font:subscript;</rendition>
+        <rendition xml:id="superscript">font:superscript;</rendition>
+        <rendition xml:id="smallcaps">font:smallcaps;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="commentary" n="urn:cts:greekLit:fgrh.2046.bnjo-1-comm3-eng" xml:lang="eng-Latn">
+        <div type="textpart" subtype="fragment" n="t1">
+          <head>Commentary on T 1</head>
+          <p>
+            <hi rend="bold">III.1. Commentary on TT 1–8</hi>
+          </p>
+          <p>(709 F 12) Strab. 13.1.4 C583: Ps.-Skylax at <hi rend="bold">F 1,</hi> §94, actually makes Abydos the last place in Phrygia <hi rend="italic">before</hi> it is interrupted by Troas (cf. <ref>Counillon 2004, 24–5</ref>). Such a statement could also have been made by Skylax of Karyanda, who repeatedly made comparisons between India and Asia Minor, as we may deduce from Philostratos (<ref>Panchenko 2002, 6</ref>). If it is from PS, however, it implies that the <hi rend="italic">periplous</hi> was circulating under Skylax’s name by the time of Augustus or Tiberius, whereas <ref>Marcotte 2000, lxvii</ref>, believes Markianos was responsible for the identification.</p>
+        </div>
+        <div type="textpart" subtype="fragment" n="t2">
+          <head>Commentary on T 2</head>
+          <p>PS does not say it say in what relation the river lies to the city, simply naming ‘Kios, and the Kios river’ (<hi rend="bold">F 1,</hi> §93). Since παραρρέων has more justification than περιρρέων, the scholiast is simply paraphrasing PS, perhaps at second hand, rather than misquoting him or using a different version of his work from ours; and this could still be so even if we read περιρρέων. This and the next scholion could be earlier or later than Strabo.</p>
+        </div>
+        <div type="textpart" subtype="fragment" n="t3">
+          <head>Commentary on T 3</head>
+          <p>PS does not say exactly what the scholiast claims that Skylax says, but does make the people of the Nestos area Illyrians (<hi rend="bold">F 1,</hi> §24. 1). The phrase is almost Skylakian, but he would not give a <hi rend="italic">paraplous</hi> from a people into a gulf, so something is wrong with the Greek. The discrepancy could be due to MS corruption of PS, but could also support the idea that a more complete version of PS existed at one time. However, this is probably a misquotation from PS rather than a quotation from SK.</p>
+        </div>
+        <div type="textpart" subtype="fragment" n="t4">
+          <head>Commentary on T 4</head>
+          <p>Included because in <hi rend="bold">T 5</hi> Avienus (see <ref target="urn:cts:greekLit:fgrh.2009.bnjo-1-ed-grc"><hi rend="italic">FGrHist</hi> 2009</ref>) is probably using PS rather than SK, so that this listing of ‘Scylax Caryandaeus’ among his sources may indicate the use of our <hi rend="italic">periplous</hi>. Lake Maiotis is mentioned more than once by PS (<hi rend="bold">F 1,</hi> §§68. 4–5; §69—in a deleted passage—and 92. 2), and SK is not known to have mentioned it. It is not, however, in his <hi rend="italic">Ora maritima</hi> but in his <hi rend="italic">Descriptio orbis terrae</hi> (a version of Dion. Per.) that Avienus discusses Maiotis (ll. 31–2, 240–2) and the peoples around it (844–5); he does not cite Skylax there.</p>
+        </div>
+        <div type="textpart" subtype="fragment" n="t5">
+          <head>Commentary on T 5</head>
+          <p>More likely a paraphrase of PS than a citation of SK. Avienus first cites Damastus of Sige for the width of the straits of Gibraltar being barely 7 stades, then Skylax for its being the same as that of the Bosporus. PS §67, 8 does actually say that the N end of the Bosporos is 7 st. wide; so Avienus could be paraphrasing PS, rather than quoting a different source or a different version of PS. (See now <ref>Panchenko 2005</ref> with <ref>Shipley 2011</ref> ad loc.)</p>
+        </div>
+        <div type="textpart" subtype="fragment" n="t6">
+          <head>Commentary on T 6</head>
+          <p>This introduction, demonstrably not part of the <hi rend="italic">periplous</hi>, is probably, at least in part (see below), by Markianos of Herakleia (<ref>Marcotte 1986, 166</ref>; see also [<ref target="urn:cts:greekLit:fgrh.2027.bnjo-1-ed-grc">FGrHist 2027</ref>]). Markianos realizes that the <hi rend="italic">periplous</hi> predates both Alexander and the Roman conquest of Greece, but is otherwise imprecise about its date, not specifying to which Darius the work was dedicated (whether Darius I, also called II, who according to Hdt. 4, 44 sent Skylax of Karyanda and others to explore the Indian Ocean; or Darius III, defeated by Alexander) and citing neither Herodotos l.c. nor Aristotle (<hi rend="italic">pol.</hi> 7, 13, 1, 1332 b 12), the only pre-Hl sources for Skylax.</p>
+          <p>(2) This mirrors, consciously or not, Polybios’s similar statement at 3, 59.</p>
+          <p>(3) περιέπλευσεν implies that Markianos believed that PS actually made a voyage such as he narrates. ἐφίκεσθαι can accordingly be given a spatial sense. ‘Ionios or Adrias gulf’ is a variation on <hi rend="bold">F 1,</hi> §14 ‘Adrias or Ionios’ (cf. §27. 2). ‘What is more’ translates προσέτιγε, a conflation of πρὸς ἔτι γε or (προσέτι γε) written as one word in the MS; <ref>Marcotte 2000, cxix</ref>, notes that it is a hallmark of Markianos, so we can assume that this part of the preface, at least, is by him.</p>
+          <p>(5) This is at odds with the text (<ref>Desanges 1978, 88</ref>), since much of PS’s information is accurate for C4m; clearly Markianos was unaware of the details of C4 history.</p>
+          <p>(6) This is the only fragment (<ref target="urn:cts:greekLit:fgrh.0629.bnjo-2-ed-grc:f1"><hi rend="italic">BNJ</hi> 629 F 1</ref>) of Aelius Dius’s On Alexandria. <ref>Hoeschelius 1600, 108</ref>, and later editors altered the name to Aelius Dionysios (the Hadrianic lexicographer), but see <ref>Müller 1855, 33</ref> (citing <ref>Müller 1851, 397</ref>); also <ref>Diller 1952, 26</ref>; <ref>Marcotte 2000, cliii</ref>. <ref>Diller 1952, 46</ref>, observes that this part of the note ‘stands apart in D’ (it is preceded, unlike almost any other part of the MS, by a horizontal space of <hi rend="italic">c</hi>.2 cm and the initial of ‘Ailios’ is in red, like those in other section openings) ‘and may not be by Marcian’.</p>
+        </div>
+        <div type="textpart" subtype="fragment" n="t7">
+          <head>Commentary on T 7</head>
+          <p>This testimonium, if it refers to PS rather than SK, shows that the <hi rend="italic">periplous</hi> existed under SK’s name. Since the emperor cites the <hi rend="italic">ethnikon</hi> of Skylax in a different form from that in D, he may have gathered his information only indirectly, not from the corpus later copied as D but from the original, full version of Steph. Byz. as opposed to the précis that survives (<ref>Marcotte 2000, cxviii-cxix, 38–9</ref>).</p>
+        </div>
+        <div type="textpart" subtype="fragment" n="t8">
+          <head>Commentary on T 8</head>
+          <p>Work (1) is probably the voyage of Skylax of Karyanda, centred on the Indian Ocean, India, and Taprobane (Sri Lanka); see e.g. <ref>Panchenko 1998</ref>; <ref>Panchenko 2002</ref>; <ref>Panchenko 2003</ref>. It is unnecessary to emend the text, since ‘outside the Pillars of Herakles’ is not inconsistent with a voyage to India. Title (2) also probably belongs to the ‘original’ Skylax (<ref>Schepens 1998</ref>). Work (3) has been proposed as a genuine work of Hdt.’s Skylax (<ref>Schepens 1998</ref>), but could be our pseudonymous <hi rend="italic">periplous</hi>. The author of (4) cannot be earlier than Polybios, and is probably the 1st-cent. BC associate of Panaetius (Cic. <hi rend="italic">div</hi>. 2. 42).</p>
+        </div>
+        <div type="textpart" subtype="fragment" n="f1">
+          <head>Commentary on F 1</head>
+          <head><hi rend="italic">Periplous</hi> by Pseudo-Skylax</head>
+          <p>In the Greek text, Greek words in italics indicate that a reading or restoration is particularly uncertain.</p>
+          <p>{ } marks section headings in the MS, which are not original.</p>
+          <p>The apparatus criticus material contained in the Notes is more selective than in <ref>Shipley 2011</ref>. It does not include (a) the majority of uncontroversial corrections by editors, especially of place-names; (b) certain places where the reading of D is preferred to editors’ suggestions.</p>
+          <head>Commentary</head>
+          <p>PS emphasizes the continental structure of his world, but also divides each continent into smaller geographical blocs. At the lowest level these are <hi rend="italic">ethnos</hi> units, schematically bounded and not necessarily ethnically homogeneous. At a higher level he sums up the coast as far as Antion at 4, the Adriatic at 27, ‘continuous Hellas’ at 65. This, however, leaves W. Italy and Epeiros defined only negatively; within continuous Hellas he defines the beginning and end of the Peloponnese (40, 55) and, within that again, inserts Crete (47) and the S. Cyclades (48). Crete forms a uniquely non-coastal narrative; and Arkadia would surely have been included even without its temporary, short coastline (44). The Black Sea bloc (67, 8–92, 2) necessarily overlaps with Thrake (67, 1–10) and straddles the Europe–Asia boundary (68, 5).</p>
+          <p><hi rend="italic">Title in D</hi>. This is an inaccurate summary of the <hi rend="italic">periplous</hi>. ‘The seven inhabited islands’ bears no relation either to the main text or to the added list of twenty in §114. The syntax of the start of the second sentence is ambiguous: does the summarizer imagine the <hi rend="italic">periplous</hi> to be about both the sea and the three continents, or does he refer awkwardly to ‘the sea of inhabited Europe’ and so on? Does he regard the Mediterranean and the Black Sea as a unity?</p>
+          <p>
+            <hi rend="bold">1–69. Europe</hi>
+          </p>
+          <p>
+            <hi rend="italic">1–4. From the Pillars to the start of Italy</hi>
+          </p>
+          <p>The lack of detail is probably not due to the supposed exclusion of Greeks from the West (e.g. after the abandonment of Alalia <hi rend="italic">c</hi>.545), which is of doubtful historicity. Though writing before Pytheas, PS could surely have consulted Carthaginians or Massaliotes in Athens (for the suggestion of a Punic source see <ref>Beaumont 1939, 80</ref>). It seems unlikely that he consciously filtered out non-Greek settlements; he does not do so in Phoenicia or Africa. Perhaps his source withheld sensitive commercial information (though PS evinces little interest in trade) or worked from jejune literary texts.</p>
+          <list rend="numbered">
+            <item>
+              <p>For the Pillars cf. 69; 111. 6–9; 112, 5. PS is inconsistent about the number in each continent and the distance between them (πλοῦν ἡμέρας may originally have referred to the distance from the narrows to Gadeira). He has probably used plural sources, one of which (at 111, 7) concurred with Dikaiarchos and those others who (according to Strab. 3.5.5 C170) located the Pillars near the narrows; Strabo says Carthaginians and Libyans did not do so, and PS may have used their information too. (Cf. <ref>Antonelli 1995</ref> on the conceptual relocation of the Pillars from the <hi rend="italic">Cádiz</hi> area). The Carthaginian <hi rend="italic">emporia</hi> are probably to be understood as lying E of Gadeira, where he said he would begin; but there were such towns as far N as <hi rend="italic">Galicia</hi> (<ref>Lowe 2007, 23–6</ref>). PS’s Peripatetic interests are reflected in πηλὸς κτλ.</p>
+            </item>
+            <item>
+              <p>In placing the Iberes at the start of Europe he concurs with Polybios 3, 37 but not with Hekat. FF 38–52, who puts the Mastianoi or Mastienoi by the Pillars. Of the few Greek settlements PS mentions only Emporion (first named here). The <hi rend="italic">paraplous</hi> is tolerably accurate, as are the figures totalling 7,200 st. given by Polybios 3, 39.</p>
+            </item>
+            <item>
+              <p>PS uses ἔχονται mostly in the West (six times at 3–12, then 71 and 109. 1 and 3); a mannerism of particular sources? For Ligurians in Italy cf. Strab. 5.1.1.3, and 4 C209–10; but <ref>Arnaud 2001</ref> warns against taking references to them literally. Strab. 3.4.19 C166 says earlier writers extended Iberia to the <hi rend="italic">Rhône</hi>; he may have had in mind PS. For the <hi rend="italic">paraplous</hi>, cf. Polybios 3, 39. 7 (with <ref>Walbank 1957–79, i. 371–2</ref>).</p>
+            </item>
+            <item>
+              <p>Antion is probably <hi rend="italic">Antibes</hi> (Antipolis); if so, it is first named here. PS clearly marks a supra-regional division; the next is at 27, 2.</p>
+            </item>
+          </list>
+          <p>
+            <hi rend="italic">5–14. Italy as far as the mouth of the Adriatic</hi>
+          </p>
+          <p>Despite the closure at 4, Italy is given no overall name (on the meaning of ‘Italia’ see <ref>Fischer-Hansen 2004a, 249–50</ref>). Coverage of Greek <hi rend="italic">poleis</hi> is inconsistent, and is especially thin in Sicily. Most non-Greek towns are simply absent. At several points PS is out of date; the Peripatetics, with whom he is connected, found it hard to gain reliable data on Italy (<ref>Fraser 1994, 182–7</ref>).</p>
+          <list rend="numbered">
+            <item>
+              <p>Rome does not reappear at 8, where one would expect it. PS attaches it neither to Tyrrhenia nor to Latium, perhaps regarding it as liminal (cf. <ref>Cary 1949, 130</ref>). Greek contact was limited until C4l, so its brief treatment does not indicate an early source. The <hi rend="italic">paraplous</hi> matches the total of 495 Roman miles (3,960 st.) at Plin. <hi rend="italic">nat.</hi> 3, 5, 5/49 and 51, from the R. Macra (just E of <hi rend="italic">Antibes</hi>) to the Tiber.</p>
+            </item>
+            <item>
+              <p>There were no Greek <hi rend="italic">poleis</hi> in Corsica in C4m. Greek literary knowledge was, not surprisingly, limited; PS gives no detail even though he may be using Carthaginian or Phoenician sources. The implied crossing of <hi rend="italic">c</hi>.750 st. if correctly transmitted, is not direct: it is nearly double that implied at Diod. 5, 13, 1 and 3 (<hi rend="italic">c</hi>.100 st. plus 300 st.).</p>
+            </item>
+            <item>
+              <p>The implied distance of <hi rend="italic">c</hi>.167 st. from Corsica to Sardinia compares with 60 st. at Strab. 5.2.6 C223 and 8 miles (64 st.) at Plin. <hi rend="italic">nat.</hi> 3, 6/83, both accurate for the shortest voyage; PS may thus refer to a journey between two harbours. The distance to Libya is more accurate than Pliny’s 200 miles (3, 7/84) and Strabo’s 300 miles (5, 2, 8 C225); that to Sicily is also accurate. As at several other junctures, he measures ‘branch routes’ off his main itinerary.</p>
+            </item>
+            <item>
+              <p>As in Tyrrhenia, PS has little to say about a region without prominent Greek <hi rend="italic">poleis</hi>, though Latium was of interest to contemporary philosophers: PS’s probable associate Theophrastos notes its timber at <hi rend="italic">h. plant</hi>. 5, 8, 3, also mentioning Elpenor’s tomb, discussing the local flora at some length, and attributing the joining of the Kirkaion at <hi rend="italic">Monte Circeo</hi> to the mainland to alluviation (cf. Plin. <hi rend="italic">nat.</hi> 3, 5/57); cf. 34, 1 and 3 below. The <hi rend="italic">paraplous</hi> of <hi rend="italic">c</hi>.1,000 st., if correctly transmitted, would begin much further N than the frontier implied at 5; if Tyrrhenia extends to Rome, PS’s figure is twice what it should be. He may have been led into error while combining sources of different dates. (Strab. 5.3.5 C232 gives 260 st., Plin. <hi rend="italic">nat.</hi> 3, 5/56 only 50 miles = 400 st.) At this point he leaves off using <hi rend="italic">ethnos</hi> until 12, whether through <hi rend="italic">variatio</hi>, carelessness, or a change of source.</p>
+            </item>
+            <item>
+              <p>Roman control of Latin and Volscian territory (for the latter, see Strab. 5.3.2 C229–30, etc.) was completed only <hi rend="italic">c</hi>.300; hence for PS they are two regions. The short coast may reflect a stage in Roman expansion before the Latin war of 341–338, and may be slightly out of date.</p>
+            </item>
+            <item>
+              <p>PS is the first author to mention the Campanians (<ref>Fischer-Hansen 2004a, 251</ref>). On Pithekoussa he is not necessarily out of date; although it may have declined to non-<hi rend="italic">polis</hi> status in C7, it may alternatively have become a dependent <hi rend="italic">polis</hi> of Syracuse (<ref>Flensted-Jensen–Hansen 2007, 215</ref>).</p>
+            </item>
+            <item>
+              <p>For a new, less formalized picture of the Samnites, see <ref>Dench 1995, 175–217</ref>; <ref>Richardson 2009</ref>. This is important for the reading of §15. One would expect the Alfaterni here; PS ignores their presence in Campania, which had just become Roman territory in 343–341.</p>
+            </item>
+            <item>
+              <p>Lucania’s long extent suits a time before the Bruttian <hi rend="italic">ethnos</hi> was formally constituted in 356 (Diod. 16, 15, 2; <ref>Marcotte 1986, 172–3</ref>). But the <hi rend="italic">paraplous</hi>, which has the same length as that of Iapygia, is too great (<ref>Müller 1855, 19</ref>) and may be corrupt.</p>
+            </item>
+            <item>
+              <p>(1) Only for Sicily, 58, 1 Keos, and 99, 3 Rhodos (all multi-<hi rend="italic">polis</hi> islands) does PS circle a land mass clockwise. It is surprising that he does not first describe the N coast, preferring to cross over his own ‘route’; he may be using a source specific to Sicily, which could also explain the switch to stades. Most Greek <hi rend="italic">poleis</hi> in the island are absent; the inclusion of the ex-<hi rend="italic">poleis</hi> Himera and Naxos suggests a C5 or earlier source. As at 47, 1, PS stresses Europe as the ‘parent’ entity (cf. 47. 1). PS’s first distance in stades (cf. 13, 3, 4; 17; 21; thereafter more frequent) is reasonably accurate for the narrows (as at Polybios 1, 42, 5; Plin. <hi rend="italic">nat.</hi> 3, 5/73), but the crossing from Rhegion is 10 km, not 12 st. and he omits the hazardous strait of <hi rend="italic">Messina</hi>.</p>
+            </item>
+          </list>
+          <p>(2) The list of peoples (cf. 47, 2 for another) largely matches Thuk. 6, 2 but is out of date; in C4 one expects a division between Greek tyrannies and Carthaginians (<ref>Marcotte 1986, 173</ref>), but PS neglects non-Greek towns, as at 5. ‘Phoinikes’, an antiquated term in C4, may reflect the Greek nationalism of the era of Timoleon (<ref>Marcotte 1986, 176</ref>) or simply an old source.</p>
+          <p>(3) Naxos was ‘destroyed’ in 403 by Dionysios I (Diod. 14, 15, 2–3) and was henceforth a non-<hi rend="italic">polis</hi> settlement; the citizens’ descendants were settled at Tauromenion in 358 by Dionysios II (<ref>Fischer-Hansen 2004b, 231</ref>). Coin evidence could extend Naxos’s life past 403 (<ref>Marcotte 2000, 174</ref>), but this is not certain (<ref>Fischer-Hansen 2004b, 220</ref>); and evidence of C3 settlement and cult (<ref>Fischer-Hansen 2004b, 219</ref>) is not evidence of <hi rend="italic">polis</hi> status. PS may simply be 60 years out of date. Naxos’s inclusion, however, does not (<hi rend="italic">pace</hi> Peretti) reveal a <hi rend="italic">nucleo antico</hi> overlain with updates; a reviser would have removed it. Again, therefore, PS seems to compile data from old sources. As to the location of Symaithos, PS differs from Thuk. (6, 65), who puts it further N, between Katane and Leontinoi. Kamarina, Gela, Akragas, and Selinous were ‘destroyed’ by the Carthaginians in C5l. Selinous survived (<ref>Fischer-Hansen 2004b, 221–2</ref>), and the rest were revived after 339/8 (<ref>Marcotte 1986, 175</ref>), but again PS is probably using old information. Himera, here a <hi rend="italic">polis</hi>, was allegedly ‘destroyed’ by the Carthaginians in 409/8 (Diod. 13, 62, 4; 13, 114, 1); it may have ceased to be a <hi rend="italic">polis</hi> then or in 383/2, when its successor, Thermai Himeraiai (which issued coins as ‘Himera’: <ref>Fischer-Hansen 2004b, 200</ref>), became Carthaginian; in 313 Himera became Carthaginian ‘just as (it) had formerly been’ (Diod. 19, 71, 7), but the date at which it had ceased to be so is unclear—not necessarily by Timoleon’s treaty of 339/8 (<ref>Talbert 1974, 83–5</ref>). As with Naxos, then, even supposing Himera was a <hi rend="italic">polis</hi> again by 338 we may more easily suppose that PS is using old information than that he is perfectly up to date.</p>
+          <p>(4) The use of geometrical characterization does not make the work cartographic (Introduction, part 4; cf. <ref>Dueck 2005, 24–38</ref>); Sicily’s three corners were obvious to all (cf. Timaios F 164; Timosthenes ap. Agathemeros 20; Polybios 1, 42, 3; Poseidonios ap. Strab. 6.2.1 C265). PS’s distance suits Thuk.’s nearly 8-day circuit of the island at 6. 1, but Sicily is not equilateral.</p>
+          <p>(5) Lakinion, a major landmark, also appears at Polybios 34, 10, 10. Kalypso’s island is unlocated (<ref>Edlund-Berry–Small 2000, 704</ref>). The R. Krathis, with the R. Sybaris, appears at Ps.-Aristot. <hi rend="italic">mir</hi>. 169, 846 b 34. For the city of Sybaris see <ref>Fischer-Hansen <hi rend="italic">et al.</hi> 2004a, 295–9</ref>; its final phase, ‘Sybaris V’, was destroyed by the Bruttii after 356 (Diod. 12, 22, 1), so PS is again out of date; but his probable acquaintance Theophrastos commits the same error of referring to Sybaris in the present tense (<hi rend="italic">h. plant.</hi> 1, 9, 5; cf. <ref>Fraser 1994, 182</ref>).</p>
+          <list rend="numbered">
+            <item>For the Iapyges see Hdt. 3, 138; 4, 99; 7, 170. For the Adrias–Ionios equation, see the <hi rend="italic">apparatus criticus</hi> and 27, 2. In Hekat. F 90, however, Adrias is a specific part of the gulf. The name Ἰόνιος occurs from C5 on (<ref>Beaumont 1936, 204</ref>).</item>
+          </list>
+          <p>
+            <hi rend="italic">15–27. The Adriatic</hi>
+          </p>
+          <p>This is the earliest good account (<ref>Wilkes 1992, 94</ref>; <ref>Wilkes–Fischer-Hansen 2004, 325</ref>; see also <ref>Colonna 2003</ref>; <ref>Counillon 2007b</ref>). Other authors extend the gulf further S, so PS may be taking sides in a geographical debate. For the E. Adriatic he has more to say and may use a different source; a further change of source may be marked by the measurements in stades from 26. 1 on. The richer information may reflect Greek activity after the foundations of Dionysios I; but detail is still limited, suggesting that contacts were not highly developed (<ref>Wilkes 1992, 101</ref>) or that PS did not have access to up-to-date, e.g. Syracusan, sources. Somewhere in this lies the explanation of his mistake about the <hi rend="italic">Danube</hi> (20).</p>
+          <list rend="numbered">
+            <item>
+              <p>At least two of the peoples named belong to the W coast: the Alfaterni (see <hi rend="italic">Barr</hi>.) and the Opici (Thuk. 6, 2, 4; 6, 4, 5; Aristot. fr. 609 Rose; cf. <ref>Antonelli 2002, 204</ref>). The list is probably a misplaced list of Samnites; the error may be PS’s and should not be corrected. The gloss on στόματα (<ref>Müller 1855, 24</ref>) does not make the whole list late. The Daunians were well known to the Greeks; (Ps.-)Lykophr. <hi rend="italic">Alex.</hi> 1063, probably takes this form of their name from PS (<ref>Marcotte 2000, cxxvi–cxxvii</ref>). The Boreontinoi are probably the Frentani (<ref>Peretti 1979, 190, 191</ref>; Strab. 5. 4. 2 C241), while the Peuketieis are likely to be the Peuketiantes of the SE coast (Hekat. F 89) rather than the Picentes of NE Italy (or Peuketioi, schol. Kallimachos fr. 106 Pfeiffer; not deported to the W coast until 268: <ref>Antonelli 2002</ref>). Assuming the latter could be called Samnites, the statement that the latter extend from sea to sea (as at 17 and perhaps 18) may be an original statement by PS. The <hi rend="italic">paraplous</hi> of <hi rend="italic">c</hi>.1,500 st. would take us from Hyrion to Ankon.</p>
+            </item>
+            <item>
+              <p>Ankon was founded by Dionysios I in <hi rend="italic">c</hi>.387 (Strab. 5. 4. 2 C241). On the cult of Diomedes, popular in the C4 Adriatic, see Strab. 5. 1. 8–9 C214–15; <ref>Wilkes–Fischer-Hansen 2004, 322</ref>; <ref>Castiglioni 2008</ref>; <ref>Fraser 1994, 183–4</ref>. It links PS to the Peripatetics (Ps.-Aristot. <hi rend="italic">mir.</hi> 79, 836 a 7–18; 109–1. 840 b 1–24; Theophr. <hi rend="italic">h. plant.</hi> 4, 5, 6). The <hi rend="italic">paraplous</hi> is too long: it would extend <hi rend="italic">c</hi>.100 km beyond the main <hi rend="italic">Po</hi> channel.</p>
+            </item>
+            <item>
+              <p>For the restoration of Spina, see <ref>Wilkes–Fischer-Hansen 2004, 334</ref>; <hi rend="italic">contra</hi> <ref>Counillon 2007b, 20</ref>.</p>
+            </item>
+            <item>
+              <p>Cf. Livy 5, 34–5 for transalpine invaders. If this refers to the attack on Rome <hi rend="italic">c</hi>.390, it links PS to Herakleides Pontikos (F 23, 3 = fr. 102 Wehrli) and with efforts to synchronize Roman and Greek history (<ref>Counillon 2007b, 20 n. 8</ref>).</p>
+            </item>
+            <item>
+              <p>For the Adriatic mouth of the Istros cf. the C3 work Ps.-Aristot. <hi rend="italic">mir.</hi> 105, 839 b 9–11; though Timagetos, <hi rend="italic">On Harbours</hi> (C3), F 1a Müller, places the second mouth in the ‘Celtic sea’, probably the <hi rend="italic">Golfe du Lion</hi> (cf. App. <hi rend="italic">Mithr.</hi> 434). The restoration is tentative, since εὐνή does not normally refer to a river-bed (despite <ref>Müller 1855, 26</ref>). See R. <ref>Hansen 1879</ref> for the probability that PS mentioned the Nile here. Alternatively, for the Nile as lying opposite the <hi rend="italic">Danube</hi>, see Hdt. 2. 33–4; <ref>Counillon 2007b, 22 n. 21</ref>; <ref>González Ponce 1994, 164</ref>.</p>
+            </item>
+            <item>
+              <p>(1) For gynaecocracy cf. 70. On Libyrnian women, Theop. F 39.</p>
+            </item>
+          </list>
+          <p>(2) The Amber Islands are also at ‘Ps.-Skymnos’, 374; the Mentorides are probably Cissa (<hi rend="italic">Pag</hi>) and the islets to the SW.</p>
+          <p>
+            <hi rend="italic">22–7. Illyria</hi>
+          </p>
+          <p>The Illyrians (22–7) occupy a smaller area than the later Illyricum (<ref>Wilkes 1969, 5 n. 1</ref>). In Hdt. 4, 49 it runs from the Enetoi to Epeiros (<ref>Wilkes–Fischer-Hansen 2004, 321</ref>). Here it is defined topologically, in terms of its neighbours, not ethnically (<ref>Counillon 2007b, 23</ref>)</p>
+          <list rend="numbered">
+            <item>(1) For Alkinoös’s harbour see schol. Dion. Per. 492; for his shrine, Thuk. 3, 70, 4; <ref>Gehrke–Wirbelauer 2004, 363</ref>.</item>
+          </list>
+          <p>(2) The Lotus-eaters are usually Libyan (as at 110, 1). Iadasinoi may be Iadastinoi (<ref>Peretti 1979, 224–8, 237</ref>) and perhaps Iader (<hi rend="italic">Zadar</hi>), though that should precede the <hi rend="italic">Krka</hi> (21, 2 Kataibates); possibly PS uses a reverse <hi rend="italic">periplous</hi> (<ref>Counillon 2007b, 23</ref>; cf. <ref>Suić 1955b, 130–1</ref>), as he may at 23, 3 (also 26, 3; 46, 1; 68, 1; 92, 1; 109, 4). ‘Boulinoi’ agrees with ‘Ps.-Skymnos’, 404; other forms at Dion. Per. 386; Liv. 44, 30; Strab. 7, 7, 8 C326–7; Plin. <hi rend="italic">nat.</hi> 3, 21/139. The meaning of the statement about the Hylloi depends on the punctuation (<ref>Counillon 2007b, 22</ref>); cf. Timaios F 77 and Eratosthenes fr. 146 Roller (fr. III B 113 Berger; ‘Ps.-Skymnos’, 405–12) for their ‘barbarization’ (<ref>Counillon 2007b, 23 n. 32</ref>). The peninsula is actually much smaller than the Peloponnese, but seen from the sea the archipelago can resemble a peninsula (<ref>Counillon 2007b, 23 n. 31</ref>).</p>
+          <p>(3) With ἡμέρας μακρᾶς cf. 47. 1 ἡμέρας δρόμος.</p>
+          <list rend="numbered">
+            <item>(1) If we retain κόλπον at 22. 3 fin., the dual denomination of the Manios gulf may suggest an attempt to combine different sources (<ref>Counillon 2007b, 24–5</ref> with n. 35).</item>
+          </list>
+          <p>(3) πολλὴ χώρα may refer to the <hi rend="italic">Pelješać</hi> peninsula. Again there are hints of a reverse <hi rend="italic">periplous</hi> (<ref>Counillon 2007b, 24</ref>), as at 22, 2; 46, 1.</p>
+          <list rend="numbered">
+            <item>
+              <p>(2) The uncertainties about river names may be due to the author’s own confusion, e.g. if he has inserted notes into an existing list (<ref>Counillon 2007b, 25–6</ref>). For Kadmos among the Encheleis see e.g. Hdt. 5, 61; Strab. 7. 7. 8 C327.</p>
+            </item>
+            <item>
+              <p>The Encheleis appear in different forms at Hekat. F 103, ‘Ps.-Skymnos’, 437–9, Steph. Byz. (Enchelanes); note Enchelanai (city), Polybios 5, 108.</p>
+            </item>
+            <item>
+              <p>(2) For Orikos cf. Hekat. F 106; Hdt. 9, 93, 1. Again PS could be using a reverse <hi rend="italic">periplous</hi> (<ref>Counillon 2007b, 26, 27</ref>), as at <ref>Counillon 2007b, 22, 2</ref>; <ref>Counillon 2007b, 23, 3</ref>; but Hammond’s κόλπον counters this.</p>
+            </item>
+          </list>
+          <p>(3) For Karia see <ref>Hammond 1967, 522</ref>. Erytheia, Geryon’s island, is near Gadeira in Hes. <hi rend="italic">theog.</hi> 290, 983; for Geryon(es) see e.g. Stesichoros frr. S17, S19 Davies; Arr. <hi rend="italic">an.</hi> 2, 16, 5. ἠπείρῳ is probably not a proper name; it is clearly not at 28–31. Having followed the Keraunia Mts back to the sea, PS jumps back to Sason, possibly evidence of his using a source arranged S–N (cf. 22. 2 n.). Rather awkwardly, ἐντεῦθεν refers back to Amantia.</p>
+          <list rend="numbered">
+            <item>(1) Here PS Illyrioi marks the end of Illyria (cf. 22).</item>
+          </list>
+          <p>(2) The width of the Adriatic is quite accurate. Though the statement that Adrias = Ionios may be an interpolation, the preceding Ἰονίου κόλπου must be genuine, otherwise the comment, whether original or added, would be redundant.</p>
+          <p>
+            <hi rend="italic">28–33. 1. Epeiros</hi>
+          </p>
+          <p>PS does not use ‘Epeiros’ or ‘Epeirotai’ (<ref>Marcotte 2000, 207–8</ref>; <ref>Marcotte 1986, 176–7</ref>), but 28–32 have a unity, created e.g. by the (incorrect) statements using κατὰ κώμας (a phrase he uses nowhere else). κῶμαι can be <hi rend="italic">poleis</hi> (see <ref>Marcotte 1986, 177</ref>; on κώμη see M. H. <ref>Hansen 1995</ref>; M. H. <ref>Hansen–Nielsen 2004, 28, 41, 74–9</ref>); but PS omits those <hi rend="italic">poleis</hi> (cf. n. on 31) and may share other Greeks’ views of Epeiros as uncivilized or un-Greek (cf. Polybios 18. 5; <ref>Wilkes 1992, 102, 104</ref>). (Thuk. 2, 80 says they have no king.) In naming only three peoples, compared with fourteen in Theop. F 382 (Strab. 7. 7. 5 C324–5), PS may be ignoring the present rather than using old sources, for although he does not indicate Molossian domination of the others (a fact from <hi rend="italic">c</hi>.342) he knows that Molossian power reaches the coast (32).</p>
+          <list rend="numbered">
+            <item>
+              <p>The <hi rend="italic">paraplous</hi> is too short (<ref>Fabricius 1878, 13 n. 7</ref>).</p>
+            </item>
+            <item>
+              <p>The variation between Κόρκυρα here and Κέρκυρα at 22. 1 will be due to the state of the MS. Korkyra has at least two harbours at Thuk. 3. 72. For Alkinoös cf. 22. 1 above. The ‘enclosed’ harbour (possibly Thuk.’s Hyllaïkos, <ref>Allain 1977, 150</ref>) will be a naval base (see n. on 103).</p>
+            </item>
+            <item>
+              <p>Again the <hi rend="italic">paraplous</hi> is too short (<ref>Müller 1855, 34</ref>).</p>
+            </item>
+            <item>
+              <p>PS omits Kassope, synoikized in C4m (M. H. <ref>Hansen 2004b, 117–18</ref>), and its dependent <hi rend="italic">poleis</hi>. His Anaktoric gulf is really part of the Ambrakic (restored at 34); his source may have indicated this because it is the bay that opens up first as one sails in. The length given for the Anaktoric gulf must refer to the Ambrakic as a whole (<ref>Marcotte 1985, 254</ref>).</p>
+            </item>
+            <item>
+              <p>(1) Dion. Kall. 27–8 agrees as to the distance of Ambrakia from the sea; in Strab. 7. 7. 6 C324–5 it is μικρόν from the mouth of the gulf. The fort is Ambrakos (Polybios 4, 61, 7), see <ref>Hammond 1967, 137–8</ref> (cf. 514–15); κλειστός again at Dion. Kall. 28–30 (see 103 n.).</p>
+            </item>
+          </list>
+          <p>
+            <hi rend="italic">33. 2–65. Continuous Hellas</hi>
+          </p>
+          <p>In PS, Herakleides Kretikos (fr. 3. 8 Pfister), and Dion. Kall. (31–4), Hellas ends at the Peneios and/or Homolion. PS and Dion. Kall. explicitly use a geographical criterion, separating ‘continuous’ Hellas not merely from implicitly non-Hellenic regions (Epeiros, Macedonia) but also from Hellenic places divided only by the sea (e.g. the Aegean islands and mainland Ionia). Both could be taking this notion of continuity from Phileas (cited by Dion. Kall. l.c. though not for συνεχής; see <ref>Marcotte 1986, 168–9</ref>), though in view of the forward steps in geographical thinking which PS makes it seems likelier that as an organizing principle it is his own creation. In excluding Macedonia he may be making a nationalistic point after Chaironeia (<ref>Marcotte 1986, 176</ref>). The interposition of Crete (47) and most of the islands (48, 58), however, leads him into illogicality since he forgets to state that they are not part of continuous Hellas; he probably inserts them because of their geographical relationship to mainland Greece. Crete, uniquely, is treated non-coastally in what <ref>Counillon 2001a</ref> aptly calls a geographer’s presentation. Elsewhere PS includes inland <hi rend="italic">poleis</hi>, notably in Arkadia; his interest is in geography, the creation of a verbal or mental map, not in navigational knowledge.</p>
+          <p>In this passage πόλις Ἑλληνίς is dropped in favour of πόλις. Though there are more <hi rend="italic">poleis</hi> than in earlier chapters, there is less detail. A change of source, or more likely plural sources, is implied by the use of region names to introduce some sections, and by the irregularity with which harbours occur (none after 58). <hi rend="italic">Paraploi</hi> continue to be in stades, except for Lakedaimon (46, 2) and the crossings to Crete and Libya (47, 1), where he may be using a specific itinerary.</p>
+          <list rend="numbered">
+            <item>(1) For PS Akarnania begins within the Ambrakian gulf. Argos is in Akarnania at Strab. 10.2.2 C450; Plin. nat. 4, 1/5; <hi rend="italic">contra</hi>, ‘Ps.-Skymnos’, 455–61; Dion. Kall. 46–7 (<ref>Allain 1977, 151</ref>). Thyrrheion led minority Akarnanian resistance to Athenian control, which ended <hi rend="italic">c</hi>.340 or in 338; PS means that not all Akarnanians are in the <hi rend="italic">koinon</hi> (<ref>Marcotte 1985, 257–8</ref>). There follows the longest historical aside in the <hi rend="italic">periplous</hi>, perhaps intended to explain the dredging of the Leukas channel mentioned next; it is an example of PS’s interest in change in watery environments (cf. 8; 34, 3, though he misses Leukai at §98. 2). The story recalls Aristotle’s interest in political change at Amphipolis caused by the introduction of new settlers (<hi rend="italic">pol.</hi> 5, 6, 1306 a 2–4, cf. 5, 3, 1303 b 2–3); he uses the same rare word as PS, ἔποικοι. Leukas is a former promontory also at Strab. 10.2.8 C452; the dredged channel silted up later, see Plin. <hi rend="italic">nat.</hi> 4, 1/5. Cf. <ref>Lang 2008, 227-250</ref>. (2) As at 26, 3 and 32, PS uses μεσογεία, regular only in 43–66 and sporadic in 96–109, 3.</item>
+          </list>
+          <p>(3) For PS’s interest in maritime landscape change, see 8 and 34, 1 above.</p>
+          <list rend="numbered">
+            <item>
+              <p>In other sources the ‘Delphic gulf’ is Κορινθιακὸς κόλπος (<ref>Müller 1855, 37</ref>). The width of its mouth (actually 2.0 km, so PS is accurate) is 7 st. in Thuk. 2, 86, Agathemeros 5, 24; under a mile, Plin. <hi rend="italic">nat.</hi> 4, 2/6. For the sanctuary of Poseidon see Thuk. 2, 84, 4; Freitag <hi rend="italic">et al.</hi> 2004, 385. Naupaktos was promised by Philip to the Aitolians (Strab. 9.4.7 C427), but he may not have been able to deliver it until 338 (cf. <ref>Marcotte 1986, 170</ref>, <hi rend="italic">contra</hi> <ref>Fabre 1965, 360</ref>); PS’s comment cannot be purely topographical, since Naupaktos would not previously have been described as lying in Aitolia; rather, Aitolian territory had expanded in 338. ‘All of Lokris’ refers only to W. Lokris.</p>
+            </item>
+            <item>
+              <p>PS views the W. and E. Lokroi (the latter at 60) as one <hi rend="italic">ethnos</hi> but organizes his narrative geographically. Euanthis is also known as Oiantheia. The <hi rend="italic">paraplous</hi> (cf. less than a day, Dion. Kall. 69) is accurate; W. Phokis has the same length at 37; at 60–1 the eastern portions of Lokris and Phokis also have equal <hi rend="italic">paraploi</hi>, but in stades.</p>
+            </item>
+            <item>
+              <p>Like Lokris, Phokis has two coasts (cf. 61); but it is continuous. PS makes Delphoi a <hi rend="italic">polis</hi> but not a sanctuary (just as elsewhere he omits Olympia and Nemea). It is unclear whether ἑλλεβορίζονται is passive or middle; cf. Demosth. <hi rend="italic">De corona</hi>, 121; Diphilos, <hi rend="italic">Helleborizomenoi</hi> (both C4); otherwise the verb is rare before the R period. For hellebore at Antikyra see Theophr. <hi rend="italic">h. plant</hi>. 9, 9, 2; 9, 14, 4; Strab. 9.3.3 C418; Paus. 10, 36, 7. For the <hi rend="italic">paraplous</hi> see 36 n.</p>
+            </item>
+            <item>
+              <p>This passage, though corrupt, is the earliest (<ref>Roesch 1980, 126</ref>) and best (<ref>Marcotte 2000, 212</ref>) ancient description of the W coast of Boiotia. τεῖχος is probably the noun rather than part of a name; the foundation of the third Boiotian league is not securely dated (338 BC, M. H. <ref>Hansen 2004a, 431–2, 435</ref>; 335 BC, <ref>Marcotte 1986, 178–9</ref>); it should be in the territory of Eutresis.</p>
+            </item>
+            <item>
+              <p>For the form Αἴγειρος, see Theop. F 241 (Steph. Byz. s.v. Αἰγείρουσσα).</p>
+            </item>
+          </list>
+          <p>40–55. <hi rend="italic">The Peloponnese, with Crete and the S. Cyclades</hi>. The focus on inland places increases, though selectively. Unlike Demosth. <hi rend="italic">or.</hi> 19, 103, PS does not separate the Peloponnese from Hellas.</p>
+          <list rend="numbered">
+            <item>
+              <p>The sanctuary is probably that at <hi rend="italic">Perachora</hi> (<ref>Müller 1855, 39</ref>). PS marks the start of the Peloponnese in words almost identical to Dion. Kall. 108; but in the latter they are a prose interpolation, perhaps from Herakleides Kritikos (<ref>Marcotte 1990, 34–8, 169</ref>). The phrase ‘sea on our side’ is not evidence that PS was Athenian; a writer from any Aegean <hi rend="italic">polis</hi> might use these words. ‘Gulf-shaped’ probably refers to Korinthia rather than the gulf of Corinth as a whole.</p>
+            </item>
+            <item>
+              <p>PS lists seven Achaian cities, Hdt. 1, 145 twelve. Boura and Helike may be absent because they were destroyed by an earthquake in 373 (though Helike soon revived); Olenos, which disappeared <hi rend="italic">c</hi>.300 or later, was perhaps already in decline. Pellene may be included because it is large and not far inland; Pharai and Tritaia may be absent because they are inland and insufficiently important. By ‘Rhion’ PS means C. Rhion on the S side of the strait, not the Aitolian settlement on the N (Thuk. 2, 86, 2–3; Strab. 8. 2. 3 C336; Freitag <hi rend="italic">et al.</hi> 2004, 381).</p>
+            </item>
+            <item>
+              <p>PS omits Olympia. The συνοικία is Elis, founded by synoikism in 471 (<ref>Roy 2002</ref>). Unlike Strab. 10. 2. 18 C458, PS does not give the crossing from Zakynthos to Libya.</p>
+            </item>
+            <item>
+              <p>Arkadia (excluding Triphylia) had <hi rend="italic">c</hi>.39 inland <hi rend="italic">poleis</hi> (<ref>Nielsen 2004</ref>); six are named here, if we include Megale Polis, which is palaeographically justified; its omission would be at odds with the otherwise up-to-date account of the Peloponnese. The information about Lepreon must date from the 360s or later; Lepreon, usually Triphylian, represented the new Triphylian state in the Arkadian league of the 360s (IG v. 2. 1. 20; <ref>Nielsen 1997, 153–4</ref>; <ref>Nielsen 2005</ref>). Dikaiarchos, like PS, referred to Arkadia having a coastline, but not to Lepreon by name (see Introduction, part 7).</p>
+            </item>
+            <item>
+              <p>Again PS’s information postdates the 370s, as part of Messenia is independent from Sparta and Ithome is a <hi rend="italic">polis</hi>, the later Messene (<ref>Shipley 2004, 561–2</ref>). The placing of Prote (the name means ‘First’) at the start of Messenia in the MS is one of three actual or possible transpositions in 45–6, but this one is a copyist’s misunderstanding rather than a mistake by PS. The <hi rend="italic">paraplous</hi> begins from Pylos (<ref>Müller 1855, 40</ref>).</p>
+            </item>
+            <item>
+              <p>(1) Lakedaimon is called an <hi rend="italic">ethnos</hi> in no other Cl text; but as PS has just called Elis and Messene <hi rend="italic">ethne</hi>, it may be a stylistic choice, or a habit of his source. He may here begin using a source that gave days’ sailing rather than stades and named minor coastal places. Since the information in 45 postdates 369, the inclusion of Asine and Mothone reflects Spartan control of S. Messenia until 338; the coastal towns were detached from Sparta after Chaironeia (<ref>Shipley 2000, 385–6</ref>), presumably no later than 337, giving a <hi rend="italic">terminus ante quem</hi> for the <hi rend="italic">periplous</hi> (or, strictly speaking, for the information gathered by PS). Asine, however, should follow Mothone (Strab. 8. 4. 4 C359); in this case transposition may be due to the source (a reverse <hi rend="italic">periplous</hi>? cf. 22, 2 n.). PS omits C. Akritas (Strab. l.c.) despite naming C. Tainaron and C. Malea. Achilleios and Psamathous are in the correct sequence, cf. Steph. Byz. s.v. Ἀχίλλειος δρόμος (noting Achilleion, κώμη καὶ λιμὴν Μεσσήνης); Artem. ap. Steph. Byz. s.v. Ψαμαθοῦς; Strab. 8. 5. 2 C363. Only Paus. 3, 25, 4 appears, at first sight, to put A. E of the cape; but he may have visited first A. on the W side, then P. on the E (only 600 m away). <ref>Müller 1855, 41</ref>, separates Gytheion from the succeeding fort; but PS nowhere demonstrably uses καὶ τεῖχος to mean ‘and next a fort’ without a place-name, and Xen. <hi rend="italic">hell.</hi> 6, 5, 32 seems to imply that G. was fortified in 370–369. The pointer towards Crete is repeated, in effect, at 47, 1; as with Kyrnos and Sardo (6–7), PS delays a leap offshore until he has finished a mainland region; but this time he gives advance warning.</p>
+            </item>
+            <item>
+              <p>(1) Phileas (see 33, 2 n.), whom Dion. Kall. 110–30 cites for Crete, is a source here (<ref>Marcotte 1990, 172–85</ref>). PS differs from both, however, in adopting a geographical arrangement, though the innovation may well be by his source (or sources: see 47, 2 n.) rather than himself. Unlike Strabo and Pliny, he is not influenced by maps or itineraries (<ref>Counillon 2001a, 391–4</ref>), so that gaps in coverage identified by Peretti and others cease to matter. Like Aristoxenos and Theophr. (below), he names several <hi rend="italic">polis</hi> territories (Apteraia, Polyrrhenia, Pergamia, Lampaia) rather than their <hi rend="italic">poleis</hi>. For the orientation relative to Europe, cf. 13. 1 n. The phrase ἡμέρας δρόμος, also at Hanno 8 and Hdt. 2, 5, may be from a navigational source, cf. 22. 3 ἡμέρας μακρᾶς (<ref>Allain 1977, 157</ref>). For Chersonesos in Libya see 108, 1, 2, and 5; Strab. 17. 3. 22 C838; Ptol. 4, 5. The crossing matches the 125 miles of Agrippa ap. Plin. <hi rend="italic">nat.</hi> 4, 12/60, but Strabo’s 2,000 st. at 17, 3, 22 C838 is more accurate.</p>
+            </item>
+          </list>
+          <p>(2) The length of Crete is repeated at 113, 2 and matches Dion. Kall. 113–14, who may have used PS; other sources vary; it may include the indentations of the coast (<ref>Müller 1855, 42</ref>). The use of cardinal directions (cf. 47, 3; 55; 58, 2; 110, 9; 111, 3) may be from a specific source, while the repetition of πόλεις πολλαί at 47, 4 suggests PS is combining more than one. The implausible claim that some Cretans were from Lakedaimon, Argos, and Athens, repeated at Dion. Kall. 114–17, may reflect both authors’ Athenian standpoint (<ref>Marcotte 1986, 168–9</ref>); for a similar list of <hi rend="italic">ethne</hi> cf. 13, 2 on Sicily. In PS αὐτόχθονες occurs only here and at 103.</p>
+          <p>(3) C. Kimaros, Strab. 10. 4. 2 C474, is the start of the shortest crossing to Tainaron, but Korykos, of which it is the tip, is more suited to the label ἀκρωτήριον and is the likelier restoration here; it is the nearest point of Crete to Tainaron at Strab. 8. 5. 1 C363. The cardinal direction (‘setting sun’) is expressed in different words from those at 47, 2. Hdt. 3, 59, 1–3 also mentions the Diktynnaion. ‘Pergamia’ otherwise occurs only in PS’s Peripatetic contemporary Aristoxenos (fr. 44 Wehrli = Plut. <hi rend="italic">Lykourgos</hi>, 31, 4).</p>
+          <p>(4) Prasos is another Peripatetic link: two of the rare Cl mentions are at Theophr. <hi rend="italic">h. plant.</hi> 3, 3, 4 (where Πρασία is more likely than editors’ Πραισία, given the τιρασίαν of the codd.) and fr. 113 Wimmer = 560 Fortenbaugh = Strab. 10. 4. 12 C478 (‘Prasos’). For the restoration ‘Itanos’ see <ref>Shipley 2011</ref> ad loc. PS uses Homer’s term ἑκατόμπολις (<hi rend="italic">Il.</hi> 2, 649); in Strab. 10. 4. 15 C479 Crete has 100 or 90 cities; <ref>Perlman 2004</ref> identifies at least 49. It had ‘many’ at 47, 2.</p>
+          <list rend="numbered">
+            <item>
+              <p>If the text is right, only islands with <hi rend="italic">poleis</hi> are included, and all are (silently) Dorian. Although 48 represents a sailing route to Rhodes, the arrangement is not purely periplographic (<ref>Counillon 2004, 18</ref>), for no endpoint stated. The orientation with respect to Lakedaimon is less a navigational link than an aid to mental mapmaking. See, further, on 58.</p>
+            </item>
+            <item>
+              <p>Argolis (not named) usually includes the Akte, but PS treats individual <hi rend="italic">polis</hi> territories separately except for Argos’s dependencies. As in Arkadia, he ignores sub-regions (e.g. Thyreatis, Kynouria); as in Elis and at Delphoi, he omits a Panhellenic cult site (Nemea) as well as a prominent inland <hi rend="italic">polis</hi> (Phleious). Tiryns was destroyed in C5 (Hdt. 6, 83, 1–2; Paus. 2, 17, 5; 8, 46, 3); either PS’s information is old, or Mycenae and Tiryns are included for their historical importance (or possibly as landmarks visible from the sea).</p>
+            </item>
+            <item>
+              <p>(1) Like Boiotia and Megaris, Epidauros reaches from coast to coast; see 54. The <hi rend="italic">paraplous</hi> runs from Nauplia to Halieis.</p>
+            </item>
+          </list>
+          <p>(2) περίπλους occurs only here and at 51; 57, 2; and 67, 10, not always of a convex coast; also used of Asia, 106. 4, because it is περιφερής. <hi rend="italic">Lectio difficilior</hi> favours it except at 67, 10. It may derive from a source (<ref>Shipley 2010, 104–5</ref>).</p>
+          <list rend="numbered">
+            <item>(1) περίπλους<hi rend="bold">:</hi> see 50, 2 n.</item>
+          </list>
+          <p>(2) As Skyllaion belongs to Troizen, it is perhaps mentioned early to define the Saronic gulf (unnamed).</p>
+          <p>(3) The length must include indentations (<ref>Müller 1855, 45</ref>). See 57, 2 n. on long distances.</p>
+          <list rend="numbered">
+            <item>
+              <p>(1) PS omits Methana (though see app. crit. on 46, 2).</p>
+            </item>
+            <item>
+              <p>Aigina is not located with respect to Attica, just as Strab. 8. 6. 16 C375 locates it off Epidauria. The second harbour is that near the Aphaia temple.</p>
+            </item>
+            <item>
+              <p>Could the cardinal orientation, like those (in different words) in Crete (47, 2), be from a regional <hi rend="italic">periplous</hi>? The sanctuary of Poseidon is the only Panhellenic cult site that PS notes as being a sanctuary.</p>
+            </item>
+            <item>
+              <p>On Iapis see <ref>Chandler 1926, 12</ref> and pl. 1; Kallimachos ap. Steph. Byz. s.v. Ἰαπίς. Does PS use a local source, or draw on personal knowledge (<ref>Shipley 2010, 106–7</ref>)? Nowhere else, before 104, 3, does he say ‘<hi rend="italic">X</hi> is the border of <hi rend="italic">Y</hi>’.</p>
+            </item>
+            <item>
+              <p>(1) Salamis was indeed a <hi rend="italic">polis</hi> (a cleruchy: <ref>Flensted-Jensen–Hansen 2007, 217</ref>; M. H. <ref>Hansen 1996, 30–2</ref>); PS does not, however, call Eleusis a <hi rend="italic">polis</hi>, but says it is the first <hi rend="italic">place</hi> in Attica. He may mean to stress that Athens is a multi-<hi rend="italic">polis</hi> region like others (<ref>Shipley 2010, 103–4</ref>). There may be conscious <hi rend="italic">variatio</hi> in the forms of its name in 57 and 59. Here he does not mention inland towns; and the frequency of τεῖχος suggests a focus on maritime strongpoints (<ref>Shipley 2010, 108</ref>). Like Iapis in 56 and 57, 2, the nickname of the Long Walls suggests local knowledge and usage.</p>
+            </item>
+          </list>
+          <p>(2) PS claims expertise by referring to ‘many other’ harbours but not naming them, for they are minor (<ref>Shipley 2010, 109–10</ref>). Delion, not Oropos, is PS’s first place in Boiotia (59), yet O. was Athenian in 338–322 (<ref>Marcotte 1986, 171</ref>). PS’s <hi rend="italic">paraploi</hi> are long enough to include it, and he has already marked the start of Attica; but he may choose not to remind readers of its recent loss and (if its status was not still unresolved) recovery (<ref>Shipley 2010, 107</ref>). For περίπλους see 50, 2 n. The three long distances are probably (as at 51, 3) summations of shorter distances measured by sea (rather than by land, or they could have been still more precise); cf. <ref>Shipley 2010, 105–6</ref>. Despite Ἰαπίδος χώρας, Iapis is known only as a watercourse (cf. 56 n.).</p>
+          <list rend="numbered">
+            <item>(1) There is no reference back to 48, where the Dorian Cyclades were treated. Those named here are (silently) Ionian. Only islands with <hi rend="italic">poleis</hi> are covered, but πόλις is sometimes omitted (contrast e.g. 66, 4). The quasi-navigational layout is misleading: Ios and Amorgos are held back to sit between Andros and Euboia; non-Cycladic Ikaros makes an awkward trio with them; and Delos–Rhene–Syros–Mykonos is not a sailor’s route. PS, rather, again creates a mental map, choosing an origin near Athens to give a topographical link as he did at 48 (this may thus not be an Athenocentric perspective, as suggested by <ref>Counillon 2001b, 17–19</ref>). He presumably chooses the well-known Keos to help the reader grasp the structure, for it entails doubling back twice, to the obscure Helene and then to Kythnos. On Keos he proceeds clockwise (unusually, see 13 n.) from the <hi rend="italic">polis</hi> nearest Attica. On its four <hi rend="italic">poleis</hi> see <ref>Reger 2004, 748</ref>. The omission of Ποιήεσσα πόλις may be explained by haplography of πόλις, not by P.’s possible non-<hi rend="italic">polis</hi> status in <hi rend="italic">c</hi>.375–350; for it remained a town, may have been fortified in 354–338, and was a <hi rend="italic">polis</hi> in C4l/C3e (<hi rend="italic">Inv</hi>. <hi rend="bold">494</hi>). Thus it is unlikely that τετράπολις is merely conventional (cf. Dion. Kall. 135), as suggested by <ref>Marcotte 1986, 179–82</ref>. Mykonos is again two-citied in <hi rend="italic">Syll.³</hi> 1024 (C3l); see <ref>Reger 2001</ref>.</item>
+          </list>
+          <p>(2) ὑπό does not imply a map; it may mean ‘beyond’, as seen from sea level. PS wrongly locates Ios outside the Kyklades; for Homer’s burial-place there see Strab. 10. 5. 1 C484 He perhaps includes Ikaros here, rather than at 98. 3, because it is visible from the E. Cyclades.</p>
+          <p>(3) Hestiaia (or Histiaia) was refounded as Oreios or Oreos in 445 (Theop. F 387 ap. Strab. 10. 1. 3 C445; <ref>Klausen 1831, 268–9</ref>); but some people continued to use the old name (IG xii. 5. 594 (C4f); Paus. 7, 26, 4). This may be the latest recorded use of the old name, but both were current in C4m and the <hi rend="italic">ethnikon_Ἱστιαιεύς occurs in the Hl period (see _Inv</hi>. <hi rend="bold">372</hi>), so this is not evidence of a C5 date of composition. For the long extent of Euboia, see 57. 2 n.</p>
+          <p>(4) Skyros is κατ’ Ἐρέτριαν because the latter’s <hi rend="italic">chora</hi> extends to the NE coast.</p>
+          <list rend="numbered">
+            <item>
+              <p>PS may attest to earlier fortifications at the narrows than those at Strab. 9. 2. 8 C403, perhaps built by Kassandros <hi rend="italic">c</hi>.313 (Diod. 19. 77. 4). Thebes was destroyed by Alexander in 335 but refounded by Cassander in 316; the earlier period is a likelier date for our text (see Introduction).</p>
+            </item>
+            <item>
+              <p>PS does not say ‘Opountian’ Lokrians; cf. 36. Larymna was Lokrian from 338 to <hi rend="italic">c</hi>.270 (<ref>Marcotte 1986, 171</ref>). The <hi rend="italic">paraplous</hi> is too short, as it is for E. Phokis (61; cf. 36 n.).</p>
+            </item>
+            <item>
+              <p>Thronion is either the E. Lokrian <hi rend="italic">polis</hi> N of Mt Knemis that the Phokians took in 353 (Diod. 16. 33. 3) and presumably lost in or before 346 when Philip II defeated them; or may conceal Teithronion, an inland Phokian <hi rend="italic">polis</hi> S of Knemis. On the <hi rend="italic">paraplous</hi> see 60 n.</p>
+            </item>
+            <item>
+              <p>(1) PS gives no overall label to the Thessalians (unlike the Illyrians, 22). He treats separately the regions that made up Hl Thessaly (Decourt <hi rend="italic">et al.</hi> 2004, 676), omitting only distant Athamania; but gives no sub-regional or summative <hi rend="italic">paraploi</hi> and only one internal distance. As the text stands, before naming any Malian <hi rend="italic">poleis</hi> he interposes the ‘Starving Dorians’ and their three <hi rend="italic">poleis</hi>, which are actually in Doris (not part of Thessaly). Λιμοδωριεῖς is fictitious and/or facetious; Δωριεῖς may have dropped out by haplography. Cf. <hi rend="italic">inter alios</hi> Ps.-Plut. <hi rend="italic">Proverbs the Alexandrians Used</hi> , 1, 34 (Leutsch), for the legend, unconnected with this region, about Dorians leaving the Peloponnese during a famine (it also mentions the Rhodian τρίπολις, cf. 99 below). At Thermopylai we enter Malis. Trachis merged with its successor Herakleia, founded <hi rend="italic">c</hi>.426 (Thuk. 3. 92) and itself destroyed in 371 but extant once more by 319 (Xen. <hi rend="italic">hell.</hi> 6, 4, 27 with Diod. 18, 56, 5); either PS has combined two sources (Decourt <hi rend="italic">et al.</hi> 2004, 713) or the site of Trachis remained visible, and in either case this is not evidence of a C5 date of composition. Oite is the mountain.</p>
+            </item>
+          </list>
+          <p>(2) For the Ainianes cf. 35.</p>
+          <list rend="numbered">
+            <item>
+              <p>PS notes the Achaians’ position in the gulf not because he is interested in landmarks, but to clarify the extent and relationships of topographic units. Larissa should precede Antrones; as elsewhere, PS is not over-concerned with topographical sequence at a local level. Despite the coastal focus, Melitaia (far inland) is listed despite the fact that it stands before the statement about other <hi rend="italic">poleis</hi> in the interior; among the latter PS might have mentioned Peuma, not far inland. For Demetrion see Strab. 9. 5. 14 C435; also called Pyrasos.</p>
+            </item>
+            <item>
+              <p>(1) Thettalia (Attic spelling) is strictly Thettaliotis. As in 63, PS includes some inland <hi rend="italic">poleis</hi>.</p>
+            </item>
+          </list>
+          <p>(2) Kikynethos is otherwise known only from Artemidoros (ap. Strab. 9. 5. 15 C436).</p>
+          <list rend="numbered">
+            <item>(1) If Amyros is correct, PS jumps inland, ignoring coastal sequence. It is odd that he names no Perrhaibian <hi rend="italic">poleis</hi>, since he stresses their Hellenic identity.</item>
+          </list>
+          <p>(2) The reference to continuous Hellas points back to 33. 2 but PS does not name Homolion again, which is odd as it was explicitly Magnesian there; this may be a case of poor MS transmission. The postponement of the R. Peneios to 66. 1 need not be due to that cause, however, for PS may expect the reader to recall the earlier passage. ἐπιεικῶς has the sense of ‘probably’ here, but at 113, 1 (a later addition) ‘fairly’; PS may mean that, although the question is debated, Magnesia’s coast is part of continuous Hellas. (The MS text of Dion. Kall. 35–6 refers to the debate, implying that Phileas did not put Magnesia in Hellas; but <ref>Leue 1884</ref> and <ref>Marcotte 1990, 57</ref>, astutely replace Μαγνησίαν with Μακεδονίαν.)</p>
+          <p>
+            <hi rend="italic">66–8. Makedonia,Thrace, and Skythia</hi>
+          </p>
+          <p>The account is spare. <hi rend="italic">Poleis</hi> are called Hellenic inconsistently, except at 66, 2. Mt Olympos is omitted at 66, 2. PS seems particularly unconcerned about the local sequence of places, especially in Chalkidike (see also 67, 3 and 5).</p>
+          <list rend="numbered">
+            <item>(1) In Macedonia, <hi rend="italic">poleis</hi> not called Ἑλληνίς are dependencies of the kingdom (<ref>Hatzopoulos 1996, 472–3</ref>; <ref>Flensted-Jensen–Hansen 2007, 220–1</ref>), though the Hellenic were also dependent after 348; PS may be scoring a point by not acknowledging this.</item>
+          </list>
+          <p>(2) Pydna, though allegedly ‘destroyed’ by Philip in 357, appears in a proxeny decree implying that it is a <hi rend="italic">polis</hi> in 333; so this passage does not date the <hi rend="italic">periplous</hi>, or PS’s source, to an earlier time (IG ii² 339 B.3; <ref>Hatzopoulos 2004, 806</ref>). Strab. 7, fr. 22, gives the ἀνάπλους as 120 st. Methone was ‘destroyed’ by Philip in 354 and appears later as (probably) a <hi rend="italic">kome</hi> of Pydna (<ref>Hatzopoulos 2004, 804</ref>); it is true that a <hi rend="italic">kome</hi> can be a <hi rend="italic">polis</hi> (M. H. <ref>Hansen 1995</ref>), but in this case the <hi rend="italic">kome</hi> is a subdivision of a <hi rend="italic">polis</hi>, not a <hi rend="italic">polis</hi> itself, so we cannot acquit the author of anachronism.</p>
+          <p>(3) PS does not name Chalkidike or differentiate it from Macedonia, perhaps because it was conquered by Philip in 348, though elsewhere he scores anti-Macedonian points. He names Pallene and Mt Athos, but not Sithonia or the Athos peninsula (Akte). On Pallene he orders his list unsystematically, as often at local level. Several <hi rend="italic">poleis</hi> were allegedly destroyed by Philip in 348 but remained in existence (<ref>Edson–Hammond 1996</ref>); their appearance does not disprove a date of composition in the 330s, as PS may be retailing old information. Less certain is the case of Potidaia, reportedly destroyed by Philip <hi rend="italic">c</hi>.356 and refounded in 316 as Kassandreia (Strab. 7, fr. 25); either PS is out of date or Potidaia, too, survived as a settlement. Aristotle (<hi rend="italic">pol.</hi> 6. 4) shares an interest in Aphytis. For Thrambeïs cf. Hdt. 7, 123, 1.</p>
+          <p>(4) Olynthos, though destroyed by Philip in 348 and never again a <hi rend="italic">polis</hi>, remained a settlement, its NW part still occupied until nearby Kassandreia was founded in 316 (<ref>Cahill 2002, 49–52</ref>; <ref>Flensted-Jensen 2004b, 835</ref>); its <hi rend="italic">ethnikon</hi> is attested in other <hi rend="italic">poleis</hi> after 348 (M. H. <ref>Hansen 2004b, 63–4</ref>), which implies <hi rend="italic">polis</hi> status, but there is no evidence for its full reoccupation before the Roman period, and the bearers of the <hi rend="italic">ethnikon</hi> probably belonged to the Olynthian diaspora. PS may be somewhat out of date. The Sermylic gulf is the Toronaic in other sources. Thyssos should have been listed first among <hi rend="italic">poleis</hi> in Athos. Charadrous and Alapta are unlocated, <ref>Borza 2000, 781</ref> and 780. Olophyxos may be <hi rend="italic">Vatopedi</hi> or <hi rend="italic">Iviron</hi> (<ref>Flensted-Jensen 2004b, 833</ref>). At Akanthos PS fails to mention that he has moved inland from the Athos peninsula. With Arethousa we are far into Mygdonia. Surprisingly, given his Peripatetic links, PS omits Stagiros. Apollonia is S of L. Bolbe; it was destroyed by Philip at an unknown date, and there is no evidence of revival (see under <hi rend="italic">Inv</hi>. <hi rend="bold">545</hi>).</p>
+          <p>(5) Placing the frontier at the Strymon might be consistent with composition in or before 335 (<ref>Marcotte 1986, 171</ref>); but even after 323 it was seen as the border (<ref>Hatzopoulos 1996, 185–6</ref>).</p>
+          <list rend="numbered">
+            <item>(1) PS’s representation of Thrace as beyond Macedonia and this side of Skythia is Hekataian in origin (<ref>Counillon 1998a, 123</ref>). The Black Sea is simply Pontos elsewhere in PS. For κλειστός see 103 n.</item>
+          </list>
+          <p>(2) The foundation of Datos after <hi rend="italic">c</hi>.361 cannot date PS’s work to <hi rend="italic">c</hi>.360 (<ref>Counillon 1998a</ref>, <hi rend="italic">contra</hi> <ref>Fabre 1965</ref>). For Kallistratos’s city-founding in Thrace, see Isokrates, <hi rend="italic">De pace</hi>, 24. The <hi rend="italic">ethnikon</hi> does not make PS an Athenian; he may anticipate a readership including non-Athenians, such as philosophers at Athens. The Koudetos (unlocated, <ref>Borza 2000, 781</ref>) may be the Kampsatos of Hdt. 7. 109.</p>
+          <p>(3) Kypasis should have preceded Kobrys.</p>
+          <p>(4) PS omits Lemnos’s two <hi rend="italic">poleis</hi>.</p>
+          <p>(5) Ide and Paion are otherwise unknown; but Araplos (unlocated, <ref>Borza 2000, 780</ref>) could conceal Drabos (<ref>Loukopoulou 2004, 903</ref>; cf. Strab. 7, fr. 52; <ref>Müller 1855, 55</ref>), which should precede Alopekonnesos (<ref>Allain 1977, 172</ref>). PS does not name the Hellespont, but makes Sestos the start of the Propontis. Logically, he delays the S shore until after his account of the Black Sea between the N and S shores of the P. (though he repeats Sestos at 94). Topographical proximity is subordinated to the higher-level division between continents. The width of the strait is accurate (1.4 km at <hi rend="italic">c</hi>.5 km S of Sestos); but Hdt. 7, 34 gives 7 st., like most ancient authors (<ref>Müller 1855, 55</ref>), and Xen. <hi rend="italic">hell.</hi> 4, 8, 5 gives 8 st. See also 67, 8 n. Aigos Potamos, ‘within’ (ἐντός, i.e. beyond) which lies Kressa (reliably attested only here), itself a <hi rend="italic">polis</hi> (<hi rend="italic">Inv</hi>. <hi rend="bold">658</hi>).</p>
+          <p>(6) Strabo agrees as to the width of the Chersonesos (7, fr. 54), but makes the length slightly more than 400 st. (fr. 52).</p>
+          <p>(7) PS’s ‘Thracian forts’ are Greek forts or towns. On the various forms of the name Daminon Teichos, see <hi rend="italic">Inv</hi>. 675. (8) Since Hieron lies on the E shore (revised location: <ref>Moreno 2009</ref>), PS departs from the <hi rend="italic">periplous</hi> principle, even though he delays Kalchedon to 92. Though most of the Bosporan towns that he omits are non-<hi rend="italic">poleis</hi>, the absence of Byzantion is a glaring error, perhaps due to combining different <hi rend="italic">periploi</hi> (<ref>Counillon 2004, 44</ref>). For the width of the strait Herodotos more accurately gives 4 st. (4, 85), Polybios 5 st. (4, 43, 2), Agathemeros 6 st. (3, 10); see <ref>Counillon 2004, 71</ref>.</p>
+          <list rend="numbered">
+            <item>
+              <p>9–92. <hi rend="italic">The Black Sea</hi>. This passage, straddling the Europe–Asia boundary, is thin and lacks component <hi rend="italic">paraploi</hi>, also failing to exploit the reckonings of Hdt. 1, 104; 4, 85–6; 4, 101. PS mentions most of the known <hi rend="italic">poleis</hi>, but is unreliable as to their status (<ref>Avram 2004, 925, 928</ref>) and omits some notable ones; he ignores the hinterland and its <hi rend="italic">ethne</hi> despite Hdt. 4. He seems to have known, directly or indirectly, Hekataios’s writing about the peoples of the eastern Black Sea (<ref>Counillon 2004, 105–6, 107</ref>). Compilation from separate itineraries may have removed any sense of unity (<ref>Counillon 2004, 81</ref>). Despite C4m Athenian interest in the south (<ref>Mattingly 1996</ref>), PS’s information seems outdated (<ref>Baschmakoff 1948</ref>; <ref>Arnaud 1992, 60</ref>; <ref>Peretti 1979, 456–69</ref>).</p>
+            </item>
+            <item>
+              <p>(9) PS omits C5 Athenian foundations such as Agathepolis and Orgame (<ref>Counillon 2004, 71–2</ref>).</p>
+            </item>
+          </list>
+          <p>(10) PS appears to use both <hi rend="italic">paraplous</hi> and <hi rend="italic">periplous</hi> here; see 50, 2 n. Since <hi rend="italic">paraploi</hi> are added together to make a <hi rend="italic">periplous</hi> the latter may be corrupt, but suspicion is not a sufficient reason for emendation. 8 days and 8 nights is not the total of the figures given.</p>
+          <list rend="numbered">
+            <item>(1) On the Skythai see <ref>Counillon 2004, 73–81</ref>. PS, like Hdt. 4, 21, ends Skythia at the <hi rend="italic">Don</hi> (68, 5). Although he appears to begin his list of <hi rend="italic">poleis</hi> with a river, the homonymous <hi rend="italic">polis</hi> of Tyras may have dropped out by haplography. Ophiousa is attested only here; if correctly placed SW of the R. Tyras, it should have preceded Nikonion; so one of PS’s sources may be an anti-clockwise <hi rend="italic">periplous</hi> (<ref>Counillon 2004, 76</ref>; cf. 22, 2 n. above). He omits Olbia, and may have used another itinerary giving the direct crossing from Tyras to Chersonesos (68, 2; <ref>Counillon 2004, 73, 76, 80–1</ref>).</item>
+          </list>
+          <p>(2) PS does not use the detail about the Tauroi in Hdt. 4, 99, but is the first writer to mention Chersonesos (cf. παλαιὰ Χ. at Strab. 7. 4. 2 C308).</p>
+          <p>(3) The first record of Kytaia and Myrmekion. The <hi rend="italic">paraplous</hi> is probably measured from the R. Istros, where the <hi rend="italic">paraplous</hi> at 67. 10 ends, rather than the <hi rend="italic">polis</hi> of that name. <hi rend="italic">Paraplous</hi> is a surprising word for a direct crossing (though cf. 100. 2 n.), but the distance is nearly double what it should be. εὐθύς may be an error and this a coasting distance, but see next n.</p>
+          <p>(4) Conversely, the crossing from Kriou Metopon to Pantikapaion is much too short; perhaps PS or his source knew an Istros–Kriou Metopon–Pantikapaion transit of 4 days and 4 nights that has been wrongly divided; or rapid currents explain the short duration (<ref>Agbunov 1981, 143</ref>, misquoting 68. 3). On direct crossings of the Black Sea, see <ref>Arnaud 1992</ref>; <ref>Avram 2004, 924</ref>.</p>
+          <p>(5) The first sentence is repeated almost verbatim, without attribution, at <hi rend="italic">Eux.</hi> 44. Probably a comparison of lengths is intended, as at Hdt. 4, 86. λέγεται embodies an appeal to external authority and suggests the use of more than one source (<ref>Counillon 2004, 81</ref>). Here the ‘outside sea’ is the Pontos (<ref>Counillon 2004, 78</ref>). The implied distinction between Syrmatai here and 70 Sauromatai may be unreal (<ref>Gardiner-Garden 1988</ref>; <ref>Braund 2000, 1213–14</ref>); or the Syrmatai may be the Satarchae or <hi rend="italic">Scythae Satarci</hi> of Mela 2. 3, etc.; Pliny’s Satarci (4. 12/85; <ref>Counillon 2004, 78</ref>). PS does not name the Kimmerian Bosporos, and gives less detail of the <hi rend="italic">Crimea</hi> than Hdt. 4, 99–100 (<ref>Counillon 2004, 78–9</ref>). The Hippokratean Airs, Waters, and Places, 13 (referring to L. Maiotis), and Polybios 3, 37, 3 agree that Europe ends at the Tanais; Hdt. 4, 45 is aware of this view but implicitly favours the Phasis. (Cf. <ref>Lordkipanidze 2000, 23–4</ref>.)</p>
+          <p>
+            <hi rend="italic">69. Summation of Europe</hi>
+          </p>
+          <list rend="numbered">
+            <item>500 stades per day is a standard formula in Greek geography (<ref>Arnaud 1993, 234</ref>). The total of 153 days exceeds the total of data in §§1–68, whichever way it is reconstructed. Certainty is unattainable given the state of the text, but it is notable that the total is approximately right, suggesting that there are no gross errors. <ref>Counillon 2004, 81–2</ref> suggests that this passage is a later addition, since if an editor had noted the inaccurate computation he would have corrected it; but it may have come to him in a correct form, or he may have corrected it silently only for new errors to creep in during later transmission. As C. concedes, the passage does conforms to PS’s portrayal of the world. There are similarities with §2 and the other summations (106, 4; 111, 8); the vocabulary is consistent with C4; and the idea of adding up short distances is also at Aristot. <hi rend="italic">meteor.</hi> 2, 5, 362 b 19–25 (see Introduction, part 7). Like the other two summative <hi rend="italic">paraploi</hi>, this has a supplementary note: here about the largest rivers (a comparison in keeping with e.g. Hdt. 4, 48–57, 82 on Skythia; 4. 50 on Istros and Nile); at 106, 5 about Kanopos I.; and at 111, 9 about Carthaginian towns in Libya.</item>
+          </list>
+          <p>
+            <hi rend="bold">70–106. Asia</hi>
+          </p>
+          <p>
+            <hi rend="italic">70–92. Eastern Black Sea</hi>
+          </p>
+          <p>The greater level of detail after 80 points to a change of source.</p>
+          <list rend="numbered">
+            <item>
+              <p>The Sauromatai (cf. 68, 5 n.) may be the nomadic Sarmatai of later sources. They are likewise the first people E of the Tanaïs at Hdt. 4, 57; but PS may be revising Hdt. 4, 110, 123, etc., on the Sauromatai as living three days inland (<ref>Counillon 2007a, 39</ref>). For another gynaecocracy see 21, 1; the Gynaikokratoumenoi are similarly a Sauromatic group at Ephoros F 160 (<hi rend="italic">Eux.</hi>. 45 ~ ‘Ps.-Skymnos’, fr. 16 Marcotte).</p>
+            </item>
+            <item>
+              <p>The Maiotai (Hdt.’s Maietai, 4, 123) are another Sauromatian tribe, Ephoros l.c.</p>
+            </item>
+            <item>
+              <p>PS does not repeat the information of Hdt. 4, 86 that the direct crossing from Sindike to Themiskyra is 3 days and 2 nights or 330,000 fathoms (3,300 st.). For Phanagorou Polis PS may draw upon Hekataios (<ref>Counillon 2004, 85</ref>). Kepoi and Sindikos are of uncertain location, while Patous (Bata, Strab. 11. 2. 14 C496) is nowhere else called a <hi rend="italic">polis</hi> <ref>Avram 2004, 926</ref>.</p>
+            </item>
+            <item>
+              <p>The Kerketai and Toretai are sometimes distinct (T. alone in Rhodes–Osborne 65c = Tod ii. 171c, <hi rend="italic">c</hi>.344/3–<hi rend="italic">c</hi>.311/0 BC) but are combined at <hi rend="italic">Eux.</hi>. 22B, the basis of the reconstruction here.</p>
+            </item>
+            <item>
+              <p>Torikos is otherwise unrecorded.</p>
+            </item>
+            <item>
+              <p>Pherekydes F 143 mentions these Achaioi.</p>
+            </item>
+            <item>
+              <p>The Heniochoi are descended from Laconian Argonauts, Strab. 11. 2. 12 C495.</p>
+            </item>
+            <item>
+              <p>Cf. Alkman’s Kolaxaian horse, fr. 1. 59; Hellanikos F 70; Aristot. <hi rend="italic">meteor.</hi> 1, 13, 351 a 11 (on rivers).</p>
+            </item>
+            <item>
+              <p>Cf. the Koloi by the Caucasus of Hekat. F 209 (Steph. Byz. s.v.), with the Kolika Mts, which PS does not name.</p>
+            </item>
+            <item>
+              <p>PS puts the Melanchlainoi further SE than Hdt. 4, 107, etc. (near the Tanaïs); PS may use the same source for all of 72–80 (<ref>Counillon 2004, 88–90</ref>). Metasoris and Aigipios are unknown.</p>
+            </item>
+            <item>
+              <p>The section is probably incomplete, given the lack of a classification such as ποταμός or ἔθνος. Cf. Γελωνοί, Hdt. 4, 102, etc., and Γελωνός, their city among the Boudinoi, Hdt. 4, 108 (inland from the Sauromatai and beyond the Melanchlainoi).</p>
+            </item>
+            <item>
+              <p>Gyenos may be Mela’s Cycnus (1. 110; <ref>Counillon 2004, 91</ref>). The river journey is 300 st. in Steph. Byz. s.v. Αἶα. The words Αἶαν . . . Μήδεια are repeated almost verbatim at <hi rend="italic">Eux</hi>. 3–4B. For Medea in a geographical narrative, cf. Trogus in Justin 42, 3, 9; <ref>Clarke 1999, 96</ref>. The Rhis may be Pliny’s Surius, 6, 4/12 (<ref>Müller 1855, 62</ref>). For the Apsaros cf. Arr. <hi rend="italic">Peripl.</hi> 11, 4, as the furthest point of the Pontos.</p>
+            </item>
+            <item>
+              <p>The Bouseres are Δίζηρες at Hekat. F 207 (Steph. Byz. s.v. Χοί); also Βύζηρες, e.g. Apoll. Rhod. 2, 394 and 1242. At <hi rend="italic">Eux.</hi>. 1B their land is now the home of the Zydritai (cf. Arr. <hi rend="italic">Peripl.</hi> 11. 3).</p>
+            </item>
+            <item>
+              <p>The Ekecheirieis are named only here and at <hi rend="italic">Eux.</hi>. 42. 1 (Ἐκχειριεῖς), where their land is now that of the Machelones and Heniochoi. <ref>Counillon 2004, 97–9</ref>, discusses the names together with Bouseres and Becheirike (cf. §84). The Pordanis may be the Prytanis, Arr. <hi rend="italic">Peripl.</hi> 8; the Arabis the Zagatis, Arr. <hi rend="italic">Peripl.</hi> 7, 3; and Limne Athene, Arr. <hi rend="italic">Peripl.</hi> 8 (<ref>Müller 1855, 63</ref>). Hodeinios (Odeinios?), first named here, is Ἀδιηνός at Arr. <hi rend="italic">Peripl.</hi> 7, 3; cf. river Ἀδιναῖος or Ἀδιηνός, <hi rend="italic">Eux.</hi>. 39 Diller. Has it been assimilated to ὁ δεῖνα?</p>
+            </item>
+          </list>
+          <p>84.<hi rend="italic">Eux.</hi>. 38: this area now occupied by the Kolchoi.</p>
+          <list rend="numbered">
+            <item>
+              <p>For the Makrokephaloi cf. <hi rend="italic">Airs, Waters, and Places__Airs, Waters, and Places</hi>, 14. 1–5; Μάκρωνες, Hekat. F 206, Xen. <hi rend="italic">an.</hi> 4, 7, 27, ‘Ps.-Skymnos’, fr. 21 Marcotte;<hi rend="italic">Eux.</hi> 38, etc. gives both names. PS thus uses not Hekat. but an intermediate or distinct source (<ref>Counillon 2004, 99</ref>).</p>
+            </item>
+            <item>
+              <p>For the Mossynoikoi see Hekat. FF 204–5; Hdt. 3, 94; 7, 78; Xen_. an.<hi rend="italic"> 5, 4–5 (customs); <ref>Counillon 2004, 100</ref>. Choirades is non-Hellenic at Hekat. F 204; the later Pharnakia (see _Inv</hi>. <hi rend="bold">719</hi>)?</p>
+            </item>
+            <item>
+              <p>For the Tibarenoi see Ephoros F 43; schol. Apoll. Rhod. 2, 1010; Porph. <hi rend="italic">De abstinentia</hi>, 4, 21. See <ref>Counillon 2004, 103</ref>.</p>
+            </item>
+            <item>
+              <p>As at 86, short trajectories reflect maritime concerns (<ref>Counillon 2004, 112</ref>), presumably in the source(s). For the Chalybes see e.g. Hekat. F 199, etc.; Hdt. 1, 28; Xen. <hi rend="italic">an.</hi> 4, 4–5; 5, 5, 1; Ephoros F 162; <ref>Peretti 1961, 28–30</ref>. PS may use not only Hekat. but also a later or independent source (<ref>Counillon 2004, 105–7</ref>). Genesintis is a prominent landmark, possibly reflecting a C5 Athenian source (<ref>Counillon 2004, 113</ref>). Ameneia is likewise a <hi rend="italic">polis</hi> of the Chalybes, Hekat. F 202.</p>
+            </item>
+            <item>
+              <p>The plethora of obscure places indicates a different source from those used for the N. Black Sea (<ref>Counillon 2004, 120</ref>), though there are omissions (ibid. 114–17). The reliability of πόλις Ἑλληνίς here may be doubted (<ref>Flensted-Jensen–Hansen 2007, 221</ref>). The people in PS’s Assyria are Σύριοι Καππαδόκαι at Hdt. 1, 72; Λευκόσυροι and other names, Strab. 12. 3. 9 C544; Apoll. Rhod. 2. 964 appears to confirm Ἀσσυρίη, but PS’s text may have been ‘corrected’ from Συρία to reflect this (<ref>Counillon 2004, 113 n. 374</ref>), unless Apoll. Rhod. follows PS. Themiskyra is named at Hdt. 4, 86, 3 and in late authors, though there is another point of contact with Apoll. Rhod. 2, 994–7, Θεμισκύρειαι Ἀμάζονες. Lykastos is in no other pre-Hl source. Sinope’s surprising inclusion within Assyria may have to do with Persian power in C4m or with the misconception about the width of Asia Minor (see 102, 2; <ref>Shipley 2011</ref> ad loc.; <ref>Counillon 2004, 118</ref>). Tetrakis is otherwise unknown, and an adverb is odd as a place-name; one suggested location is anc. Potamoi (<ref>Counillon 2004, 120</ref>; Markianos, <hi rend="italic">epit. Men.</hi> 9), hence the tentative conjecture in app. crit. above.</p>
+            </item>
+            <item>
+              <p>The number of obscure places may reflect Athenian interest in the crossing to the <hi rend="italic">Crimea</hi> (<ref>Counillon 2004, 121–30</ref>, esp. 130). Koloussa is unknown but may be Mela’s Collyris (1, 104; <ref>Counillon 2004, 127–8</ref>). Kinolis is an ἐμπόριον at Arr. <hi rend="italic">Peripl.</hi> 21; <hi rend="italic">oppidum</hi>, Plin. <hi rend="italic">nat</hi>. 6, 2/5. Karambis (town, Plin. <hi rend="italic">nat.</hi> 6, 2/6; promontory, ‘Ps.-Skymnos’, fr. 28 Marcotte) is the start of a crossing to the <hi rend="italic">Crimea</hi> (Strab. 12, 3, 10 C544; <ref>Counillon 2004, 125–6</ref>). On Kytoris see <ref>Counillon 2004, 126</ref>. Psylla is 90 st. W of Tieion in Menippos ap. Markianos, <hi rend="italic">epit. Men.</hi> 1, 8; Arr. <hi rend="italic">Peripl.</hi> 13, 5; see <ref>Counillon 2004, 128</ref>.</p>
+            </item>
+            <item>
+              <p>The sparser data suggests a change of source (<ref>Counillon 2004, 131</ref>). PS omits dependent anchorages of Herakleia, whose implied territory suits C5l (<ref>Counillon 2004, 131–2</ref>).</p>
+            </item>
+            <item>
+              <p>(1) PS omits the Kalpe district, Xen. <hi rend="italic">an.</hi> 7 (<ref>Counillon 2004, 133</ref>). The Artones is probably the Artanes of Menippos (Markianos, <hi rend="italic">epit. Men.</hi> 8); Arr. <hi rend="italic">Peripl.</hi> 17; <hi rend="italic">Eux.</hi>. 3, though those authors place it W of Thynias; PS may have used a reverse (E–W) <hi rend="italic">periplous</hi> (<ref>Counillon 2004, 133</ref>; cf. 22, 2. n. above). If the MS text is correct, PS calls the Bosporos ‘Poros’. PS is uninterested in the places along the strait, and may be using a Herakleiote <hi rend="italic">periplous</hi> (<ref>Counillon 2004, 134</ref>). ἔξω &lt;τῆς&gt; Θρᾴκης suggests a date after 357, when Byzantion conquered Kalchedon (<ref>Counillon 2004, 134</ref>). The Olbian gulf is Strabo’s Astakenos Kolpos, 10, 2, 21 C459. The <hi rend="italic">paraplous</hi> is quite accurate.</p>
+            </item>
+          </list>
+          <p>(2) The length of the E. Black Sea is against the direction of ‘travel’. Its postponement is hard to explain, its placement corresponding to the end neither of an ethnic bloc nor of a geographical unit. The actual distance is not stated, and the sentence uses different terminology from that at 69.</p>
+          <p>
+            <hi rend="italic">93–102. Asia Minor</hi>
+          </p>
+          <p>The level of detail first increases, then after Ionia it decreases.</p>
+          <list rend="numbered">
+            <item>
+              <p>For PS, Mysia has two coasts (see 98. 1). Strabo (12, 4, 8 C566) cites Skylax of Karyanda for Phrygians and Mysians around L. Askania. We need not infer, from the absence of the lake here, that Strabo knew a fuller version of our <hi rend="italic">periplous</hi>. SK himself may be Strabo’s source, since in his eastern work he compared places in India to others in Asia Minor, as <ref>Panchenko 2002</ref> deduces from many passages of Philostratos’s <hi rend="italic">Life of Apollonios</hi> (only one of which was identified by Jacoby, <ref target="urn:cts:greekLit:fgrh.0709.bnjo-2-ed-grc:t7"><hi rend="italic">BNJ</hi> 709 T 7</ref> a). One such comparison (Philostr. <hi rend="italic">Ap.</hi> 2, 10) refers specifically to NW Asia Minor. The Kian gulf is noted but not named at Strab. 12, 4, 3 C563. Olbia is first mentioned here in literature. Kallipolis is unlocated. The <hi rend="italic">paraplous</hi> is rather short; <ref>Müller 1855, 68</ref>, reckons over 800 st., and thinks PS uses a longer day’s sailing in Asia Minor; but it could simply be an under-estimate.</p>
+            </item>
+            <item>
+              <p>Plakia, an Athenian foundation (<hi rend="italic">Inv</hi>. <hi rend="bold">757</hi>), may reflect the interests of a writer based in Athens. Although PS refers to the mainland after Prokonnesos, neither here nor at 95 does he use his stock formula about returning to it (last at 67. 5; next at 97). Strab. 13.1.4 C583 (our <hi rend="bold">T 1</hi>) says Skylax of Karyanda (<ref target="urn:cts:greekLit:fgrh.0709.bnjo-2-ed-grc:f12"><hi rend="italic">BNJ</hi> 709 F 12</ref>) and Ephoros (70 F 163a) begin Troas at Abydos; since PS makes it the last town in Phrygia before Troas, Strabo could have taken this from our Periplous, though SK may also have mentioned it. The reference to Sestos links back to 67, 5 and 10.</p>
+            </item>
+            <item>
+              <p>Kleostratos, despite the present tense, was a C6l author (<ref>Fotheringham 1919</ref>; <ref>Fotheringham 1920</ref>; <ref>Fotheringham 1925</ref>; <ref>Webb 1921</ref>; <ref>Webb 1928</ref>). Krateres Achaion is Strabo’s Ἀχαίϊον, 13. 1. 32 (ad fin.) and 36. Apollo is Apollo Smintheus, Strab. 13, 1, 61 C611. The reference to Chryses is the latest of PS’s Homeric allusions (<hi rend="italic">Il</hi>. 1, 11, etc.).</p>
+            </item>
+            <item>
+              <p>Hdt. and Xen. know two regions called Aiolis; PS presents the more northerly, while the other was in the same Persian satrapy as Ionia, cf. 98, 2 (<ref>Rubinstein 2004a, 1033–6</ref>). For PS, Troas and N. Aiolis are within Phrygia (<ref>Allain 1977, 184</ref>), probably seen as extending round behind them. Of the three <hi rend="italic">poleis</hi> conjecturally inserted, only Antandros is certain (because of 98, 1), but one or both of the other two is also virtually certain. Neandreia is further W than Kebren and Skepsis, so out of sequence. Pityeia is a district or town at Strab. 13, 1, 44 C602. Macrobius, fr. 11 Gisinger, μετὰ Ἄσσον πόλις ἐστὶν ὄνομα Γάργαρα· ταύτης ἔχεται Ἄντανδρος, is a possible echo of PS (<ref>Marcotte 1990, 30</ref>).</p>
+            </item>
+            <item>
+              <p>As in Keos and Rhodes, PS starts his tour of Lesbos near the mainland; but here he keeps the coast on his left. From this point he reintroduces his formula about ‘returning to the mainland’ (cf. 94 n.), though he forgoes it at e.g. 99, 1.</p>
+            </item>
+            <item>
+              <p>(1) PS refers back to the other part of Mysia (see 93) and follows Persian satrapal divisions (<ref>Rubinstein 2004a, 1033</ref>).</p>
+            </item>
+          </list>
+          <p>(2) Astyra is the start of the <hi rend="italic">paraplous</hi> of ‘Mysia and Lydia’ at 98. 4 below. Adramyttion, NE of Pordoselene, is out of sequence. The ‘Lesbian’ <hi rend="italic">peraia</hi> was strictly speaking the Mytilenean. Atarneus is actually between Pordoselene and Teuthrania; but <hi rend="italic">pace</hi> <ref>Müller 1855, xlvi</ref>, this is not dating evidence: PS does not explicitly locate A. in the Chian <hi rend="italic">peraia</hi> (lost in 386; <ref>Rubinstein 2004b, 1065</ref>). With Pitane we enter southern Aiolis, though it is not named, perhaps because we are not changing satrapy. Of the original Aiolian <hi rend="italic">poleis</hi> (Hdt. 1, 149, 1), the Ionians took Smyrna; 5 of the 11 survivors are named here; but PS omits Larisa, Neon Teichos, Temnos, Killa, Notion (not the Ionian one), and Aigiroëssa. ‘Achaians’ Harbour’ is further S in the same bay. Aigai is more easily reached by river from Myrina, so again PS ignores coastal sequence. Leukai is a former island at Plin. <hi rend="italic">nat.</hi> 5, 31/119; evidently the change had occurred by C4m (cf. <ref>Rubinstein 2004a, 1046</ref>), though it is not mentioned (contrast 34. 1). Smyrna, though dioikized by Alyattes of Lydia in 545 (rather than 585: <ref>Rubinstein 2004b, 1099</ref>), was then settled κωμηδόν but was probably a <hi rend="italic">polis</hi> in 387/6 (IG ii² 28) and has C5 and C4 buildings; thus PS’s account can pre-date Antigonos’s refoundation in C4l (Strab. 14, 1, 37 C646; <ref>Rubinstein 2004b, 1099</ref>). Even if it was not a Cl <hi rend="italic">polis</hi> at any particular time, PS may have included it as a famous <hi rend="italic">polis</hi> linked to Homer.</p>
+          <p>98, 2 fin.–4. <hi rend="italic">Ionia</hi>. PS, reflecting satrapal frontiers, does not name Ionia or identify a change of subregion, but simply puts its <hi rend="italic">poleis</hi> in Lydia, apart from 99, 1 Miletos. Hdt. 1, 142 locates 3 of them (Miletos, Myous, Priene) in Karia (in which Hekat. F 240 also puts Miletos), 6 (Ephesos, Kolophon, Lebedos, Teos, Klazomenai, Phokaia) in Lydia, and 3 (Samos, Chios, Erythrai) in neither; but PS puts Priene, Samos, and Chios in Lydia and only Miletos in Karia, while omitting Myous and including non-canonical <hi rend="italic">poleis</hi>, most notably Airai (if correctly restored) and Magnesia, neither of which is in Hdt.’s list.</p>
+          <p>(3) Erasistratios, first recorded here, is probably the hero-shrine of an unknown Erasistratos rather than (as in Suda s.v. Ἐρασίστρατος) of the later anatomist (cf. Plut. <hi rend="italic">Demetrios</hi> 38; App. <hi rend="italic">Syr.</hi> 59–61). Charadrous and Phokaia (not the <hi rend="italic">polis</hi> of 98. 2) are unlocated, though the latter is recorded by Steph. Byz. (s.v.). Akadamis is presumably a shrine of Hekademos; it can be restored at <hi rend="italic">I. Pri</hi>. 37, 56–9 (<ref>Shipley 1987, 34 n. 50</ref>). Mykale is the promontory rather than the little-known settlement of that name (<ref>Shipley 1987, 287, 292</ref>). Samos is called a <hi rend="italic">polis</hi> despite the Athenian cleruchy of 365–322; the appellation may reflect its historical importance rather than any expectation of restored freedom. The island is indeed comparable to Chios, but in length, not area.</p>
+          <p>(4) There is no contradiction between this <hi rend="italic">paraplous</hi> ‘of Mysia and Lydia’ and that at 96 (<hi rend="italic">pace</hi> <ref>Counillon 2007c, 37</ref>), because PS knows two parts of Mysia.</p>
+          <list rend="numbered">
+            <item>(1) The mention of Herakleia is probably the first identification of the <hi rend="italic">polis</hi> by this name rather than as Latmos (<hi rend="italic">Inv</hi>. <hi rend="bold">910</hi>). We need not downdate the passage to 323–313 (as at <ref>Flensted-Jensen–Hansen 2007, 205</ref>; <ref>Counillon 2007c, 38–9</ref>), the era of an inscription (<hi rend="italic">EA</hi> 29 (1997), 137 = SEG 47. 1563) that uses only ‘Latmos’; both names may have been used together for a time (<ref>Shipley 2011</ref> ad loc.). Halikarnassos could have followed Karyanda, Kalymna, and Kos (<ref>Müller 1855, 73</ref>); but its rural territory may have reached the N coast of the peninsula. The ‘island’ is Arkonnesos (<ref>Müller 1855, 72</ref>); cf. Strab. 14, 2, 16 C656. There seems to be compression here. The <hi rend="italic">polis</hi> of Karyanda may have been on the island of that name before it moved to the mainland, probably after 300 (<ref>Flensted-Jensen 2004a, 1121</ref>); the statement that its people are Karians may be corrupt, since Karyanda (like Kalymna) was Greek (<ref>Allain 1977, 188</ref>). On Kos, PS’s information postdates the synoikism of 366/5. In the Keramiac gulf PS omits some places and seems interested only in the outer coast of Karia (<ref>Counillon 2007c, 40</ref>).</item>
+          </list>
+          <p>(2) For Triopion see Hdt. 1, 144. In other sources Kragos is SSE of Telmessos; but for the case against Müller’s conjecture see <ref>Shipley 2011</ref> ad loc. PS has misplaced Telmessos, perhaps in combining different sources. Either way, 99–100 are incoherently sequenced (<ref>Counillon 2007c, 35</ref>).</p>
+          <p>(3) The three <hi rend="italic">poleis</hi> of Rhodos, PS’s ‘ancient triple city’, survived after the synoikism of 408 as dependent <hi rend="italic">poleis</hi> (<ref>Nielsen–Gabrielsen 2004, 1196, 1197</ref>). PS’s circuit of Rhodes is clockwise and starts with the <hi rend="italic">polis</hi> nearest the mainland, as in Sicily and Keos. The anti-clockwise ‘route’ from Rhodes to Karpathos is conceived in geographical terms rather than political (<ref>Counillon 2007c, 41</ref>) or navigational. Karpathos may earlier have had four <hi rend="italic">poleis</hi>, Strab. 10, 5, 17 C489. The description of Kragos (if correctly restored) as a promontory of Karia repeats information from 99, 2.</p>
+          <list rend="numbered">
+            <item>
+              <p>(1) The inclusion of Telmissos (see <ref>Shipley 2011</ref> ad loc.) in Lykia suits either C5l–C4e or the period after Alexander, but the later era is otherwise invisible in PS. Xanthos is also Lykian at Hdt. 1, 176, 3; the Hekatomnids promoted its hellenization. The inclusion of Phellos under Lykia rather than (as at Hekat. F 258) Pamphylia may reflect its capture by Pixodaros (<ref>Flensted-Jensen–Hansen 2007, 205</ref>). The spontaneous fire is a fact: there are methane emissions at <hi rend="italic">Yanar Taş</hi> (Hosgormez <hi rend="italic">et al.</hi> 2008), also described at Ps.-Aristot. <hi rend="italic">mir.</hi> 127, 842 b 25 (C3, compiling earlier information); Strab. 14, 3, 5 C665 may refer indirectly to a similar phenomenon in W. Lykia.(2) Idyros and Lyrnateia are put in Pamphylia by Hekat. F 260, 261 respectively, as are Olbia and probably Magydos by Aristot. <hi rend="italic">De ventis</hi>, 973 a 5–6 (<ref>Keen–Fischer-Hansen 2004, 1212</ref>). The placing of Perge in Lykia has been thought to date this passage after Alexander (<ref>Counillon 2007c</ref>, esp. 36 n. 10), but Hekatomnid rule may have extended to here. Likewise κολπώδης is true only if Lykia extends to Perge. For alternative coastal and direct routes cf. 68, 3; but the implied use of παράπλους for the direct route (as at 68, 3) may be careless, unless it can denote any voyage where a land mass is kept on one hand or the other.</p>
+            </item>
+            <item>
+              <p>(1) Lykia here ends at or after Perge, whereas at Strab. 14, 4, 1 C667 Pamphylia begins further W, at Olbia. Sylleion should precede Aspendos, unless it was reached by road from A. The <hi rend="italic">paraplous</hi> is too short, for Kibyra and Korakesion (101, 2) are in Pamphylia rather than Kilikia. Plin. <hi rend="italic">nat.</hi> 5, 22/93 implies that the old border with Kilikia was further W, while in Hekat. F 266 and Artem. ap. Strab. 14, 5, 3 C669 it is further E than in PS, as in Pliny’s time.</p>
+            </item>
+          </list>
+          <p>(2) PS may be combining sources (<ref>Müller 1855, 76</ref>), since elsewhere he uses ἄλλαι πόλεις only before a <hi rend="italic">paraplous</hi>. Kibyra Mikra, on the coast, is first attested here.</p>
+          <list rend="numbered">
+            <item>(1) In Hdt. Kilikia is the large Persian satrapy, but here a more limited area (<ref>Müller 1855, xlvi</ref>). Aphrodisias, indeed, lies on a peninsula with harbours on each side; for ἕτερος of a harbour cf. 12. Sarpedon is the only <hi rend="italic">polis</hi> that PS calls ἔρημος; as with λιμὴν ἔρημος (see <ref>Counillon 1998b</ref> and cf. 103 below), this may imply that it is not a secure naval base. For the restoration ‘Amane’ cf. Strab. 14. 5. 18 C676Ἀμανίδες πύλαι; see <ref>Shipley 2011</ref> ad loc. against the alternative Ἀδάνη.</item>
+          </list>
+          <p>(2) The same false belief occurs at Hdt. 2, 34 (cf. 89 n. above), though <ref>Mahaffy 1913, 196</ref>, suggests that Hdt.’s ἀνδρὶ ιεʹ ἡμέραι became ἀνδρὶ εʹ ἡμέραι at an early stage in transmission. PS probably intends this quasi-<hi rend="italic">paraplous</hi> to mark the end of Asia Minor.</p>
+          <p>
+            <hi rend="italic">103. Cyprus</hi>
+          </p>
+          <list rend="numbered">
+            <item>PS moves anti-clockwise. As in Sicily, though less formally, he distinguishes ethnic groups including αὐτόχθονες (cf. 47, 2) and the vague πόλεις ἐν μεσογείᾳ βάρβαροι. λιμὴν ἔρημος (a phrase PS uses only here) and λ. κλειστός (cf. 29; 33, 1; 47, 3 <hi rend="italic">bis</hi>; 58, 1; 67, 1; 88; 98, 4; 99. 1 <hi rend="italic">bis</hi>; 99. 2; and 104. 2) mean, respectively, harbours vulnerable to attack and militarily secure (<ref>Counillon 1998b</ref>). Salamis was the strongpoint of Euagoras I (r. 411–374/3); PS’s account appears to reflect that era, since he concentrates on areas where Athenian interests were strong while minimizing the Phoenician–Persian presence (<ref>Counillon 1998b, 66–7</ref>). αὐτόχθονες is used by PS only here and at cf. 47, 2; unexpected plurals occur elsewhere in the work, so the change of number may be original (<ref>Allain 1977, 193</ref>); cf. e.g. 99. 1.</item>
+          </list>
+          <p>
+            <hi rend="italic">104–106, 3. Syria–Phoenicia to Egypt</hi>
+          </p>
+          <p>PS does not explicitly mark the turn of the coast, but sets a new tone by introducing two ethnonyms instead of a region’s name as in 93–103. Hellenic <hi rend="italic">poleis</hi> are now absent until 108. 3 (unless Naukratis has fallen out); this is no accident, for he could only have named Poseideion in Syria, and Naukratis and Oasis in Egypt (plus Alexandria if he wrote after its foundation). Since one-third of the text is still to come, the purpose of the work was clearly not (or not solely) to enumerate the world of Greek city-states.</p>
+          <p>Notable omissions include Byblos (captured by Alexander, Arr. <hi rend="italic">an.</hi> 2, 15, 6), Azotos (<hi rend="italic">Ashdod</hi>; e.g. Hdt. 2, 157; Ios. <hi rend="italic">ant. Iud.</hi> 13, 104), and Gaza (e.g. Arr. <hi rend="italic">an.</hi> 2, 26-7). PS appears to have named few if any settlements in the damaged passage about Arabia, but clearly discussed their economy and the topology of the gulfs here in some detail, in line with Academic or more likely Peripatetic concerns. In contrast, we hear nothing of the Egyptians apart from their kingship, but much about the Nile’s branches. Yet he includes references to Andromeda and to Menelaos’s travels. This variable coverage may reflect a multiplicity of sources.</p>
+          <p>104.<hi rend="italic">Syria–Phoenicia</hi>. (2) The ‘Tripolis of the Phoenicians’ is not the Tripolis of a few lines below but Karnos, Enydra, and Marathos on the mainland opposite Arados, of which they were dependencies (Strab. 16, 2, 12 C753; <ref>Lipiński 2003, 272</ref>). Arados, βασίλεια Τύρου, was a dependency of Tyre; its distance from the land is understated here (actually 14 st.) yet over-estimated by Strab. 16, 2, 13 C753 (20 st.) and Plin. <hi rend="italic">nat.</hi> 5, 17/78 (2 miles = 16 st., as in the Bordeaux Itinerary of AD 333–4, <ref>Stewart–Wilson 1887, para. 582</ref>; Fortia <ref>D’Urban–Lapie 1845, p. 183</ref>). The three cities of the second Tripolis are not archaeologically confirmed; some may have been on islands (<ref>Lipiński 2003, 285</ref>). Theou Prosopon (<ref>Lipiński 2003, 287</ref>) and Trieres (Polybios 5, 68, 8; Strab. 16, 2, 15 C754; Steph. Byz. s.v.) occur first here, Berytos first here in Greek sources. Porphyreon is at Polybios 5, 68, 6; but Leonton Polis is unlocated. The absence of any mention of a ‘royal seat’ at Sidon points to a time after the revolt of Tennes ended in 346/5 (<ref>Lipiński 2003, 290</ref>).</p>
+          <p>(3) Part of a folio of the MS (pp. 93–4) is missing. Sarapta is out of sequence, actually lying between Sidon and Ornithon Polis; it may have been a dependency of Tyre in 346/5–332 (<ref>Lipiński 2003, 295</ref>). Tyros was an island until Alexander’s siege of 332 (Diod. 17, 40, 3–4; Arr. <hi rend="italic">an.</hi> 2, 18, 2; Plin. <hi rend="italic">nat.</hi> l.c.), and did have two harbours (<ref>Lipiński 2003, 296</ref>); it was 3 st. from the <hi rend="italic">land</hi> (<ref>Lipiński 2003, 296</ref>, though Plin. <hi rend="italic">nat.</hi> 5, 12/76 gives 700 paces, sc. double paces); the MS says ‘from the <hi rend="italic">sea</hi>’ and is probably corrupt (the word order is suspicious). Palaityros was destroyed by Alexander (Diod. 17, 40, 5). Exope may be the Achshaph of Egyptian Bronze Age texts (<ref>Lipiński 2003, 309</ref>). Arados is different from that at 104, 2. For Magdolos cf. perhaps Hdt. 2, 159. On the setting of the Andromeda myth, see <ref>Panchenko 2003</ref>; cf. 112, 5 below; Strab. 1, 2, 35 C43 says some accounts set it here (cf. 16, 2, 28 C759). Askalon is a small πόλισμα at Strab. 16, 2, 29 C759. ‘Koile Syria’ occurs first here as the term for the coast rather than, as at Ktesias F 1b (Diod. 2, 2), for inland Syria (<ref>Lipiński 2003, 333–4</ref>). While 1,000 st. is added to the <hi rend="italic">paraplous</hi> by emendation here and the same amount deducted at 106, 3, both changes are probably correct; the numerical forms of α and β in the MS are easily confused.</p>
+          <p>105.<hi rend="italic">Arabia</hi>. (1) <ref>Müller 1855, 79</ref>, reconstructs the lines after καμήλων with reference to the arms of the Red Sea by name. Whether both were named, however, is uncertain, as Ailanites seems not to occur before Poseidonios fr. 35 Theiler (= Strab. 17, 1, 35 C809) and elsewhere in Strabo.</p>
+          <p>106.<hi rend="italic">Egypt</hi>. (1) The Tanitic and Phatnitic mouths are called Saitic and Boukolic, respectively, at Hdt. 2, 17. Thonis at Strab. 17, 1, 16 C800 is named after the king who received Menelaos and Helen (at Hdt. 2, 114–16 Thonis is the river-warden when Alexandros brings Helen). PS puts L. Mareia in Libya, which is consistent with the later Alexandria technically lying outside Egypt (cf. e.g. Strab. 1, 1, 12 C7).</p>
+          <p>(2) The change from Πηλουσιακόν here to Πηλουσίου below, like the variation in the spelling of Memphis below, suggests two or more sources. At least one was independent of Hdt. 2, 17, who wrongly derives the Saitic (Tanitic) mouth from the Sebennytic.</p>
+          <p>(3) The axe of the simile is presumably double-headed; the odd notion that Egypt widens S of Memphis is also voiced at Hdt. 2, 7–8, though with reference to Heliopolis. On the variation between Μέμφεως and Μέμφιδος see 106, 2 n. On the extent of Egypt’s Mediterranean coast (cf. 106, 1; 107, 1) PS takes a much narrower view than Hdt. 2, 6 (cf. 2, 15–18), who makes it run from the κόλπος Πλινθινήτης in the W to Mt Kasion in the E, a distance of 60 <hi rend="italic">schoinoi</hi> or 3,600 st. (<hi rend="italic">c</hi>.670 km). On the length of PS’s <hi rend="italic">paraplous</hi> (only <hi rend="italic">c</hi>.240 km) see 104, 3 n. He does, however, make Egyptian rule, as opposed to the Egyptian homeland, extend to Apis (107, 3).</p>
+          <p>
+            <hi rend="italic">106. 4–5. Summation of Asia; footnote to Egypt</hi>
+          </p>
+          <p>(4) See 69 n.</p>
+          <p>(5) The ship-captain Kanopos reappears at Strab. 17, 1, 17 C801. Pelousios is otherwise unattested but is presumably the founder of Pelousion near Casius Mons (<hi rend="italic">Ras Qasrun</hi>/<hi rend="italic">Khatib el Gals</hi>). The two places frame the coast of the Delta, or Egypt proper. On the ‘footnotes’ to the three summative <hi rend="italic">paraploi</hi> (69 fin., 111, 9, and here), see 69 n.</p>
+          <p>107–12. Libya</p>
+          <p>
+            <hi rend="italic">107–111. 7. Libya as far as the Pillars</hi>
+          </p>
+          <p>There are many ports, local distances, and landmarks. PS has drawn upon sources specific to the region, including navigational ones, but inserts material reflecting Academic and early Peripatetic interest in the natural world, at least up to the Syrtis. After Carthage new sources are again in evidence: stade distances run out and transects are of at least half a day. The inaccurate use of sources, however, has led to the Lesser Syrtis being described in the place that properly belongs to the gulf of <hi rend="italic">Hammamat</hi>, further N. (For another displacement see 112, 4–5).</p>
+          <p><hi rend="italic">Contra</hi><ref>Lloyd 1975, 134</ref>, this account only vaguely resembles Hdt. 4, 168–96; nor can we be sure that both drew upon Hekataios.</p>
+          <list rend="numbered">
+            <item>(1) The definition of the start of Libya is strictly unnecessary, given 106, 3 (also 106, 1), and perhaps confirms compilation from two or more sources. The Adyrmachidai are also first in Libya at Hdt. 5, 168; PS, too, puts them close to the Delta (much further E than <hi rend="italic">Barr</hi>.). The length of the voyage to Pharos agrees with Strab. 17, 1, 6 C791. λιμένες πολλοί partially repeats εὐλίμενος (<ref>Desanges 1978, 96–7</ref>), again perhaps indicating multiple sources; even if εὐλίμενος refers specifically to the quality of the port, the delaying of the further information is clumsy. Cherronesos may be Chersonesos Mikra (<hi rend="italic">Marabit</hi>) (<ref>Bernand 2000, 1122</ref>).</item>
+          </list>
+          <p>(2) For the Plinthinos gulf, see 106, 3 n.</p>
+          <p>(3) Hdt. 2, 18, unlike PS, puts Apis in the part of Egypt closest to Libya.</p>
+          <list rend="numbered">
+            <item>PS uses at least two sources up to 111, 1 Carthage; for Cyrenaica he has more distances than elsewhere (<ref>Müller 1855, xlvii</ref>). Whether or not his sources include Hdt., he differs again from him in including a second Syrtis and the Marmaridai.</item>
+          </list>
+          <p>(1) The Marmaridai occupy a much greater area than that marked in <hi rend="italic">Barr</hi>. Tyndareos’s Rocks (Strab. 17, 1, 14 C799) are a Spartan connection, like Menelaos (106, 5 and below). For Azirides see 47. 1 n.</p>
+          <p>(2) PS uses ὕφορμοι, perhaps ‘minor anchorages’, only here and at 108. 3. See <ref>Counillon 1998b, 63, 66</ref>. The observation about the silphium-growing area recalls Hdt. 4, 169, τὸ σίλφιον ἄρχεται ἀπὸ τούτου (sc. Ἀζίριδος). Theophr_. h. plant.<hi rend="italic"> 6, 3, 1–6 gives a detailed account, reporting views for and against tilling the soil around the plants (and using φύεσθαι twice, at 6, 3, 4); perhaps γύαις, a literary word, is a technical term in this connection. (Ps.-)Lykophron, who appears to have read PS (see 15 n.), mentions silphium at _Alex.</hi> 906. The distance of 1,500 st. is a conjecture for the meaningless figure in the MS; Theophr. gives 4,000 st. (<hi rend="italic">h. plant.</hi> 6, 3, 3). Unlike Strabo (e.g. 17, 3, 20 C837), PS does not note the proximity of Cyrenaica to Greece, despite having told us the distance from Sardinia at 7.</p>
+          <p>(3) The closing <hi rend="italic">paraplous</hi> is accurate.</p>
+          <p>(4) PS backtracks to NW Cyrenaica. The odd term χωρία ἐσχισμένα may reflect a source referring to remote places (<ref>Müller 1855, 83</ref>) or distinctive land management. For Phykous cf. Strab. 17, 3, 20 C837. The location attributed, at least in the Cl period, to the Garden of the Hesperides (or of Hesperides, the nearby <hi rend="italic">polis</hi>) is plausibly identified as an area of natural karstic depressions near <hi rend="italic">Coefia</hi> (<ref>Jones–Little 1971</ref>). The Hesperid nymphs were usually situated in NW Africa or Iberia (Hes. <hi rend="italic">theog.</hi> 517–20; Hdt. 4, 184, 3), but may have been associated later with the homonymous <hi rend="italic">polis</hi>, and their garden with a plausible environmental niche. PS introduces the garden too soon, causing compression from Ampelos to Kaukalou Kome, which belong between Barkes Limen and Hesperides. The species listed reflect Academic and early Peripatetic interests, but grow at different altitudes (L. Foxhall, pers. comm.). For μεμαίκυλα in Theophr., see <hi rend="italic">apparatus criticus</hi>.</p>
+          <p>(5) Ampelos may be <hi rend="italic">Barr</hi>. 38 B2 ‘Ampalaontes?’ (<hi rend="italic">Gasr el-Arid</hi>). Chersonesos and Zenertis are unlocated. For Bakalou Kome, cf. <ref>Desanges 1978, 99</ref>; Bakales, Hdt. 4, 171. The <hi rend="italic">polis</hi> of Hesperides was also Euesperides, Hdt. 4, 204; both names were current in C4 (<hi rend="italic">Inv</hi>. <hi rend="bold">1026</hi>). It was the westernmost Greek <hi rend="italic">polis</hi> in Africa after Kinyps (109. 4) was abandoned. Encheleios could mean ‘Eel River’; for eels near Berenike, see Athen. 2. 84 (<ref>Desanges 1978, 100</ref>).</p>
+          <list rend="numbered">
+            <item>(1) See Strab. 17, 3, 20 C836 for the treacherous shallows of the Syrtis. Its coastal length in the MS is corrected on the basis of Eratosthenes fr. 104 Roller (fr. III B 56 Berger; Strab. 2, 5, 20 C123); but the sum of PS’s <hi rend="italic">paraploi</hi> is greater. Its width from Hesperides to Neapolis (Lepcis Magna) suggests a direct voyage; yet at 109, 5 PS gives a similar or the same distance from Hesperides to Philainou Bomoi, so here it may be corrupt.</item>
+          </list>
+          <p>(2) For the Nasamones as transhumant pastoralists see Hdt. 2, 32; 4, 172; Strab. 2. 5. 33 C131; 17. 3. 20 C836; 17. 3. 23 C838. They are further E at Ptol. 4, 5 and Plin. <hi rend="italic">nat.</hi> 5, 5/33, further W at Paus. 1, 33, 5. For the Makai, PS envisages an area further E than <hi rend="italic">Barr</hi>.; see e.g. Hdt. 4, 175; Diod. 3, 49, 1; Plin. <hi rend="italic">nat.</hi> 5, 5/34.</p>
+          <p>(3) If Herakleioi Thines is a landmark rather than a settlement, it confirms the more navigational character of these pages. In the view of <ref>Müller 1855, 86</ref>, PS regards Philainou Bomoi (e.g. Polybios 3. 39. 2; Strab. 3. 5. 6 C171; 17. 3. 20 C836) as the start of Carthaginian territory; but the wording of 110, 1 n., with the first mention of Carthaginian territory (after §1), favours the view of <ref>Allain 1977, 199 and 200</ref>, that it begins at the Kinyps (109, 4 n. below). ἐπίνειον occurs only here in PS. If Ἄμμωνος ἄλσος is correctly restored, and if it is Ammoniou Pegai (<hi rend="italic">Stad.</hi> 83), it should precede Philainou Bomoi; Müller (cxxxviii–cxxxix, 456) suggests an inland place. For the salt-hills and freshwater springs of the Ammonians, see Hdt. 4, 181.</p>
+          <p>(4) The deserted city is probably Dorieus’s colony at Kinyps, Hdt. 5, 42; the region of Kinyps was named after the R. Kinyps, Hdt. 4, 175 and 198. It is well W of Philainou Bomoi (<ref>Flensted-Jensen–Hansen 2007, 233</ref>). The <hi rend="italic">paraplous</hi> from Neapolis (Lepcis Magna) back into the Syrtis suggests that PS may be using a reverse <hi rend="italic">periplous</hi> (cf. 22, 2 n.).</p>
+          <p>(5) PS jumps back to the E end of the Syrtis. The distance to Leukai, implicitly <hi rend="italic">c</hi>.4,000 st., is reckoned as <hi rend="italic">c</hi>.3,000 by <ref>Müller 1855, 85</ref>; it is another backwards measurement, suggesting the use of at least two sources.</p>
+          <p>110–111. 7 <hi rend="italic">Carthaginian territory</hi>. Because of the mountains of Algeria, Morocco’s main historical links are with the N Mediterranean (<ref>Cary 1949, 227</ref>). PS may use Massaliote information, conceivably from Pytheas.</p>
+          <list rend="numbered">
+            <item>(1) The location of the Lotophagoi varies: cf. 22, 2 above; Hom. <hi rend="italic">Od.</hi> 9, 82–104; Hdt. 4, 177–8; Strab. 1, 2, 17 C25, etc. Unlike Hdt. (cf. 2, 32 and 150; 4, 169 and 173), PS knows of the second Syrtis. Neapolis here is once more Lepcis Magna; by saying it is in Carthaginian territory PS presumably means to mark its beginning (cf. 109, 3 n.). For the possible locations of Gaphara see <ref>Desanges 1978, 100</ref>, and <ref>Lipiński 2003, 348</ref>, respectively.</item>
+          </list>
+          <p>(3) Taricheiai means ‘Salteries’; see <ref>Shipley 2011</ref> ad loc. There may have been many on this coast; cf. <ref>Trousset 2004, 19–21</ref>; <ref>Counillon–Étienne 1997</ref>.</p>
+          <p>(4) The only other island of which PS gives both dimensions is 21, 2 Istris; Pliny’s 25 miles (5, 7/41) is more accurate (<ref>Müller 1855, 87</ref>). Hdt. 4, 177, too, mentions wine from lotus, though from a single variety. In Cl prose κότινος occurs only in PS’s probable associates Aristotle (<hi rend="italic">gen. an.</hi> 755 b 11; <hi rend="italic">hist. an.</hi> 596 a 25) and Theophrastos (often in <hi rend="italic">h. plant.,</hi> e.g. 1, 4, 1; also <hi rend="italic">c. plant.</hi> 1, 3, 3; 1, 6, 10). On ‘wild’ olives in olive cultivation, see <ref>Foxhall 2007, esp. 5, 10–13, 109–10</ref>.</p>
+          <p>(5) On Gichthis see <ref>Shipley 2011</ref> ad loc. Here PS should have described the Lesser Syrtis.</p>
+          <p>(6) This Neapolis is Makomada, Ptol. 4, 3, 11; the names translate each other (<ref>Müller 1855, 87</ref>).</p>
+          <p>(7) For Kerkinitis see Strab. 17, 3, 16 C834. ἀπὸ ταύτης probably refers to Neapolis–Makomada, not Kerkinitis.</p>
+          <p>(8) PS’s gulf here is that of <hi rend="italic">Hammamet</hi>, N of Adrymes, interrupted by the passage (ending at 110, 9 κάλλιστοι) describing the Lesser Syrtis or gulf of <hi rend="italic">Gabès</hi> (see further <ref>Shipley 2011</ref> ad loc.). Some details, however, refer to the Byzacium region behind the gulf of <hi rend="italic">Hammamet</hi> (<ref>Desanges 1978, 99</ref>), where Hdt.’s Gyzantes (110, 9 below) may belong (<ref>Allain 1977, 202–3</ref>). The displacement may explain later writers’ uncertainty about the location of L. Triton(itis). The Syrtis Minor proper is only <hi rend="italic">c</hi>.90 km across and <hi rend="italic">c</hi>.190 km around; PS’s 2,000 st. probably runs from Bracheion to Thapsos, like the 1,600 st. of Strabo (2, 5, 20 C123) and the 300 miles of Polybios (ap. Plin. <hi rend="italic">nat.</hi> 5, 4/26). The island is presumably in L. Triton (Hdt. 4, 178–80), whose name is restored, rather than <hi rend="italic">Gerba</hi> (as <ref>Lipiński 2003, 370</ref>). For L. Triton(is) see Mela 1, 36 Brodersen; cf. <ref>Peyras–Trousset 1988, 167–71</ref>). Its circumference today is about twice what PS says, but it has a very complicated outline; it must have been well-nigh impossible to measure, but the figure could simply indicate two days’ navigation.</p>
+          <p>(9) ‘Gyzantes’ is conjectured on the basis of Hdt. 4, 194; cf. Ζύγαντες, Hekat. F 337; Βουζεῖς, Ptol. 4, 5, 22. The repetition of κάλλιστοι may reflect multiple sources.</p>
+          <p>(10) We return to the area N of Adrymes.</p>
+          <list rend="numbered">
+            <item>(1) The <hi rend="italic">paraplous</hi> is rather short; the direct sailing is <hi rend="italic">c</hi>.64 km, the coasting <hi rend="italic">c</hi>.97 km.</item>
+          </list>
+          <p>(2) Pontia may be Aigimouros, see Strab. 2, 5, 19 C123; 6, 2, 11 C277 The <hi rend="italic">paraplous</hi> is consistent with Strabo’s 400 st. from C. Taphitis (17, 3, 16C).</p>
+          <p>(3) On the cardinal direction, see 47, 3 n. For Lampas see e.g. Strab. 17, 3, 16 C834. The uncertainty as to the number of towers perhaps points to an oral source. Lilybaion: cf. 13, 3.</p>
+          <p>(4) The <hi rend="italic">paraplous</hi> of 200 st. at Ps.-Aristot. <hi rend="italic">mir.</hi> 134, 844 a 6–9 is much too short.</p>
+          <p>(5) Of the cities here only Iol (restored in some editions but not in the present one) and Sige are securely known. Rather than deriving from the supposed <hi rend="italic">periplous</hi> of Skylax of Karyanda (Peretti), this passage uses a source different from the preceding sections, one that did not give short distances and differed from Hekataios (<ref>Desanges 1978, 103, 108–10</ref>). Hippou Akra may be Promuntorium Candidum, Plin. <hi rend="italic">nat.</hi> 5, 2/23; Mela 1, 34; for the <hi rend="italic">polis</hi> see Polybios 1, 77, 1. The νῆσοι Ναξικαί were evidently founded from Sicilian Naxos; this may be from an early source (<ref>Desanges 1978, 103–4</ref>; <ref>Lipiński 2003, 387</ref>) or, like other names in the following paragraphs, may indicate links with central Greece (Sicilian Naxos being a colony of Chalkis). Pithekousa recalls Steph. Byz. s.v. Πιθήκων κόλπος near Carthage; Juv. 10, 194–5, monkeys near Thabraca (<ref>Desanges 1978, 104–5</ref>; <ref>Lipiński 2003, 387–9</ref>). For Thapsa see Strab. 17, 3, 16 C834. PS appears to omit Hippo Regius, but it may be a Hl foundation (<ref>Lipiński 2003, 389–92</ref>). Most places in this passage have uncertain names or locations; see <ref>Shipley 2011</ref> ad locc. If Sida is Salda, see Strab. 17, 3, 12 C831, though C4 archaeology is lacking; if it is Phoenician Rusuccuru, Iomnion (below) involves an inversion. Hebdomos may be the seventh stage in a Phoenician itinerary. If Arylon is <hi rend="italic">Oran</hi>, it is Strabo’s Theon Limen (17, 3, 9 C829), later Portus Divinus. If Akra I. is near Sige, PS names only two places (Akros, Drinaupa) in <hi rend="italic">c</hi>.350 km, so his source lacked daily stopovers. The κόλπος will be the lagoon SE of <hi rend="italic">Melilla</hi>. It is unclear whether Drinaupa is an inshore or midsea island.</p>
+          <p>(6) On the Pillar(s) of Herakles, see n. on 1 and 111, 7. The name Abilyke, in the form ‘Abilyx’, occurs at Eratosthenes fr. 106 Roller (III B 58 Berger; Strab. 3, 5, 5 C170). The city in a river may be Exilissa (Ptol. 4, 1, 5; <ref>Peretti 1979, 365–6 n. 400</ref>) or <hi rend="italic">Ksar es-Srir</hi>, a Punic site between <hi rend="italic">Ceuta</hi> and <hi rend="italic">Tangier</hi> (<ref>Desanges 1978, 108</ref>). <ref>Müller 1855, xli–xlii</ref>, regards the statement about the Gadeira Is. as a gloss, as they are in Europe, but PS may be using more than one source. The <hi rend="italic">paraplous</hi> is accurate for the direct voyage, though the coasting is <hi rend="italic">c</hi>.8,600 st.</p>
+          <p>(7) The dative after πρός, unique in PS, suggests a specific source. PS here appears to compare <hi rend="italic">Monte Acho</hi> (E of <hi rend="italic">Ceuta</hi>) with <hi rend="italic">Gibraltar</hi>. The statement of distance repeats §1 almost word for word.</p>
+          <p>
+            <hi rend="italic">111. 8–9. Summation of Libya as far as the Pillars; extent of Carthaginian territory</hi>
+          </p>
+          <p>(8) Cf. the other summative <hi rend="italic">paraploi</hi> at 69 and 106. 4.</p>
+          <p>(9) The trading-towns ‘in Libya’ are those W of the Syrtis, since PS implies that Carthaginian territory begins at or before Neapolis–Lepcis Magna; cf. 110, 1 n. On the ‘footnotes’ to the three summative <hi rend="italic">paraploi</hi> (69 fin., 106, 5, and here), see 69 n.</p>
+          <p>
+            <hi rend="italic">112. Libya beyond the Pillars</hi>
+          </p>
+          <p>PS delivers on his promise (at 1) to pass beyond the Straits, probably changing sources as he does so. (1)–(6) continues to show navigational data (<ref>Peretti 1979, 391, 393 n. 425</ref>) though only long distances. (7)–(12) is more ethnographic than any other passage in the work; while less fantastical than much material in Hdt. and others (<ref>Peretti 1979, 415</ref>), it is influenced by conventional <hi rend="italic">topoi</hi>. Many topographical reconstructions are possible; for details see <ref>Shipley 2011</ref>. The present work follows <ref>Müller 1855, 91</ref>, and Lipiński (who appears not to know M.) in viewing part of the passage as a displaced reference to the area between the strait of <hi rend="italic">Gibraltar</hi> and <hi rend="italic">Tangier</hi>. No reconstruction solves every problem, and toponyms may have migrated (<ref>Peretti 1979, 373 n. 406</ref>; <ref>Roller 2006, 36 n. 105</ref>), though that is less likely for exceptional features such as the NW corner of Africa, C. <hi rend="italic">Spartel</hi>, so it seems right to give priority to the strong evidence (e.g. Hdt. 2, 32; 4, 43) that Soloëis is there.</p>
+          <p>PS’s sources may include Euthymenes, Carthaginian traders and metics at the Piraeus, and the <hi rend="italic">periplous</hi> of Hanno (but see Introduction, part 4). Even if PS uses Hanno, however, he does so indirectly (<ref>Roller 2006, 19</ref>), for they differ in scope (as few as three places may be named by both) and sequence. They more or less agree, however, as to the position of Kerne: 7 days from Soloëis in PS, <hi rend="italic">c</hi>.8½ in Hanno. This rules out, for example, placing Kerne in the <hi rend="italic">Rio de Ouro</hi> bay (<ref>Cary 1949, 229</ref>) or the extension of the voyage of ‘Hanno’ to Senegal, Guinea, or even Cameroon. Kerne will therefore be in N. Morocco, probably at <hi rend="italic">Mogador</hi> (Lipiński).</p>
+          <list rend="numbered">
+            <item>(1) With ἔχοντι τὴν Λιβύην ἐν ἀριστερᾷ cf. τὴν Λ. ἐν ἀρ. ἔχοντι at Strab. 17, 3, 2 C825), who may have known PS’s work (see 93 n.) but mentions different places. The ‘great gulf’ is that of Kotes (below); PS appears to call a straight coast a gulf, perhaps because Europe recedes to the N as one sails W, then S. There is, then, no large feature to identify with Hermaia; it could be a sandy spit at a river mouth. Pontion may be between <hi rend="italic">Spartel</hi> and <hi rend="italic">Akouass</hi> (<ref>Desanges 1978, 112–13</ref>; <ref>Euzennat 2000, 464</ref>); it is one of several central Greek, perhaps Boiotian, toponyms (Kephesias, Kotes, Pontion), possible evidence of early exploration (<ref>Roller 2006, 14–15</ref>). κύπειρος is probably <hi rend="italic">Cyperus longus</hi>, a medicinal plant mentioned often by Theophr., e.g. <hi rend="italic">h. plant.</hi> 1, 5, 3 and esp. 4. 8–11 <hi rend="italic">passim</hi>. The Meleagrides may be guinea fowl (<hi rend="italic">Numida meleagris</hi>), and are located in NW Africa also by Mnaseas (see 112. 4 n.), but in E. Africa by Agatharchides (frs 82a, 83a Burstein) whose description, however, evokes NW Africa (<ref>Panchenko 2003, 283</ref>). They may have been a <hi rend="italic">topos</hi> of continental theory; <ref>Panchenko 2003, 278</ref> and 283, relates their dispersed locations to theories of a circular (not necessarily spherical) earth and a land bridge between India and W. (<hi rend="italic">sic</hi>) Africa. For Kephesias cf. ‘Cephisis’ in Asrubas ap. Plin. <hi rend="italic">nat</hi>. 37, 11/37. Kotes recalls the Kottos of Hes. <hi rend="italic">theog.</hi> 149, brother of the Briareos after whom the Pillars were once named (Ail. <hi rend="italic">var.</hi> 5, 3; <ref>Antonelli 1995, 78–80</ref>); PS does not specify whether Kotes is a settlement (cf. e.g. Plin. <hi rend="italic">nat.</hi> 5, 1/2; 37. 6/15; one place or two?) or a cape (Strab. 17, 3, 2 C825 αἱ Κώτεις; cf. Ptol. 4, 1, 2); the name may also be related to Gytte (Hanno 5; <ref>Desanges 1978, 111–12</ref>) and Roman Cotta (5 km S. of <hi rend="italic">Spartel</hi>).</item>
+          </list>
+          <p>(2) The ‘great reefs’ may be rocks off <hi rend="italic">Spartel</hi> (<hi rend="italic">Africa Pilot</hi> 1953, 172–3) or shoals off Spain (<hi rend="italic">African Pilot</hi> 1856, 1). Avien. <hi rend="italic">or. mar.</hi> 319–26, and Suda s.v. Ἕρμα (3rd entry), make the rocks part of a road or fortification made by Herakles. ἐπικλύζει connects PS with Peripatetic studies, cf. e.g. Ps.-Aristot. <hi rend="italic">mir.</hi> 136, 844 a 24–34 (Phoenicians from Gades; rocks covered at high tide). It is unnecessary to see C. Hieron as a detour violating the ‘one-dimensional principle’ of the <hi rend="italic">periplous</hi>, and thus as an interpolation, as does <ref>Peretti 1979, 397</ref>.</p>
+          <p>(3) Anides is usually linked to the Anatis, 496 miles from the straits (Plin. <hi rend="italic">nat.</hi> 5, 1/9; <ref>Desanges 1978, 113</ref>). Lixos may relate to the R. Xion (112, 5) and/or the Lixitai (Hanno 6–8, 11). Some scholars posit a second R. Lixos at the <hi rend="italic">Dra</hi>, much further S (e.g. <ref>Müller 1849, map 1</ref>; <ref>Peretti 1979, 373</ref>); but as a place lying at the limit of known space it may have migrated S as exploration opened up W. Africa. For the history of the city of Lixos see e.g. <ref>Aranegui–Mar 2009</ref>.</p>
+          <p>(4) This passage probably refers to the area E of <hi rend="italic">Tangier</hi> (111. 6). On the Krabis, Plin. <hi rend="italic">nat.</hi> 37, 11/38 (see 112. 1 n.) cites Mnaseas (fr. 44 Cappelletto) for Sicyon, a R. Crathis, and a lake with the Meleagrid birds, all in this area. But identifying Krabis with Crathis is problematic (<ref>Shipley 2011</ref> ad loc.). Thymiateria, ‘incense-burner’ (<ref>Desanges 1978, 114</ref>), perhaps had a lighthouse (<ref>Lipiński 2003, 426</ref>); city in Libya, Steph. Byz. s.v.; 2 days from the Pillars, Hanno 2, which is incompatible with a location at <hi rend="italic">Tangier</hi> (see <ref>Euzennat 1994, 563–4</ref>; <ref>Lipiński 2003, 426–7</ref>). Soloësa should be the same as Soloëis, the variation reflecting different sources. Only here does PS use πόντος as a common noun; <hi rend="italic">Spartel</hi> is conceived as projecting into the Mediterranean with the Atlantic coast running SE.</p>
+          <p>(5) We return to the W coast. The Xion is sometimes identified with the Lixos (112, 3); but as it is linked with Kerne, which PS and Hanno implicitly place at a similar latitude, we should separate the two and accept a long gap after the R. Anides with no named settlements. On the Aithiopes, cf. 1 Αἰθιόπων τῶν μεγάλων, with variation perhaps again due to different sources. ἱεροί recalls e.g. Hom. <hi rend="italic">Il.</hi> 1, 423 ἀμύμονας Αἰθιοπῆας. PS exploits stereotypical representations (<ref>Lonis 1979</ref>), some derived from Hdt. 3, 17–24 on the Long-lived Aithiopes of the Upper Nile (<ref>Desanges 1978, 96</ref>). Kerne is one of the most disputed locations in Greek geography, but its position should be governed by where we put the R. Xion; others put it further S, from Western Sahara to the Mauritania–Senegal border. ‘Two days’ suits <hi rend="italic">Ceuta</hi> to <hi rend="italic">Rās al-Akouass</hi>; the other long distances may have been adjusted to take account of the misplacing of the Krabis–Soloëis passage.</p>
+          <p>(6) ‘Sailable no further’ is untrue, despite the sandbars invoked by <ref>Roller 2006, 19</ref>. If it is not a smokescreen by locals wanting to monopolize trade (<ref>Lipiński 2003, 459–60</ref>), PS or his source may be trying to cover their ignorance (Plut. <hi rend="italic">Theseus</hi>, 1; <ref>Allain 1977, 207</ref>; <ref>Desanges 1978, 115–16</ref>).</p>
+          <p>(7) The specifics of 112, 7–11 may be conventional tropes. The trade is not quite silent trade, as described by Hdt. 4, 196; and there is more detail of the goods.</p>
+          <p>(8) ‘Teeth’ are presumably tusks.</p>
+          <p>(9) For Ethiopian tallness see Hdt. 3. 20; Aristot. <hi rend="italic">pol.</hi> 4, 4, 1290 b 4–5. Hdt 7, 71 and 74 mentions fire-hardened weapons (ἀκόντία ἐπίκαυτα); cf. Strab. 3, 5, 1 C168 on Balearic people using a πεπυρακτωμένον ἀκόντιον.</p>
+          <p>(10) For Phoenician unguent cf. e.g. Plin. <hi rend="italic">nat.</hi> 13, 2/6. ‘Aigyptian stone’ may be the λιθίας ὑ&lt;α&gt;λῆς (‘stony glass’) of <hi rend="italic">Periplus maris Erythraei</hi>, 6, 4; cf. ἀρτήματα λιθινὰ χυτά, Hdt. 2, 69; ὑαλῖτιν ἄμμον and γῆν, Strab. 16, 2, 25 C758. Choës is day 2 of the Anthesteria; for Attic pottery in Iberia, cf. 1 n.; for Phoenician and Greek pottery (Ar and Hl) at <hi rend="italic">Mogador</hi>, see <ref>Roller 2006, 42 n. 138</ref>; <ref>Jodin 1966</ref>.</p>
+          <p>(11) Wine was made in Morocco later (<ref>Desanges 1978, 117</ref>). The ‘great city’ is perhaps Lixos, cf. 112, 3–4 (<ref>Lipiński 2003, 464</ref>).</p>
+          <p>(12) These Aithiopes stretch along the <hi rend="italic">south</hi> coast of Africa; cf. Hdt. 4, 197 for the division of Africa between Libyes in the N and Aithiopes in the S. Geographers argued over the question of a land link between India and E. Africa (<ref>Romm 1992, 82 n. 1</ref>) or even W. Africa. By claiming that Libya is a headland (cf. 12, 93, 110. 10) PS enters the continental debate, providing closure to the <hi rend="italic">periplous</hi>. For Libya as circumnavigable cf. Hdt. 4, 42; Aristot. <hi rend="italic">meteor.</hi> 2, 1, 354 a 1–6.</p>
+          <p>113–14. Endmatter</p>
+          <p>This passage hardly relates to the rest of the text, and concerns almost exclusively the Old Greek world. The passage is in some aspects inconsistent with the main text: Rhene (58. 1) is Rhenaia here; Aigilia, present here, was absent from the <hi rend="italic">periplous</hi>; and see 114 n. The language, however, is not necessarily post-C4.</p>
+          <list rend="numbered">
+            <item>
+              <p>(1) The <hi rend="italic">diaphragmata</hi> are not necessarily much later than the <hi rend="italic">periplous</hi>, since both Aristotle and Dikaiarchos compute long distances by adding up short ones (Introduction, part 7); nothing in the language requires a late date, and προσλογίζομαι, used earlier only by Hdt. (2, 16; 5, 54; 7, 185) and Lys. (19, 44), occurs in Aristot. <hi rend="italic">cael.</hi> 294 a 4. The passage shares a geographical rather than navigational character with the <hi rend="italic">periplous</hi>; contrast <hi rend="italic">Stad.</hi>, a genuine portulan, e.g. 282–3 ἐὰν δὲ θέλῃς διὰ νήσων πλέειν, οὕτως πλέεις. For ἐπιεικῶς see 65. 2 n.; the phrase ἐπιεικῶς εὐθὺ κατ’ ὀρθόν recalls Dikaiarchos’s bisecting the world by a straight W–E cut (τομῇ εὐθείᾳ εὐκράτῳ, fr. 123 Mirhady). Here, however, only the Aegean is bisected. Given the state of the MS and the evident fact that these paragraphs are not original, it is futile to try to reconcile the sums of the distances with the preserved total.</p>
+            </item>
+            <item>
+              <p>The MS heading before §1 promised only ‘the seven inhabited islands’, absurdly. Apart from Cyprus and the three great islands of the W. Mediterranean, the focus is on the Aegean and the Ionian islands. The anomalies are Aigina, much smaller than many that are absent (but present in the <hi rend="italic">periplous</hi>), and Kasos, ranked absurdly high and perhaps to be emended to Ἴκαρος (closer to MS) or Κάρπαθος (truer). Cf. lists of the largest islands (usually seven) at Ps.-Aristot_. mir.<hi rend="italic"> 837 a 30–2 (passing mention only); Timaios ap. Strab. 14, 2, 10 C654; Ps.-Aristot. _mund.</hi> 393 a 12–15; Strab. 2, 5, 19 C123. Ptolemy’s (7, 5, 11) is quite different and includes the Atlantic and Indian Ocean; since Markianos repeats it (Periplous of the Outer Sea, 1. 9), he probably did not write §114. Only Hdt. 5, 106 (cf. 6. 2) and Timaios l.c. rank Sardo first; but Sicily and Sardinia are so similar in area and length that reliable comparison was impossible.</p>
+            </item>
+          </list>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
